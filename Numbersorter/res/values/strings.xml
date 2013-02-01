@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">Numbersorter</string>
@@ -6,7 +7,12 @@
     <string name="title_activity_main">Number Sorter</string>
     <string name="new_game">New Game</string>
     <string name="continue_game">Continue</string>
-	<string name="about">About</string>
-	<string name="exit_game">Exit</string>
-	
+    <string name="about">About</string>
+    <string name="exit_game">Exit</string>
+    <string name="about_app">About Numbersorter</string>
+    <string name="about_text">	    Numbersorter is a program written and desgned by Ricky Dalziel, for his 4th year honours project.
+	    The aim of the game is to swipe a mxn grid of numbers into position so that they read from 1 - (m*n).</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_about">AboutActivity</string>
+
 </resources>
