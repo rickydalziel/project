@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="70" version="2.0">
+<workbench progressCount="78" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="548" y="139">
 <fastViewData fastViewLocation="1024"/>
@@ -26,7 +26,8 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -41,6 +42,7 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
@@ -48,7 +50,7 @@
 <editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" partName="activity_main.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/layout/activity_main.xml" title="activity_main.xml" tooltip="Numbersorter/res/layout/activity_main.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/layout/activity_main.xml"/>
 </editor>
-<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" partName="strings.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/values/strings.xml" title="strings.xml" tooltip="Numbersorter/res/values/strings.xml" workbook="DefaultEditorWorkbook">
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" partName="strings.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/values/strings.xml" title="strings.xml" tooltip="Numbersorter/res/values/strings.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/values/strings.xml"/>
 </editor>
 <editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="colors.xml" partName="colors.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/values/colors.xml" title="colors.xml" tooltip="Numbersorter/res/values/colors.xml" workbook="DefaultEditorWorkbook">
@@ -56,6 +58,10 @@
 </editor>
 <editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="styles.xml" partName="styles.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/values/styles.xml" title="styles.xml" tooltip="Numbersorter/res/values/styles.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/values/styles.xml"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/MainActivity.java" title="MainActivity.java" tooltip="Numbersorter/src/com/example/numbersorter/MainActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/MainActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1265" selectionTopPixel="454"/>
 </editor>
 </editors>
 <views>
@@ -85,7 +91,9 @@
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
 </view>
-<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" showCategories="true"/>
+</view>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
@@ -308,108 +316,114 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Sudoku/res/layout/main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sudoku/src/com/example/sudoku/Sudoku.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Sudoku/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/My First App/res/layout/activity_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/My First App/res/layout/activity_main.out.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/My First App/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/My First App/src/com/example/my/first/app/MainActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/My First App/res/layout/activity_display_message.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/My First App/src/com/example/my/first/app/DisplayMessageActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/My First App/res/layout/activity_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/My First App/AndroidManifest.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/My First App/res/values/strings.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout/activity_main.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/values/strings.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/values/strings.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/values/styles.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/values/colors.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout/activity_main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/My First App/res/layout/activity_main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/MainActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout/about.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/AboutActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Numbersorter/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Numbersorter/res/layout-land/activity_main"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout-land/activity_main.xml"/>
 </editors>
-<item historyLabel="Sudoku.java" index="1">
-<position info="not_deleted" x="312" y="0"/>
-</item>
+<item historyLabel="activity_main.xml" index="0"/>
+<item historyLabel="strings.xml" index="1"/>
+<item historyLabel="activity_main.xml" index="0"/>
 <item historyLabel="strings.xml" index="2"/>
-<item historyLabel="main.xml" index="0"/>
-<item historyLabel="activity_main.xml" index="3"/>
-<item historyLabel="activity_main.out.xml" index="4"/>
-<item historyLabel="activity_main.xml" index="3"/>
-<item historyLabel="activity_main.out.xml" index="4"/>
-<item historyLabel="activity_main.xml" index="3"/>
-<item historyLabel="strings.xml" index="5"/>
-<item historyLabel="activity_main.xml" index="3"/>
-<item historyLabel="strings.xml" index="5"/>
-<item historyLabel="activity_main.xml" index="3"/>
-<item historyLabel="strings.xml" index="5"/>
-<item historyLabel="activity_main.xml" index="3"/>
-<item historyLabel="MainActivity.java" index="6">
+<item historyLabel="activity_main.xml" index="0"/>
+<item historyLabel="styles.xml" index="3"/>
+<item historyLabel="activity_main.xml" index="0"/>
+<item historyLabel="colors.xml" index="4"/>
+<item historyLabel="styles.xml" index="3"/>
+<item historyLabel="activity_main.xml" index="0"/>
+<item historyLabel="strings.xml" index="2"/>
+<item historyLabel="activity_main.xml" index="5"/>
+<item historyLabel="activity_main.xml" index="6"/>
+<item historyLabel="activity_main.xml" index="5"/>
+<item historyLabel="MainActivity.java" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="6">
-<position info="not_deleted" x="976" y="0"/>
+<item historyLabel="MainActivity.java" index="7">
+<position info="not_deleted" x="948" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="6">
-<position info="not_deleted" x="964" y="0"/>
+<item historyLabel="MainActivity.java" index="7">
+<position/>
 </item>
-<item historyLabel="MainActivity.java" index="6">
-<position info="not_deleted" x="835" y="0"/>
+<item historyLabel="MainActivity.java" index="7">
+<position info="not_deleted" x="601" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="6">
-<position info="not_deleted" x="934" y="0"/>
+<item historyLabel="activity_main.xml" index="5"/>
+<item historyLabel="MainActivity.java" index="7">
+<position info="not_deleted" x="1271" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="6">
-<position info="not_deleted" x="964" y="0"/>
+<item historyLabel="MainActivity.java" index="7">
+<position info="not_deleted" x="505" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="6">
-<position info="not_deleted" x="793" y="0"/>
+<item historyLabel="MainActivity.java" index="7">
+<position info="not_deleted" x="682" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="6">
-<position info="not_deleted" x="399" y="0"/>
+<item historyLabel="MainActivity.java" index="7">
+<position info="not_deleted" x="528" y="0"/>
 </item>
-<item historyLabel="activity_display_message.xml" index="7"/>
-<item historyLabel="MainActivity.java" index="6">
-<position info="not_deleted" x="399" y="0"/>
+<item historyLabel="MainActivity.java" index="7">
+<position info="not_deleted" x="579" y="0"/>
 </item>
-<item historyLabel="DisplayMessageActivity.java" index="8">
-<position info="not_deleted" x="1387" y="0"/>
+<item historyLabel="MainActivity.java" index="7">
+<position info="not_deleted" x="1125" y="0"/>
 </item>
-<item historyLabel="activity_main.xml" index="9"/>
-<item historyLabel="DisplayMessageActivity.java" index="8">
-<position info="not_deleted" x="1387" y="0"/>
+<item historyLabel="strings.xml" index="2"/>
+<item historyLabel="MainActivity.java" index="7">
+<position info="not_deleted" x="1125" y="0"/>
 </item>
-<item historyLabel="My First App Manifest" index="10"/>
-<item historyLabel="DisplayMessageActivity.java" index="8">
-<position info="not_deleted" x="1387" y="0"/>
+<item historyLabel="about.xml" index="8"/>
+<item historyLabel="MainActivity.java" index="7">
+<position info="not_deleted" x="1125" y="0"/>
 </item>
-<item historyLabel="DisplayMessageActivity.java" index="8">
-<position info="not_deleted" x="457" y="0"/>
+<item historyLabel="AboutActivity.java" index="9">
+<position info="not_deleted" x="385" y="0"/>
 </item>
-<item historyLabel="activity_main.xml" index="9"/>
-<item historyLabel="DisplayMessageActivity.java" index="8">
-<position info="not_deleted" x="457" y="0"/>
+<item historyLabel="Numbersorter Manifest" index="10"/>
+<item historyLabel="strings.xml" index="2"/>
+<item historyLabel="Numbersorter Manifest" index="10"/>
+<item historyLabel="activity_main" index="11">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="activity_display_message.xml" index="7"/>
-<item historyLabel="strings.xml" index="11"/>
-<item historyLabel="activity_main.xml" index="9"/>
-<item historyLabel="activity_display_message.xml" index="7"/>
-<item historyLabel="DisplayMessageActivity.java" index="8">
-<position info="not_deleted" x="947" y="0"/>
+<item historyLabel="Numbersorter Manifest" index="10"/>
+<item historyLabel="land\activity_main.xml" index="12"/>
+<item historyLabel="activity_main.xml" index="5"/>
+<item historyLabel="land\activity_main.xml" index="12"/>
+<item historyLabel="MainActivity.java" index="7">
+<position info="not_deleted" x="1160" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="6">
-<position info="not_deleted" x="399" y="0"/>
+<item historyLabel="activity_main.xml" index="5"/>
+<item historyLabel="MainActivity.java" index="7">
+<position info="not_deleted" x="1160" y="0"/>
 </item>
-<item historyLabel="activity_main.xml" index="9"/>
-<item historyLabel="activity_main.xml" index="12"/>
-<item historyLabel="strings.xml" index="13"/>
-<item historyLabel="activity_main.xml" index="12"/>
-<item historyLabel="strings.xml" index="14"/>
-<item historyLabel="activity_main.xml" index="12"/>
-<item historyLabel="styles.xml" index="15"/>
-<item historyLabel="activity_main.xml" index="12"/>
-<item historyLabel="colors.xml" index="16"/>
-<item historyLabel="styles.xml" index="15"/>
-<item historyLabel="activity_main.xml" index="12"/>
-<item active="true" historyLabel="strings.xml" index="14"/>
+<item historyLabel="MainActivity.java" index="7">
+<position info="not_deleted" x="1265" y="0"/>
+</item>
+<item historyLabel="land\activity_main.xml" index="12"/>
+<item historyLabel="MainActivity.java" index="7">
+<position info="not_deleted" x="1265" y="0"/>
+</item>
+<item historyLabel="Numbersorter Manifest" index="10"/>
+<item historyLabel="MainActivity.java" index="7">
+<position info="not_deleted" x="1265" y="0"/>
+</item>
+<item historyLabel="about.xml" index="8"/>
+<item historyLabel="MainActivity.java" index="7">
+<position info="not_deleted" x="1265" y="0"/>
+</item>
+<item historyLabel="AboutActivity.java" index="9">
+<position info="not_deleted" x="385" y="0"/>
+</item>
+<item active="true" historyLabel="MainActivity.java" index="7">
+<position info="not_deleted" x="1265" y="0"/>
+</item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -434,6 +448,27 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="Numbersorter/res/layout-land/activity_main.xml">
+<persistable path="/Numbersorter/res/layout-land/activity_main.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="activity_main" tooltip="Numbersorter/res/layout-land/activity_main">
+<persistable path="/Numbersorter/res/layout-land/activity_main"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Numbersorter/AndroidManifest.xml">
+<persistable path="/Numbersorter/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AboutActivity.java" tooltip="Numbersorter/src/com/example/numbersorter/AboutActivity.java">
+<persistable path="/Numbersorter/src/com/example/numbersorter/AboutActivity.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="about.xml" tooltip="Numbersorter/res/layout/about.xml">
+<persistable path="/Numbersorter/res/layout/about.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="Numbersorter/src/com/example/numbersorter/MainActivity.java">
+<persistable path="/Numbersorter/src/com/example/numbersorter/MainActivity.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="My First App/res/layout/activity_main.xml">
+<persistable path="/My First App/res/layout/activity_main.xml"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="styles.xml" tooltip="Numbersorter/res/values/styles.xml">
 <persistable path="/Numbersorter/res/values/styles.xml"/>
 </file>
@@ -457,27 +492,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="My First App/src/com/example/my/first/app/MainActivity.java">
 <persistable path="/My First App/src/com/example/my/first/app/MainActivity.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="My First App/res/values/strings.xml">
-<persistable path="/My First App/res/values/strings.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.out.xml" tooltip="My First App/res/layout/activity_main.out.xml">
-<persistable path="/My First App/res/layout/activity_main.out.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="My First App/res/layout/activity_main.xml">
-<persistable path="/My First App/res/layout/activity_main.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_sudoku.xml" tooltip="Sudoku/res/layout/activity_sudoku.xml">
-<persistable path="/Sudoku/res/layout/activity_sudoku.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="AndroidManifest.out.xml" tooltip="SudokuTest/AndroidManifest.out.xml">
-<persistable path="/SudokuTest/AndroidManifest.out.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="SudokuTest/AndroidManifest.xml">
-<persistable path="/SudokuTest/AndroidManifest.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.out.out.xml" tooltip="SudokuTest/res/layout/main.out.out.xml">
-<persistable path="/SudokuTest/res/layout/main.out.out.xml"/>
 </file>
 </mruList>
 </workbench>

@@ -50,15 +50,4 @@ public class MainActivity extends Activity {
     	startActivity(i);
     	
     }
-    
-    public void newGamePressed(View v){
-    	
-    	
-    		
-    }
-    
-    public void continuePressed(View v){
-    	
-    	
-    }
 }
