@@ -1,0 +1,217 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631764930
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631764933
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631764936
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631764939
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631764942
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631764945
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631764948
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631764951
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631764954
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631764957
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631764960
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631764964
+error,log,,,"Parser exception for /Sudoku/AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631765025
+error,log,,,"Core exception while retrieving the content description",1359631765050
+error,log,,,"Core exception while retrieving the content description",1359631765052
+error,log,,,"Core exception while retrieving the content description",1359631765054
+error,log,,,"Core exception while retrieving the content description",1359631765056
+error,log,,,"Core exception while retrieving the content description",1359631765059
+error,log,,,"Core exception while retrieving the content description",1359631765061
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631766748
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631766901
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.selectAll",1359631770296
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1359631770661
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631774848
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359631776648
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359631776698
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631785100
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359631789298
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1359631789890
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631790846
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631790967
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631795587
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1359631802127
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631812907
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631814818
+error,log,,,"Core exception while retrieving the content description",1359631814890
+error,log,,,"Core exception while retrieving the content description",1359631814901
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1359631814913
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631815215
+error,log,,,"Parser exception for /Sudoku/AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631815217
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631815271
+error,log,,,"fileChanged: failed to find manifest package for project Sudoku",1359631815273
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631815301
+error,log,,,"Parser exception for /Sudoku/AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631815423
+error,log,,,"Core exception while retrieving the content description",1359631816423
+error,log,,,"Core exception while retrieving the content description",1359631816426
+error,log,,,"Core exception while retrieving the content description",1359631816428
+error,log,,,"Core exception while retrieving the content description",1359631816431
+error,log,,,"Core exception while retrieving the content description",1359631816434
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631821937
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631828290
+error,log,,,"Core exception while retrieving the content description",1359631830281
+error,log,,,"Core exception while retrieving the content description",1359631830293
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631830347
+executed,command,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.edit.text.java.rename.element",1359631830351
+error,log,,,"Parser exception for /Sudoku/AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631830472
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631830523
+error,log,,,"fileChanged: failed to find manifest package for project Sudoku",1359631830525
+error,log,,,"Core exception while retrieving the content description",1359631830748
+error,log,,,"Core exception while retrieving the content description",1359631830752
+error,log,,,"Core exception while retrieving the content description",1359631830758
+error,log,,,"Core exception while retrieving the content description",1359631830764
+error,log,,,"Core exception while retrieving the content description",1359631830769
+error,log,,,"Parser exception for /Sudoku/AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631831595
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359631832376
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631833177
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359631833459
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631836416
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359631837187
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359631837230
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631841937
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359631842125
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631847000
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359631866484
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631892184
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359631892370
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1359631895905
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631910491
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359631910631
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631915517
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631917860
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1359631922838
+error,log,,,"Parser exception for /Sudoku/AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631922983
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631923023
+error,log,,,"fileChanged: failed to find manifest package for project Sudoku",1359631923024
+error,log,,,"Parser exception for /Sudoku/AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631924086
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631924162
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359631924504
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1359631926976
+error,log,,,"Parser exception for /Sudoku/AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631927109
+error,log,,,"Parser exception for /Sudoku/AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631928197
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631932742
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359631932892
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631935071
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631935259
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631941264
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1359631941558
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1359631941593
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359632030289
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1359632033729
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359632034908
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359632037371
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359632038332
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1359632038336
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359632038336
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359632038336
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359632038346
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359632039046
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359632048264
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1359632050201
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359632050265
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359632051610
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359632051635
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359632053105
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359632053118
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359632053129
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359632053134
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359632053138
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1359632053142
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359632053149
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359632053153
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359632053158
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1359632053165
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359632054644
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359632054644
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359632055539
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359632060711
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1359632063262
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359632063268
+opened,view,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.views.AllMarkersView",1359632063340
+closed,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1359632063348
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359632064234
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359632071079
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359632076305
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359632080987
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359632081010
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359632082079
+closed,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359632082160
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.700.v201104070312,"org.eclipse.jst.ws.axis.creation.ui",1359632082420
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.ui,1.0.505.v201004211805,"org.eclipse.jst.ws.axis.consumption.ui",1359632082422
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.core,1.0.407.v201104071820,"org.eclipse.jst.ws.axis.consumption.core",1359632082424
+activated,perspective,org.eclipse.jst.j2ee.ui,,"org.eclipse.jst.j2ee.J2EEPerspective",1359632094925
+started,bundle,org.eclipse.osgi,3.7.2.v20120110-1415,"org.eclipse.osgi",1359632094926
+started,bundle,org.eclipse.equinox.simpleconfigurator,1.0.200.v20110815-1438,"org.eclipse.equinox.simpleconfigurator",1359632094927
+started,bundle,com.ibm.icu,4.4.2.v20110823,"com.ibm.icu",1359632094927
+started,bundle,org.eclipse.compare,3.5.202.R37x_v20111109-0800,"org.eclipse.compare",1359632094928
+started,bundle,org.eclipse.compare.core,3.5.200.I20110208-0800,"org.eclipse.compare.core",1359632094928
+started,bundle,org.eclipse.core.contenttype,3.4.100.v20110423-0524,"org.eclipse.core.contenttype",1359632094929
+started,bundle,org.eclipse.core.databinding.observable,1.4.0.I20110222-0800,"org.eclipse.core.databinding.observable",1359632094929
+started,bundle,org.eclipse.core.expressions,3.4.300.v20110228,"org.eclipse.core.expressions",1359632094930
+started,bundle,org.eclipse.core.filebuffers,3.5.200.v20110928-1504,"org.eclipse.core.filebuffers",1359632094930
+started,bundle,org.eclipse.core.filesystem,1.3.100.v20110423-0524,"org.eclipse.core.filesystem",1359632094930
+started,bundle,org.eclipse.core.jobs,3.5.101.v20120113-1953,"org.eclipse.core.jobs",1359632094931
+started,bundle,org.eclipse.core.net,1.2.100.I20110511-0800,"org.eclipse.core.net",1359632094931
+started,bundle,org.eclipse.core.resources,3.7.101.v20120125-1505,"org.eclipse.core.resources",1359632094932
+started,bundle,org.eclipse.core.runtime,3.7.0.v20110110,"org.eclipse.core.runtime",1359632094932
+started,bundle,org.eclipse.core.runtime.compatibility,3.2.100.v20100505,"org.eclipse.core.runtime.compatibility",1359632094932
+started,bundle,org.eclipse.core.runtime.compatibility.auth,3.2.200.v20110110,"org.eclipse.core.runtime.compatibility.auth",1359632094933
+started,bundle,org.eclipse.debug.core,3.7.1.v20111129-2031,"org.eclipse.debug.core",1359632094933
+started,bundle,org.eclipse.epp.mpc.ui,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.ui",1359632094934
+started,bundle,org.eclipse.epp.usagedata.gathering,1.3.1.R201106061540,"org.eclipse.epp.usagedata.gathering",1359632094934
+started,bundle,org.eclipse.epp.usagedata.recording,1.3.1.R201106061540,"org.eclipse.epp.usagedata.recording",1359632094934
+started,bundle,org.eclipse.equinox.app,1.3.100.v20110321,"org.eclipse.equinox.app",1359632094935
+started,bundle,org.eclipse.equinox.common,3.6.0.v20110523,"org.eclipse.equinox.common",1359632094935
+started,bundle,org.eclipse.equinox.ds,1.3.1.R37x_v20110701,"org.eclipse.equinox.ds",1359632094935
+started,bundle,org.eclipse.equinox.event,1.2.100.v20110502,"org.eclipse.equinox.event",1359632094936
+started,bundle,org.eclipse.equinox.p2.core,2.1.1.v20120113-1346,"org.eclipse.equinox.p2.core",1359632094937
+started,bundle,org.eclipse.equinox.p2.directorywatcher,1.0.300.v20110815-1419,"org.eclipse.equinox.p2.directorywatcher",1359632094938
+started,bundle,org.eclipse.equinox.p2.engine,2.1.1.R37x_v20111003,"org.eclipse.equinox.p2.engine",1359632094938
+started,bundle,org.eclipse.equinox.p2.metadata,2.1.0.v20110815-1419,"org.eclipse.equinox.p2.metadata",1359632094939
+started,bundle,org.eclipse.equinox.p2.metadata.repository,1.2.0.v20110815-1419,"org.eclipse.equinox.p2.metadata.repository",1359632094940
+started,bundle,org.eclipse.equinox.p2.operations,2.1.1.R37x_v20111111,"org.eclipse.equinox.p2.operations",1359632094940
+started,bundle,org.eclipse.equinox.p2.reconciler.dropins,1.1.100.v20110815-1419,"org.eclipse.equinox.p2.reconciler.dropins",1359632094941
+started,bundle,org.eclipse.equinox.p2.repository,2.1.1.v20120113-1346,"org.eclipse.equinox.p2.repository",1359632094941
+started,bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.0.100.v20110815-1419,"org.eclipse.equinox.p2.ui.sdk.scheduler",1359632094941
+started,bundle,org.eclipse.equinox.p2.updatechecker,1.1.200.v20110815-1419,"org.eclipse.equinox.p2.updatechecker",1359632094942
+started,bundle,org.eclipse.equinox.preferences,3.4.2.v20120111-2020,"org.eclipse.equinox.preferences",1359632094942
+started,bundle,org.eclipse.equinox.registry,3.5.101.R37x_v20110810-1611,"org.eclipse.equinox.registry",1359632094943
+started,bundle,org.eclipse.equinox.security,1.1.1.R37x_v20110822-1018,"org.eclipse.equinox.security",1359632094943
+started,bundle,org.eclipse.equinox.util,1.0.300.v20110502,"org.eclipse.equinox.util",1359632094943
+started,bundle,org.eclipse.help,3.5.100.v20110426,"org.eclipse.help",1359632094944
+started,bundle,org.eclipse.jdt.core,3.7.3.v20120119-1537,"org.eclipse.jdt.core",1359632094944
+started,bundle,org.eclipse.jdt.core.manipulation,1.4.0.v20110928-1453,"org.eclipse.jdt.core.manipulation",1359632094945
+started,bundle,org.eclipse.jdt.launching,3.6.1.v20111006_r372,"org.eclipse.jdt.launching",1359632094945
+started,bundle,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui",1359632094946
+started,bundle,org.eclipse.jem,2.0.501.v201111030500,"org.eclipse.jem",1359632094947
+started,bundle,org.eclipse.jem.util,2.1.100.v201103021400,"org.eclipse.jem.util",1359632094947
+started,bundle,org.eclipse.jface,3.7.0.v20110928-1505,"org.eclipse.jface",1359632094948
+started,bundle,org.eclipse.jsch.core,1.1.300.I20110514-0800,"org.eclipse.jsch.core",1359632094948
+started,bundle,org.eclipse.jst.common.project.facet.core,1.4.200.v201103170302,"org.eclipse.jst.common.project.facet.core",1359632094948
+started,bundle,org.eclipse.jst.j2ee,1.1.503.v201202090300,"org.eclipse.jst.j2ee",1359632094949
+started,bundle,org.eclipse.jst.j2ee.core,1.2.102.v201202090300,"org.eclipse.jst.j2ee.core",1359632094950
+started,bundle,org.eclipse.jst.j2ee.navigator.ui,1.1.501.v201107261503,"org.eclipse.jst.j2ee.navigator.ui",1359632094950
+started,bundle,org.eclipse.jst.j2ee.ui,1.1.503.v201201190400,"org.eclipse.jst.j2ee.ui",1359632094950
+started,bundle,org.eclipse.jst.j2ee.webservice,1.1.400.v201004110600,"org.eclipse.jst.j2ee.webservice",1359632094951
+started,bundle,org.eclipse.jst.j2ee.webservice.ui,1.1.500.v201105122000,"org.eclipse.jst.j2ee.webservice.ui",1359632094951
+started,bundle,org.eclipse.jst.jee.ui,1.0.401.v201202011107,"org.eclipse.jst.jee.ui",1359632094952
+started,bundle,org.eclipse.jst.ws.jaxrs.core,1.0.301.v201108240656,"org.eclipse.jst.ws.jaxrs.core",1359632094952
+started,bundle,org.eclipse.jst.ws.jaxws.utils,1.0.100.v201201031437,"org.eclipse.jst.ws.jaxws.utils",1359632094953
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.201.r372_v20111101-0700,"org.eclipse.ltk.core.refactoring",1359632094953
+started,bundle,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring",1359632094953
+started,bundle,org.eclipse.team.core,3.6.0.I20110525-0800,"org.eclipse.team.core",1359632094954
+started,bundle,org.eclipse.team.cvs.core,3.3.400.I20110510-0800,"org.eclipse.team.cvs.core",1359632094954
+started,bundle,org.eclipse.team.cvs.ui,3.3.401.v20120126-1227,"org.eclipse.team.cvs.ui",1359632094955
+started,bundle,org.eclipse.team.ui,3.6.101.R37x_v20111109-0800,"org.eclipse.team.ui",1359632094955
+started,bundle,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui",1359632094956
+started,bundle,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console",1359632094957
+started,bundle,org.eclipse.ui.editors,3.7.0.v20110928-1504,"org.eclipse.ui.editors",1359632094957
+started,bundle,org.eclipse.ui.forms,3.5.101.v20111011-1919,"org.eclipse.ui.forms",1359632094958
+started,bundle,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.ide",1359632094958
+started,bundle,org.eclipse.ui.intro,3.4.100.v20110425,"org.eclipse.ui.intro",1359632094959
+started,bundle,org.eclipse.ui.intro.universal,3.2.500.v20110510,"org.eclipse.ui.intro.universal",1359632094959
+started,bundle,org.eclipse.ui.navigator,3.5.101.v20120106-1355,"org.eclipse.ui.navigator",1359632094959
+started,bundle,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.resources",1359632094960
+started,bundle,org.eclipse.ui.net,1.2.100.v20111208-1155,"org.eclipse.ui.net",1359632094960
+started,bundle,org.eclipse.ui.views,3.6.0.v20110928-1505,"org.eclipse.ui.views",1359632094960

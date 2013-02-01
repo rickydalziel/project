@@ -1,0 +1,276 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.emf.common,2.8.0.v20120911-0500,"org.eclipse.emf.common",1359633437936
+started,bundle,org.eclipse.emf.common.ui,2.7.0.v20120917-0436,"org.eclipse.emf.common.ui",1359633437936
+started,bundle,org.eclipse.emf.ecore,2.8.1.v20120911-0500,"org.eclipse.emf.ecore",1359633437937
+started,bundle,org.eclipse.emf.ecore.xmi,2.8.0.v20120911-0500,"org.eclipse.emf.ecore.xmi",1359633437937
+started,bundle,org.eclipse.emf.edit,2.8.0.v20120917-0436,"org.eclipse.emf.edit",1359633437938
+started,bundle,org.eclipse.emf.edit.ui,2.8.0.v20120917-0436,"org.eclipse.emf.edit.ui",1359633437938
+started,bundle,org.eclipse.emf.validation,1.4.0.v20100428-2315,"org.eclipse.emf.validation",1359633437939
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.8.2.v20120916-1200,"org.eclipse.mylyn.bugzilla.core",1359633437939
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.8.2.v20120916-1200,"org.eclipse.mylyn.bugzilla.ui",1359633437940
+started,bundle,org.eclipse.mylyn.commons.core,3.8.2.v20120916-1200,"org.eclipse.mylyn.commons.core",1359633437940
+started,bundle,org.eclipse.mylyn.commons.net,3.8.2.v20120916-1200,"org.eclipse.mylyn.commons.net",1359633437940
+started,bundle,org.eclipse.mylyn.commons.notifications.core,1.0.2.v20120916-1200,"org.eclipse.mylyn.commons.notifications.core",1359633437940
+started,bundle,org.eclipse.mylyn.commons.notifications.feed,1.0.2.v20120916-1200,"org.eclipse.mylyn.commons.notifications.feed",1359633437941
+started,bundle,org.eclipse.mylyn.commons.ui,3.8.2.v20120916-1200,"org.eclipse.mylyn.commons.ui",1359633437941
+started,bundle,org.eclipse.mylyn.commons.workbench,3.8.2.v20120916-1200,"org.eclipse.mylyn.commons.workbench",1359633437942
+started,bundle,org.eclipse.mylyn.context.core,3.8.2.v20120916-1200,"org.eclipse.mylyn.context.core",1359633437942
+started,bundle,org.eclipse.mylyn.context.tasks.ui,3.8.2.v20120916-1200,"org.eclipse.mylyn.context.tasks.ui",1359633437942
+started,bundle,org.eclipse.mylyn.monitor.ui,3.8.2.v20120916-1200,"org.eclipse.mylyn.monitor.ui",1359633437943
+started,bundle,org.eclipse.mylyn.tasks.ui,3.8.2.v20120916-1200,"org.eclipse.mylyn.tasks.ui",1359633437944
+started,bundle,org.eclipse.mylyn.trac.core,3.8.2.v20120916-1200,"org.eclipse.mylyn.trac.core",1359633437944
+started,bundle,org.eclipse.mylyn.trac.ui,3.8.2.v20120916-1200,"org.eclipse.mylyn.trac.ui",1359633437944
+started,bundle,org.eclipse.uml2.types,1.0.0.v20120913-1441,"org.eclipse.uml2.types",1359633437945
+started,bundle,org.eclipse.uml2.uml,4.0.1.yatta-patch-201209280432,"org.eclipse.uml2.uml",1359633437946
+started,bundle,org.eclipse.egit.core,2.2.0.201212191850-r,"org.eclipse.egit.core",1359633437946
+started,bundle,org.eclipse.egit.ui,2.2.0.201212191850-r,"org.eclipse.egit.ui",1359633437947
+started,bundle,org.eclipse.jgit,2.2.0.201212191850-r,"org.eclipse.jgit",1359633437947
+os,sysinfo,,,"win32",1359633437950
+arch,sysinfo,,,"x86_64",1359633437950
+ws,sysinfo,,,"win32",1359633437950
+locale,sysinfo,,,"en_GB",1359633437950
+processors,sysinfo,,,"4",1359633437950
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1359633437950
+java.runtime.version,sysinfo,,,"1.6.0_31-b05",1359633437950
+java.specification.name,sysinfo,,,"Java Platform API Specification",1359633437950
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1359633437950
+java.specification.version,sysinfo,,,"1.6",1359633437950
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1359633437950
+java.version,sysinfo,,,"1.6.0_31",1359633437950
+java.vm.info,sysinfo,,,"mixed mode",1359633437950
+java.vm.name,sysinfo,,,"Java HotSpot(TM) 64-Bit Server VM",1359633437950
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1359633437950
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1359633437950
+java.vm.specification.version,sysinfo,,,"1.0",1359633437950
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1359633437950
+java.vm.version,sysinfo,,,"20.6-b01",1359633437950
+started,bundle,org.eclipse.jdt.apt.core,3.3.500.v20110420-1015,"org.eclipse.jdt.apt.core",1359633439531
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359633443516
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359633448737
+started,bundle,org.eclipse.wst.sse.core,1.1.602.v201112071516,"org.eclipse.wst.sse.core",1359633480884
+started,bundle,org.eclipse.wst.common.uriresolver,1.1.401.v201004280700,"org.eclipse.wst.common.uriresolver",1359633480925
+started,bundle,org.eclipse.ant.ui,3.5.101.v20120110-1739,"org.eclipse.ant.ui",1359633480968
+started,bundle,org.eclipse.jpt.common.core,1.0.2.v201111103010,"org.eclipse.jpt.common.core",1359633480995
+started,bundle,org.eclipse.jpt.jpa.core,3.0.2.v201201243020,"org.eclipse.jpt.jpa.core",1359633480995
+started,bundle,org.eclipse.wst.xsl.core,1.1.100.v201102270516,"org.eclipse.wst.xsl.core",1359633481395
+started,bundle,org.eclipse.wst.xsl.exslt.core,1.0.0.v201005240426,"org.eclipse.wst.xsl.exslt.core",1359633481396
+started,bundle,org.eclipse.wst.dtd.core,1.1.501.v201107252021,"org.eclipse.wst.dtd.core",1359633481441
+started,bundle,org.eclipse.wst.internet.cache,1.0.400.v201004280700,"org.eclipse.wst.internet.cache",1359633481467
+error,log,,,"Failed to load properties file for project 'My First App'",1359633481531
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359633481572
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.newWizard",1359633481578
+started,bundle,org.eclipse.wst.sse.ui,1.3.2.v201201041522,"org.eclipse.wst.sse.ui",1359633481596
+started,bundle,org.eclipse.wst.xml.ui,1.1.202.v201112071516,"org.eclipse.wst.xml.ui",1359633481597
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.400.v20110305-1450,"org.eclipse.jdt.apt.pluggable.core",1359633481750
+started,bundle,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui",1359633481792
+started,bundle,org.eclipse.wst.dtd.ui,1.0.600.v201103171359,"org.eclipse.wst.dtd.ui",1359633482012
+started,bundle,org.eclipse.wst.xsl.ui,1.1.200.v201103082057,"org.eclipse.wst.xsl.ui",1359633482078
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359633483272
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359633483373
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359633483385
+started,bundle,org.eclipse.jst.servlet.ui,1.1.502.v201202011054,"org.eclipse.jst.servlet.ui",1359633483449
+started,bundle,org.eclipse.jst.ws.jaxws.dom.integration,1.0.101.v201201031437,"org.eclipse.jst.ws.jaxws.dom.integration",1359633483539
+started,bundle,org.eclipse.jst.ws.jaxws.dom.ui,1.0.0.v201004171919,"org.eclipse.jst.ws.jaxws.dom.ui",1359633483541
+error,log,,,"Core exception while retrieving the content description",1359633483601
+error,log,,,"Core exception while retrieving the content description",1359633483605
+error,log,,,"Core exception while retrieving the content description",1359633483609
+error,log,,,"Core exception while retrieving the content description",1359633483612
+error,log,,,"Core exception while retrieving the content description",1359633483615
+error,log,,,"Core exception while retrieving the content description",1359633483618
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359633492286
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359633492331
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359633504554
+started,bundle,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.ui",1359633512568
+started,bundle,org.eclipse.jst.jsp.core,1.2.402.v201112071853,"org.eclipse.jst.jsp.core",1359633512594
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359633540844
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359633543810
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359633545717
+started,bundle,org.eclipse.wst.server.core,1.1.304.v20120208_1420,"org.eclipse.wst.server.core",1359633546861
+started,bundle,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui",1359633546871
+started,bundle,org.eclipse.wst.xsl.debug.ui,1.0.200.v201101281837,"org.eclipse.wst.xsl.debug.ui",1359633546879
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359633547200
+started,bundle,org.eclipse.core.variables,3.2.500.v20110928-1503,"org.eclipse.core.variables",1359633547307
+started,bundle,org.eclipse.wst.xsl.launching,1.0.200.v201103081922,"org.eclipse.wst.xsl.launching",1359633547314
+started,bundle,org.eclipse.wst.xsl.jaxp.launching,1.0.200.v201103081922,"org.eclipse.wst.xsl.jaxp.launching",1359633547326
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359633547378
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359633548383
+started,bundle,org.eclipse.jdt.debug,3.7.1.v20111006_r372,"org.eclipse.jdt.debug",1359633548432
+started,bundle,org.eclipse.jdt.debug.ui,3.6.1.v20111006_r372,"org.eclipse.jdt.debug.ui",1359633548609
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359633548842
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359633548878
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359633553275
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359633555293
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359633558957
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359633560096
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359633560802
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.300.v201104272153,"org.eclipse.wst.jsdt.manipulation",1359633561455
+started,bundle,org.eclipse.wst.jsdt.core,1.1.102.v201111090634,"org.eclipse.wst.jsdt.core",1359633561520
+started,bundle,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui",1359633561544
+error,log,,,"Internal Error",1359633561596
+error,log,,,"Problems encountered while deleting resources.",1359633561598
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359633563660
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359633563668
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1359633565787
+no handler,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359633568392
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359633569518
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359633569529
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359633569529
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359633570554
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359633570803
+error,log,,,"Internal Error",1359633571223
+error,log,,,"Problems encountered while deleting resources.",1359633571225
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359633573585
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359633573594
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359633577434
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359633580720
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359633580868
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359633580888
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359633580892
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634053822
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634053828
+error,log,,,"Error validating C:\\Users\\Ricky\\AppData\\Local\\Android\\android-sdk\\tools\\lib\\devices.xml",1359634461890
+error,log,,,"Core exception while retrieving the content description",1359634461971
+error,log,,,"Core exception while retrieving the content description",1359634461994
+error,log,,,"Core exception while retrieving the content description",1359634462002
+error,log,,,"Core exception while retrieving the content description",1359634462011
+error,log,,,"Core exception while retrieving the content description",1359634462029
+error,log,,,"Core exception while retrieving the content description",1359634462037
+error,log,,,"Core exception while retrieving the content description",1359634462044
+error,log,,,"Core exception while retrieving the content description",1359634462051
+error,log,,,"Core exception while retrieving the content description",1359634462532
+error,log,,,"Core exception while retrieving the content description",1359634462535
+error,log,,,"Core exception while retrieving the content description",1359634462538
+error,log,,,"Core exception while retrieving the content description",1359634462540
+error,log,,,"Core exception while retrieving the content description",1359634462543
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634464113
+error,log,,,"Cannot initialize preview color settings",1359634465365
+error,log,,,"Cannot initialize preview color settings",1359634465367
+error,log,,,"Failed to update a TargetChangeListener.",1359634465373
+error,log,,,"Core exception while retrieving the content description",1359634465383
+error,log,,,"Core exception while retrieving the content description",1359634465394
+error,log,,,"Core exception while retrieving the content description",1359634465401
+error,log,,,"Core exception while retrieving the content description",1359634465409
+error,log,,,"Core exception while retrieving the content description",1359634465458
+error,log,,,"Core exception while retrieving the content description",1359634465466
+error,log,,,"Core exception while retrieving the content description",1359634465473
+error,log,,,"Core exception while retrieving the content description",1359634465481
+error,log,,,"Cannot initialize preview color settings",1359634465665
+error,log,,,"Cannot initialize preview color settings",1359634465667
+error,log,,,"Error while loading editor",1359634465673
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359634465681
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359634465715
+error,log,,,"Core exception while retrieving the content description",1359634466047
+error,log,,,"Core exception while retrieving the content description",1359634466051
+error,log,,,"Core exception while retrieving the content description",1359634466056
+error,log,,,"Core exception while retrieving the content description",1359634466060
+error,log,,,"Core exception while retrieving the content description",1359634466064
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359634466664
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634467347
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634467848
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359634467852
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.300.v201108240515,"org.eclipse.wst.ws.service.policy.ui",1359634471020
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.303.v201009221810,"org.eclipse.wst.ws.service.policy",1359634471021
+started,bundle,org.eclipse.wst.command.env,1.0.409.v201004211805,"org.eclipse.wst.command.env",1359634471032
+started,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1359634471032
+started,bundle,org.eclipse.rse.services,3.2.101.R33x_v201109141647,"org.eclipse.rse.services",1359634473024
+started,bundle,org.eclipse.rse.core,3.2.2.R33x_v201110030150,"org.eclipse.rse.core",1359634473044
+started,bundle,org.eclipse.rse.ui,3.2.1.R33x_v201109141647,"org.eclipse.rse.ui",1359634473115
+started,bundle,org.eclipse.rse.files.ui,3.2.1.R33x_v201109141647,"org.eclipse.rse.files.ui",1359634473120
+started,bundle,org.eclipse.rse.subsystems.files.core,3.2.101.R33x_v201107181530,"org.eclipse.rse.subsystems.files.core",1359634473127
+started,bundle,org.eclipse.rse.subsystems.files.local,2.1.200.v201101042155,"org.eclipse.rse.subsystems.files.local",1359634473127
+started,bundle,org.eclipse.rse.subsystems.shells.core,3.1.201.R33x_v201106281309,"org.eclipse.rse.subsystems.shells.core",1359634473151
+started,bundle,org.eclipse.rse.subsystems.shells.local,2.1.300.v201101042155,"org.eclipse.rse.subsystems.shells.local",1359634473152
+error,log,,,"Core exception while retrieving the content description",1359634473156
+error,log,,,"Core exception while retrieving the content description",1359634473165
+started,bundle,org.eclipse.rse.connectorservice.local,2.1.300.v201101042155,"org.eclipse.rse.connectorservice.local",1359634473175
+started,bundle,org.eclipse.rse.services.local,2.1.300.v201105311250,"org.eclipse.rse.services.local",1359634473176
+error,log,,,"Core exception while retrieving the content description",1359634473180
+error,log,,,"Core exception while retrieving the content description",1359634473187
+error,log,,,"Core exception while retrieving the content description",1359634473194
+error,log,,,"Core exception while retrieving the content description",1359634473201
+error,log,,,"Core exception while retrieving the content description",1359634474144
+error,log,,,"Core exception while retrieving the content description",1359634474147
+error,log,,,"Core exception while retrieving the content description",1359634474149
+error,log,,,"Core exception while retrieving the content description",1359634474152
+error,log,,,"Core exception while retrieving the content description",1359634474154
+started,bundle,org.eclipse.jdt.junit.core,3.7.0.v20110928-1453,"org.eclipse.jdt.junit.core",1359634476899
+started,bundle,com.android.ide.eclipse.ddms,20.0.3.v201208082019-427395,"com.android.ide.eclipse.ddms",1359634478356
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1359634478367
+started,bundle,com.android.ide.eclipse.traceview,20.0.3.v201208082019-427395,"com.android.ide.eclipse.traceview",1359634478394
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634481386
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634629994
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359634630089
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1359634665959
+started,bundle,org.eclipse.wst.css.ui,1.0.601.v201201101544,"org.eclipse.wst.css.ui",1359634677614
+started,bundle,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.ui",1359634677619
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.contextInformation",1359634677625
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1359634678166
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634706284
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634752059
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359634752097
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359634753978
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359634753994
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1359634772306
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634773989
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634776447
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359634776521
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359634778245
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359634786602
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359634787100
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359634787131
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359634787164
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359634787197
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359634787230
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359634787263
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359634787296
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359634787687
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1359634806337
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1359634813519
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634843441
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634850398
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359634850426
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1359634853020
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634853041
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634853953
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634854156
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634855176
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359634859272
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359634860951
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359634862854
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359634863932
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359634876979
+executed,command,,,"com.android.ide.eclipse.adt.debug.launching.LaunchShortcut.run",1359634879289
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634879309
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634880178
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634881786
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634955667
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359634955761
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1359634980969
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359634982390
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359635004608
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359635014457
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359635022951
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359635026557
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359635034773
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1359635035353
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359635036440
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359635044135
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359635060525
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359635062401
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359635062458
+started,bundle,org.eclipse.jdt.junit,3.7.0.v20110928-1453,"org.eclipse.jdt.junit",1359635073163
+started,bundle,org.eclipse.pde.launching,3.6.0.v20110506,"org.eclipse.pde.launching",1359635073175
+started,bundle,org.eclipse.ui.views.log,1.0.200.v20110404,"org.eclipse.ui.views.log",1359635073176
+started,bundle,org.eclipse.pde.ui,3.6.100.v20120103_r372,"org.eclipse.pde.ui",1359635073177
+executed,command,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.edit.text.java.organize.imports",1359635082344
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359635084242
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359635088534
+started,bundle,org.eclipse.jpt.jaxb.ui,1.1.2.v201201260000,"org.eclipse.jpt.jaxb.ui",1359635100214
+started,bundle,org.eclipse.jpt.jpa.ui,3.0.2.v201201243020,"org.eclipse.jpt.jpa.ui",1359635100222
+started,bundle,org.eclipse.jst.ws.jaxws.ui,1.0.100.v201104032053,"org.eclipse.jst.ws.jaxws.ui",1359635100241
+started,bundle,org.eclipse.pde.api.tools,1.0.301.v20111129-2053,"org.eclipse.pde.api.tools",1359635100267
+started,bundle,org.eclipse.pde.api.tools.ui,1.0.301.v20110803_r371,"org.eclipse.pde.api.tools.ui",1359635100268
+started,bundle,org.eclipse.mylyn.java.ui,3.8.2.v20120916-1200,"org.eclipse.mylyn.java.ui",1359635100274
+started,bundle,org.eclipse.jpt.jaxb.core,1.0.2.v201111103010,"org.eclipse.jpt.jaxb.core",1359635100370
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1359635100423
+executed,command,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.edit.text.java.organize.imports",1359635113628

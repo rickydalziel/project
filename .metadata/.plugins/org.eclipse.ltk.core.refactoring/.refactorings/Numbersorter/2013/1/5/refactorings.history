@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.example.numbersorter&apos; to &apos;Sudoku/gen&apos;&#x0D;&#x0A;- Original project: &apos;Numbersorter&apos;&#x0D;&#x0A;- Destination element: &apos;Sudoku/gen&apos;&#x0D;&#x0A;- Original element: &apos;Numbersorter/gen/com.example.numbersorter&apos;" description="Copy package" destination="=Sudoku/gen" element1="/gen&lt;com.example.numbersorter" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1359631814903" version="1.0"/>
+</session>

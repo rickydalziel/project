@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.ui.externaltools,3.2.0.v20111007_r372,"org.eclipse.ui.externaltools",1359630558223
+started,bundle,org.eclipse.core.externaltools,1.0.100.v20111007_r372,"org.eclipse.core.externaltools",1359630558284
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359630560482
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.properties",1359630560501
+started,bundle,org.eclipse.jdt.junit.core,3.7.0.v20110928-1453,"org.eclipse.jdt.junit.core",1359630571911
+started,bundle,org.eclipse.jdt.junit,3.7.0.v20110928-1453,"org.eclipse.jdt.junit",1359630571914
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359630575260
+started,bundle,org.eclipse.jdt.debug,3.7.1.v20111006_r372,"org.eclipse.jdt.debug",1359630578934
+started,bundle,org.eclipse.jdt.debug.ui,3.6.1.v20111006_r372,"org.eclipse.jdt.debug.ui",1359630578976
+started,bundle,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.ui",1359630579001
+started,bundle,org.eclipse.pde.launching,3.6.0.v20110506,"org.eclipse.pde.launching",1359630579013
+started,bundle,org.eclipse.ui.views.log,1.0.200.v20110404,"org.eclipse.ui.views.log",1359630579016
+started,bundle,org.eclipse.pde.ui,3.6.100.v20120103_r372,"org.eclipse.pde.ui",1359630579019
+started,bundle,org.eclipse.pde.core,3.7.1.v20120103_r372,"org.eclipse.pde.core",1359630579053
+started,bundle,org.eclipse.wst.jsdt.debug.rhino.ui,1.0.1.v201201112313,"org.eclipse.wst.jsdt.debug.rhino.ui",1359630579071
+started,bundle,org.eclipse.jst.jsp.core,1.2.402.v201112071853,"org.eclipse.jst.jsp.core",1359630579120
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359630579294
+executed,command,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.edit.text.java.rename.element",1359630579299
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359630593154
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359630593219
+started,bundle,org.eclipse.wst.server.core,1.1.304.v20120208_1420,"org.eclipse.wst.server.core",1359630598892
+started,bundle,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui",1359630598905
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359630641629
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359630659271
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359630664629
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring.commands.renameResource",1359630664634
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.rename",1359630664634
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359630674398
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359630677563
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359630679308
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359630679351
+started,bundle,org.eclipse.wst.xsl.debug.ui,1.0.200.v201101281837,"org.eclipse.wst.xsl.debug.ui",1359630684578
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359630685272
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359630685299
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359630685886
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359630685887
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359630691137
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359630691325
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1359630697919
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359630699466
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359630800920
+started,bundle,org.eclipse.equinox.p2.garbagecollector,1.0.200.v20110815-1419,"org.eclipse.equinox.p2.garbagecollector",1359630879346
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1359630890352
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1359630905245
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1359630917185
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1359630926178
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1359630930155
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1359630942475
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359630979651
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1359631012255
+started,bundle,org.eclipse.mylyn.java.tasks,3.8.2.v20120916-1200,"org.eclipse.mylyn.java.tasks",1359631048244
+started,bundle,org.tigris.subversion.clientadapter.javahl,1.6.17,"org.tigris.subversion.clientadapter.javahl",1359631048258
+started,bundle,org.tigris.subversion.clientadapter.svnkit,1.6.15,"org.tigris.subversion.clientadapter.svnkit",1359631048261
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631053978
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631054010
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631054021
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631055444
+started,bundle,org.tmatesoft.svnkit,1.3.5.7406,"org.tmatesoft.svnkit",1359631055496
+started,bundle,com.sun.jna,3.2.7,"com.sun.jna",1359631055546
+started,bundle,org.eclipse.wst.html.ui,1.0.602.v201202091936,"org.eclipse.wst.html.ui",1359631055729
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1359631057334
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1359631058277
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1359631058997
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1359631059141
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1359631060797
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1359631062208
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1359631062641
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1359631065024
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1359631065172
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1359631067133
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1359631073342
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1359631084812
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631104188
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631104296
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631111545
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631112152
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1359631120668
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631124990
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631126037
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631126061
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1359631187136
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1359631189718
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1359631192890
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1359631225443
+started,bundle,org.eclipse.wst.xsl.launching,1.0.200.v201103081922,"org.eclipse.wst.xsl.launching",1359631226305
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631226335
+started,bundle,org.eclipse.wst.xsl.jaxp.launching,1.0.200.v201103081922,"org.eclipse.wst.xsl.jaxp.launching",1359631227874
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631228652
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631228678
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631228695
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631234442
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631234599
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1359631245587
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631268945
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1359631278296
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631283875
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631284013
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631291640
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631294580
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631295109
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631296186
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631296209
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631304273
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631309753
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631310770
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631310774
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631313448
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631313702
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631313705
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631315055
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631324950
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631324992
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631328576
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631328707
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631335760
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631335940
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1359631352392
+no handler,command,org.eclipse.wst.xml.ui,1.1.202.v201112071516,"org.eclipse.wst.xml.ui.gotoMatchingTag",1359631363624
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1359631367880
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631372285
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631372423
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631374010
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631374036
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631384174
+error,log,,,"Internal Error",1359631384911
+error,log,,,"Problems encountered while deleting resources.",1359631384916
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631388026
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631388031
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631388038
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631390925
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631391423
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631391426
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631392394
+error,log,,,"Internal Error",1359631392749
+error,log,,,"Problems encountered while deleting resources.",1359631392756
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631394205
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631394213
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631395499
+error,log,,,"Internal Error",1359631395848
+error,log,,,"Problems encountered while deleting resources.",1359631395858
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631397002
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631397008
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631406167
+error,log,,,"Internal Error",1359631406517
+error,log,,,"Problems encountered while deleting resources.",1359631406523
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631407836
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631407841
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631409250
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631415591
+error,log,,,"Internal Error",1359631416562
+error,log,,,"Problems encountered while deleting resources.",1359631416570
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631426400
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631426406
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631426412
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631428293
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631428889
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631431800
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631431800
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631432596
+closed,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631432597
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631434884
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631436802
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631437739
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631437743
+error,log,,,"Variable references non-existent resource : ${workspace_loc:/SudokuTest/res/layout/main.out.xml}",1359631439757
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631439792
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631444209
+error,log,,,"Variable references non-existent resource : ${workspace_loc:/SudokuTest/res/layout/main.out.xml}",1359631445797
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631445811
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631458705
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1359631461364
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1359631461400
+started,bundle,org.eclipse.jem.workbench,2.0.400.v201104251400,"org.eclipse.jem.workbench",1359631462731
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631473327
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631474438
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631474881
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631474895
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1359631483656
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631493278
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1359631493452
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631507351
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631507478
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631507623
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631507766
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631507927
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631514053
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631514873
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631515349
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1359631518136
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631520426
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631521426
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631524261
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.manifest.ManifestEditor",1359631524450
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1359631557348
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1359631559440
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631562705
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631568372
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631576019
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631579264
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631589407
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1359631590837
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631595425
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631595577
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631602945
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631616450
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1359631618126
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631619247
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631620638
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1359631621462
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631621480
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1359631621484
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631621484
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631624252
+error,log,,,"Failed to load properties file for project 'Sudoku'",1359631688172
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631688205
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.newWizard",1359631688212
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.400.v20110305-1450,"org.eclipse.jdt.apt.pluggable.core",1359631688487
+opened,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631688896
+activated,editor,com.android.ide.eclipse.adt,20.0.3.v201208082019-427395,"com.android.ide.eclipse.editors.CommonXmlEditor",1359631688925
+error,log,,,"Core exception while retrieving the content description",1359631689066
+error,log,,,"Core exception while retrieving the content description",1359631689073
+error,log,,,"Core exception while retrieving the content description",1359631689080
+error,log,,,"Core exception while retrieving the content description",1359631689087
+error,log,,,"Core exception while retrieving the content description",1359631689094
+error,log,,,"Core exception while retrieving the content description",1359631689102
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631695096
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631699343
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1359631699358
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring.commands.renameResource",1359631699368
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.rename",1359631699368
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631706838
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631707669
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110928-1453,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1359631707673
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1359631707673
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631710378
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631734717
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.newWizard",1359631734726
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631736729
+error,log,,,"Failed to load properties file for project 'Sudoku'",1359631757356
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1359631757390
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.newWizard",1359631757395
+error,log,,,"Malformed manifest",1359631757466
+error,log,,,"Parser exception for /Sudoku/AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631757732
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631758022
+activated,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1359631758030
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631758064
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631758072
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631758080
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631758088
+error,log,,,"Parser exception for C:\\Users\\Ricky\\Documents\\ProjectWorkspace\\Sudoku\\AndroidManifest.xml: The markup in the document following the root element must be well-formed.",1359631758095

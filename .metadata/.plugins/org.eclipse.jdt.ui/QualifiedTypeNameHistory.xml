@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="android.content.pm.ResolveInfo.DisplayNameComparator"/>
+<fullyQualifiedTypeName name="com.example.my.first.app.R.id"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="android.annotation.SuppressLint"/>
+</qualifiedTypeNameHistroy>
