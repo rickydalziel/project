@@ -1,0 +1,20 @@
+package com.example.numbersorter;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class NewGameDialog extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.new_game_dialog); //all we have to do is use the xml file and display it.
+
+	}
+
+
+		
+		
+}
+
+

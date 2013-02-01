@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="78" version="2.0">
+<workbench progressCount="69" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="548" y="139">
 <fastViewData fastViewLocation="1024"/>
@@ -43,6 +43,10 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
 </presentation>
 </folder>
 </info>
@@ -59,9 +63,23 @@
 <editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="styles.xml" partName="styles.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/values/styles.xml" title="styles.xml" tooltip="Numbersorter/res/values/styles.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/values/styles.xml"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/MainActivity.java" title="MainActivity.java" tooltip="Numbersorter/src/com/example/numbersorter/MainActivity.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/MainActivity.java" title="MainActivity.java" tooltip="Numbersorter/src/com/example/numbersorter/MainActivity.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/MainActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1265" selectionTopPixel="454"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2253" selectionTopPixel="994"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AboutActivity.java" partName="AboutActivity.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/AboutActivity.java" title="AboutActivity.java" tooltip="Numbersorter/src/com/example/numbersorter/AboutActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/AboutActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="250" selectionOffset="341" selectionTopPixel="0"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="new_game_dialog.xml" partName="new_game_dialog.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/layout/new_game_dialog.xml" title="new_game_dialog.xml" tooltip="Numbersorter/res/layout/new_game_dialog.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/layout/new_game_dialog.xml"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NewGameDialog.java" partName="NewGameDialog.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/NewGameDialog.java" title="NewGameDialog.java" tooltip="Numbersorter/src/com/example/numbersorter/NewGameDialog.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/NewGameDialog.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1110" selectionTopPixel="0"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="Numbersorter Manifest" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/AndroidManifest.xml" title="Numbersorter Manifest" tooltip="Numbersorter/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/AndroidManifest.xml"/>
 </editor>
 </editors>
 <views>
@@ -316,113 +334,126 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout/activity_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/values/styles.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/values/colors.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout/activity_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/My First App/res/layout/activity_main.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/MainActivity.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout/about.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/AboutActivity.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Numbersorter/AndroidManifest.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Numbersorter/res/layout-land/activity_main"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout-land/activity_main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/AboutActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout/new_game_dialog.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/NewGameDialog.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/values/strings.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout/activity_main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Numbersorter/AndroidManifest.xml"/>
 </editors>
-<item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel="strings.xml" index="1"/>
-<item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel="strings.xml" index="2"/>
-<item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel="styles.xml" index="3"/>
-<item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel="colors.xml" index="4"/>
-<item historyLabel="styles.xml" index="3"/>
-<item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel="strings.xml" index="2"/>
-<item historyLabel="activity_main.xml" index="5"/>
-<item historyLabel="activity_main.xml" index="6"/>
-<item historyLabel="activity_main.xml" index="5"/>
-<item historyLabel="MainActivity.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Numbersorter Manifest" index="3"/>
+<item historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="1265" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="7">
-<position info="not_deleted" x="948" y="0"/>
+<item historyLabel="about.xml" index="1"/>
+<item historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="1265" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="7">
+<item historyLabel="AboutActivity.java" index="2">
+<position info="not_deleted" x="385" y="0"/>
+</item>
+<item historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="1265" y="0"/>
+</item>
+<item historyLabel="AboutActivity.java" index="4">
+<position info="not_deleted" x="585" y="0"/>
+</item>
+<item historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="2082" y="0"/>
+</item>
+<item historyLabel="new_game_dialog.xml" index="5"/>
+<item historyLabel="NewGameDialog.java" index="6">
+<position info="not_deleted" x="1258" y="0"/>
+</item>
+<item historyLabel="NewGameDialog.java" index="6">
 <position/>
 </item>
-<item historyLabel="MainActivity.java" index="7">
-<position info="not_deleted" x="601" y="0"/>
+<item historyLabel="strings.xml" index="7"/>
+<item historyLabel="NewGameDialog.java" index="6">
+<position/>
 </item>
-<item historyLabel="activity_main.xml" index="5"/>
-<item historyLabel="MainActivity.java" index="7">
-<position info="not_deleted" x="1271" y="0"/>
+<item historyLabel="activity_main.xml" index="8"/>
+<item historyLabel="new_game_dialog.xml" index="5"/>
+<item historyLabel="strings.xml" index="7"/>
+<item historyLabel="NewGameDialog.java" index="6">
+<position/>
 </item>
-<item historyLabel="MainActivity.java" index="7">
-<position info="not_deleted" x="505" y="0"/>
+<item historyLabel="new_game_dialog.xml" index="5"/>
+<item historyLabel="AboutActivity.java" index="4">
+<position info="not_deleted" x="585" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="7">
-<position info="not_deleted" x="682" y="0"/>
+<item historyLabel="strings.xml" index="7"/>
+<item historyLabel="NewGameDialog.java" index="6">
+<position/>
 </item>
-<item historyLabel="MainActivity.java" index="7">
-<position info="not_deleted" x="528" y="0"/>
+<item historyLabel="strings.xml" index="7"/>
+<item historyLabel="NewGameDialog.java" index="6">
+<position/>
 </item>
-<item historyLabel="MainActivity.java" index="7">
-<position info="not_deleted" x="579" y="0"/>
+<item historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="2082" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="7">
-<position info="not_deleted" x="1125" y="0"/>
+<item historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="2434" y="0"/>
 </item>
-<item historyLabel="strings.xml" index="2"/>
-<item historyLabel="MainActivity.java" index="7">
-<position info="not_deleted" x="1125" y="0"/>
+<item historyLabel="MainActivity.java" index="0">
+<position/>
 </item>
-<item historyLabel="about.xml" index="8"/>
-<item historyLabel="MainActivity.java" index="7">
-<position info="not_deleted" x="1125" y="0"/>
+<item historyLabel="NewGameDialog.java" index="6">
+<position/>
 </item>
-<item historyLabel="AboutActivity.java" index="9">
-<position info="not_deleted" x="385" y="0"/>
+<item historyLabel="new_game_dialog.xml" index="5"/>
+<item historyLabel="activity_main.xml" index="8"/>
+<item historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="2441" y="0"/>
 </item>
-<item historyLabel="Numbersorter Manifest" index="10"/>
-<item historyLabel="strings.xml" index="2"/>
-<item historyLabel="Numbersorter Manifest" index="10"/>
-<item historyLabel="activity_main" index="11">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="NewGameDialog.java" index="6">
+<position info="not_deleted" x="325" y="0"/>
 </item>
-<item historyLabel="Numbersorter Manifest" index="10"/>
-<item historyLabel="land\activity_main.xml" index="12"/>
-<item historyLabel="activity_main.xml" index="5"/>
-<item historyLabel="land\activity_main.xml" index="12"/>
-<item historyLabel="MainActivity.java" index="7">
-<position info="not_deleted" x="1160" y="0"/>
+<item historyLabel="strings.xml" index="7"/>
+<item historyLabel="new_game_dialog.xml" index="5"/>
+<item historyLabel="strings.xml" index="7"/>
+<item historyLabel="NewGameDialog.java" index="6">
+<position/>
 </item>
-<item historyLabel="activity_main.xml" index="5"/>
-<item historyLabel="MainActivity.java" index="7">
-<position info="not_deleted" x="1160" y="0"/>
+<item historyLabel="new_game_dialog.xml" index="5"/>
+<item historyLabel="NewGameDialog.java" index="6">
+<position/>
 </item>
-<item historyLabel="MainActivity.java" index="7">
-<position info="not_deleted" x="1265" y="0"/>
+<item historyLabel="AboutActivity.java" index="4">
+<position info="not_deleted" x="341" y="250"/>
 </item>
-<item historyLabel="land\activity_main.xml" index="12"/>
-<item historyLabel="MainActivity.java" index="7">
-<position info="not_deleted" x="1265" y="0"/>
+<item historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="2441" y="0"/>
 </item>
-<item historyLabel="Numbersorter Manifest" index="10"/>
-<item historyLabel="MainActivity.java" index="7">
-<position info="not_deleted" x="1265" y="0"/>
+<item historyLabel="NewGameDialog.java" index="6">
+<position info="not_deleted" x="35" y="0"/>
 </item>
-<item historyLabel="about.xml" index="8"/>
-<item historyLabel="MainActivity.java" index="7">
-<position info="not_deleted" x="1265" y="0"/>
+<item historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="2253" y="0"/>
 </item>
-<item historyLabel="AboutActivity.java" index="9">
-<position info="not_deleted" x="385" y="0"/>
+<item historyLabel="NewGameDialog.java" index="6">
+<position/>
 </item>
-<item active="true" historyLabel="MainActivity.java" index="7">
-<position info="not_deleted" x="1265" y="0"/>
+<item historyLabel="NewGameDialog.java" index="6">
+<position/>
+</item>
+<item historyLabel="NewGameDialog.java" index="6">
+<position/>
+</item>
+<item historyLabel="new_game_dialog.xml" index="5"/>
+<item historyLabel="Numbersorter Manifest" index="9"/>
+<item historyLabel="NewGameDialog.java" index="6">
+<position info="not_deleted" x="445" y="0"/>
+</item>
+<item historyLabel="strings.xml" index="7"/>
+<item historyLabel="Numbersorter Manifest" index="9"/>
+<item active="true" historyLabel="NewGameDialog.java" index="6">
+<position info="not_deleted" x="431" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -448,17 +479,23 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Numbersorter/AndroidManifest.xml">
+<persistable path="/Numbersorter/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NewGameDialog.java" tooltip="Numbersorter/src/com/example/numbersorter/NewGameDialog.java">
+<persistable path="/Numbersorter/src/com/example/numbersorter/NewGameDialog.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="new_game_dialog.xml" tooltip="Numbersorter/res/layout/new_game_dialog.xml">
+<persistable path="/Numbersorter/res/layout/new_game_dialog.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AboutActivity.java" tooltip="Numbersorter/src/com/example/numbersorter/AboutActivity.java">
+<persistable path="/Numbersorter/src/com/example/numbersorter/AboutActivity.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="Numbersorter/res/layout-land/activity_main.xml">
 <persistable path="/Numbersorter/res/layout-land/activity_main.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="activity_main" tooltip="Numbersorter/res/layout-land/activity_main">
 <persistable path="/Numbersorter/res/layout-land/activity_main"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Numbersorter/AndroidManifest.xml">
-<persistable path="/Numbersorter/AndroidManifest.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AboutActivity.java" tooltip="Numbersorter/src/com/example/numbersorter/AboutActivity.java">
-<persistable path="/Numbersorter/src/com/example/numbersorter/AboutActivity.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="about.xml" tooltip="Numbersorter/res/layout/about.xml">
 <persistable path="/Numbersorter/res/layout/about.xml"/>
@@ -486,12 +523,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="My First App/AndroidManifest.xml">
 <persistable path="/My First App/AndroidManifest.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DisplayMessageActivity.java" tooltip="My First App/src/com/example/my/first/app/DisplayMessageActivity.java">
-<persistable path="/My First App/src/com/example/my/first/app/DisplayMessageActivity.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="My First App/src/com/example/my/first/app/MainActivity.java">
-<persistable path="/My First App/src/com/example/my/first/app/MainActivity.java"/>
 </file>
 </mruList>
 </workbench>

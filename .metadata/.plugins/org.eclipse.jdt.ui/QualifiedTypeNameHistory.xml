@@ -7,4 +7,8 @@
 <fullyQualifiedTypeName name="android.annotation.SuppressLint"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.example.numbersorter.R.layout"/>
+<fullyQualifiedTypeName name="android.app.DialogFragment"/>
+<fullyQualifiedTypeName name="android.support.v4.app.DialogFragment"/>
+<fullyQualifiedTypeName name="android.widget.AdapterView.OnItemSelectedListener"/>
+<fullyQualifiedTypeName name="com.example.numbersorter.R.string"/>
 </qualifiedTypeNameHistroy>

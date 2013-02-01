@@ -24,8 +24,17 @@
         <activity
             android:name="com.example.numbersorter.AboutActivity"
             android:label="@string/about_app"
-            android:theme="@android:style/Theme.Dialog"
-            android:parentActivityName="com.example.numbersorter.MainActivity" >
+            android:parentActivityName="com.example.numbersorter.MainActivity"
+            android:theme="@android:style/Theme.Dialog" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.numbersorter.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.numbersorter.NewGameDialog"
+            android:label="@string/title_activity_new_game_dialog"
+            android:parentActivityName="com.example.numbersorter.MainActivity"
+            android:theme="@android:style/Theme.Dialog" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.numbersorter.MainActivity" />

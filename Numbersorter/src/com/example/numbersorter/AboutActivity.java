@@ -6,12 +6,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v4.app.NavUtils;
 
+/**
+ * Class which represents the about page,
+ * Activity is started when the about button is pressed 
+ * 
+ * @author Ricky Dalziel
+ *
+ */
 public class AboutActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.about);
+		setContentView(R.layout.about); //all we have to do is use the xml file and display it.
 
 	}
 
