@@ -1,0 +1,34 @@
+package com.example.numbersorter;
+
+import android.content.Context;
+import android.graphics.Rect;
+import android.view.View;
+
+public class GameView extends View {
+
+	private final Game game;
+	private float tileWidth, tileHeight, max;
+	private int height, width, selx, sely;
+	private final Rect selRect = new Rect();
+	
+	
+	public GameView(Context context) {
+		super(context);
+		game = (Game) context;
+		setFocusable(true);
+		setFocusableInTouchMode(true);
+		
+		height = game.getHeight();
+		width = game.getWidth();
+		
+		
+	}
+	
+	@Override
+	public void onSizeChanged(int w, int h, int oldw, int oldh){
+		
+		
+		
+	}
+
+}
