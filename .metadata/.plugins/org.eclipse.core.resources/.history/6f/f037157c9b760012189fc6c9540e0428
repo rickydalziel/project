@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:orientation="vertical" 
+	 android:layout_width="fill_parent"
+	 android:layout_height="fill_parent">
+	 
+	 <TextView 
+	    android:id="@+id/newgametext" 
+	    android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="@string/newgametext" />
+	 
+	
+	  <TableLayout
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_gravity="center"
+	        android:stretchColumns="*"
+	        android:padding="30dip">>
+	        
+	      
+	      
+	      <TableRow>
+		        
+		        <TextView 
+				    android:id="@+id/heighttext" 
+				    android:layout_width="fill_parent"
+				  	android:layout_height="wrap_content"
+				  	android:text="@string/height"
+				  	android:layout_gravity="center" />
+		        
+		        <TextView 
+				    android:id="@+id/widthtext" 
+				    android:layout_width="fill_parent"
+				  	android:layout_height="wrap_content"
+				  	android:text="@string/width"
+				  	android:layout_gravity="center" />
+					        
+		      
+	    		        
+		    </TableRow>
+	        
+	        <TableRow>
+		            
+	            
+	            
+				<Spinner 
+				    android:paddingTop="10dp"
+				    android:id="@+id/heightspinner" 
+				    android:layout_width="fill_parent"
+				  	android:layout_height="wrap_content" 
+				  	android:drawSelectorOnTop="true" />
+				
+				<Spinner 
+				    android:paddingTop="10dp"
+				    android:id="@+id/widthspinner" 
+				    android:layout_width="fill_parent"
+				  	android:layout_height="wrap_content" 
+				  	android:drawSelectorOnTop="true" />
+		 
+			    
+	        </TableRow>
+	        
+		    
+		    
+		  
+		    <TableRow
+		        android:padding="0dp">
+		        
+		        <Button
+		            android:id="@+id/start_new_game_button"
+		            android:layout_width="fill_parent"
+		            android:layout_height="fill_parent"
+		            android:text="@string/new_game" />
+		        
+		         <Button
+		            android:id="@+id/cancel_button"
+		            android:layout_width="fill_parent"
+		            android:layout_height="fill_parent"
+		            android:text="@string/cancel"  />
+		        
+		        
+		        
+		    </TableRow>
+		    
+		    
+		</TableLayout>
+	 
+</LinearLayout>
