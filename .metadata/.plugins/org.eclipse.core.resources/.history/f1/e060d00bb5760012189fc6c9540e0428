@@ -81,11 +81,10 @@ public class GameView extends View {
 		canvas.drawRect(unsolvebutton , buttons);
 		canvas.drawRect(quitbutton, buttons); 
 		
-		Paint buttonText = new Paint(Paint.ANTI_ALIAS_FLAG);
+		Paint buttonText = new Paint();
 		buttonText.setColor(getResources().getColor(R.color.white));
 		
-		canvas.drawText("Unsolvable?", unsolvebutton.left + 40, unsolvebutton.top + 25, buttonText);
-		canvas.drawText("Quit", quitbutton.left + 60, quitbutton.top+25, buttonText);
+		canvas.drawText("Unsolvable?", 0, 11, unsolvebutton.left + 30, unsolvebutton.top + 30, buttonText);
 				
 
 	}

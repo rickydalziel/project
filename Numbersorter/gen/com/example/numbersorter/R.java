@@ -17,8 +17,9 @@ public final class R {
     }
     public static final class color {
         public static final int background=0x7f040000;
+        public static final int black=0x7f040002;
         public static final int puzzle_background=0x7f040001;
-        public static final int test=0x7f040002;
+        public static final int white=0x7f040003;
     }
     public static final class drawable {
         public static final int ic_action_search=0x7f020000;

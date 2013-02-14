@@ -5,7 +5,6 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.view.View;
-import android.widget.Button;
 
 public class GameView extends View {
 
@@ -48,7 +47,7 @@ public class GameView extends View {
 		// draw the grid
 
 		Paint grid = new Paint();
-		grid.setColor(getResources().getColor(R.color.black));
+		grid.setColor(getResources().getColor(R.color.test));
 		grid.setStrokeWidth(4);
 
 		float startx;
@@ -71,28 +70,7 @@ public class GameView extends View {
 					* tileSize, starty + (height * tileSize) + 2, grid);			
 			
 		}
-		
-		Paint buttons = new Paint();
-		buttons.setColor(getResources().getColor(R.color.black));
-		
-		Rect unsolvebutton = new Rect(5, (int) (gridheight+5), (getWidth()/2 - 5), getHeight() -5 );
-		Rect quitbutton = new Rect(getWidth()/2 +5, (int) (gridheight+5), getWidth()-5, getHeight()-5);
-		
-		canvas.drawRect(unsolvebutton , buttons);
-		canvas.drawRect(quitbutton, buttons); 
-		
-		Paint buttonText = new Paint(Paint.ANTI_ALIAS_FLAG);
-		buttonText.setColor(getResources().getColor(R.color.white));
-		
-		canvas.drawText("Unsolvable?", unsolvebutton.left + 40, unsolvebutton.top + 25, buttonText);
-		canvas.drawText("Quit", quitbutton.left + 60, quitbutton.top+25, buttonText);
-				
 
 	}
-
-
-
-	
-	
 
 }
