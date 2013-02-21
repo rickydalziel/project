@@ -11,4 +11,8 @@
 <fullyQualifiedTypeName name="android.support.v4.app.DialogFragment"/>
 <fullyQualifiedTypeName name="android.widget.AdapterView.OnItemSelectedListener"/>
 <fullyQualifiedTypeName name="com.example.numbersorter.R.string"/>
+<fullyQualifiedTypeName name="org.junit.Before"/>
+<fullyQualifiedTypeName name="java.sql.Array"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.example.numbersorter.R.color"/>
 </qualifiedTypeNameHistroy>

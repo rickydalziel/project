@@ -10,6 +10,8 @@ import android.widget.Button;
 public class GameView extends View {
 
 	private final Game game;
+	private final double TEXTPADDINGH = 0.35;
+	private final double TEXTPADDINGV = 0.65;
 	private float tileSize;
 	private int height, width, selx, sely, max;
 	private final Rect selRect = new Rect();
@@ -50,6 +52,10 @@ public class GameView extends View {
 		Paint grid = new Paint();
 		grid.setColor(getResources().getColor(R.color.black));
 		grid.setStrokeWidth(4);
+		
+		Paint text = new Paint(Paint.ANTI_ALIAS_FLAG);
+		text.setColor(getResources().getColor(R.color.black));
+		text.setTextSize((float) (tileSize*0.5));
 
 		float startx;
 		float starty;
@@ -57,6 +63,18 @@ public class GameView extends View {
 		starty = (gridheight - tileSize * height) / 2;
 		startx = (getWidth() - tileSize*width)/2;
 		
+		int[][] gameGrid = game.getGrid();
+		
+
+		for(int i = 0; i < height; i++){
+			for (int j = 0; j < width; j++){
+				
+				String number = Integer.toString(gameGrid[i][j]);
+				canvas.drawText(number, (int)(startx +  (i * tileSize) + (TEXTPADDINGH * tileSize)),(int)( starty + (j*tileSize) + (TEXTPADDINGV *tileSize)), text);
+				
+			}
+			
+		}
 
 		for (int i = 0; i <= height; i++) {
 
@@ -72,6 +90,8 @@ public class GameView extends View {
 			
 		}
 		
+
+		
 		Paint buttons = new Paint();
 		buttons.setColor(getResources().getColor(R.color.black));
 		
@@ -86,6 +106,7 @@ public class GameView extends View {
 		
 		canvas.drawText("Unsolvable?", unsolvebutton.left + 40, unsolvebutton.top + 25, buttonText);
 		canvas.drawText("Quit", quitbutton.left + 60, quitbutton.top+25, buttonText);
+		
 				
 
 	}

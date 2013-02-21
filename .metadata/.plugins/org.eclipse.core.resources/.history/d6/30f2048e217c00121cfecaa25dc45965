@@ -1,0 +1,156 @@
+package com.example.numbersorter;
+
+import java.util.ArrayList;
+import java.util.Random;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class Game extends Activity {
+	
+	public static final int VERTICAL = 1;
+	public static final int HORIZONTAL = 0;
+	
+	private int height, width, moveCount;
+	private int[][] grid, solution;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		Bundle extras = getIntent().getExtras();
+		
+		height = extras.getInt("height");
+		width = extras.getInt("width");
+	
+		initialise();		
+
+		
+		GameView gameview = new GameView(this);
+		setContentView(gameview);
+		gameview.requestFocus();
+		
+	}
+//	
+//	public Game(){
+//		
+//		initialise();
+//		
+//	}
+//	
+	private void initialise() {
+		
+		grid = new int[width][height];
+		
+		ArrayList<Integer> numbers = new ArrayList<Integer>();
+		
+		for (int i = 1; i <= height*width; i++){
+			
+			numbers.add(i);
+			
+		}
+		
+		generateSolution();
+		
+		Random r = new Random();
+		
+		for (int i = 0; i < width; i++){
+			for(int j = 0; j < height; j++){
+				
+				int number = numbers.get(r.nextInt(numbers.size()));
+				grid[i][j] = number;
+				numbers.remove(numbers.indexOf(number));
+				
+			}
+			
+		}
+		
+		
+		
+	}
+
+	private void generateSolution() {
+		
+		for (int i = 0; i < width; i++){
+			for(int j = 0; j < height; i++){
+				
+				solution[i][j] = (width * i) + j;
+								
+			}
+		}
+		
+	}
+//
+//	public Game(int[][] grid){
+//		
+//		this.grid = grid;
+//	}
+//	
+//	public Game(int height, int width){
+//		
+//		this.height = height;
+//		this.width = width;
+//		initialise();
+//		
+//	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public int getWidth() {
+		return width;
+	}
+	
+
+	public int[][] getGrid() {
+		
+		return grid;
+		
+	}
+
+	public boolean checkfinished() {
+		
+		return (grid == solution);
+		
+	}
+
+	public void swipe(int direction, int index, int distance) {
+
+		if(direction == VERTICAL){
+			
+			int[] newColumn = new int[height];
+			
+			for (int i = 0; i < height; i++){
+				 	
+				newColumn[(i + distance) % height] = grid[i][index]; 
+				
+			}
+			
+			for (int i = 0; i < height; i++){
+			 	
+				grid[i][index] = newColumn[i]; 
+				
+			}
+			
+			
+		}
+		else{
+			
+			int[] row = grid[index];	
+			int[] newRow = new int[width];
+			for (int i = 0; i < width; i++){
+				
+				newRow[(i + distance)% width] = row[i];
+				
+			}
+			
+			grid[index] = newRow;
+			
+		}
+		
+		
+	}
+
+
+
+}

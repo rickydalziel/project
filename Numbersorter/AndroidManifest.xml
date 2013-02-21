@@ -41,6 +41,7 @@
         </activity>
         <activity
             android:name="com.example.numbersorter.Game"
+            android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_game"
             android:parentActivityName="com.example.numbersorter.MainActivity" >
             <meta-data

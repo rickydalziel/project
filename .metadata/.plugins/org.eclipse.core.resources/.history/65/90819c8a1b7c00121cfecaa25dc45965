@@ -1,0 +1,74 @@
+package com.example.numbersorter;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.TextView;
+
+public class Game extends Activity {
+	
+	public static final int VERTICAL = 1;
+	public static final int HORIZONTAL = 0;
+	
+	private int height, width, moveCount;
+	private int[][] grid;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		Bundle extras = getIntent().getExtras();
+		
+		height = extras.getInt("height");
+		width = extras.getInt("width");
+		
+		GameView gameview = new GameView(this);
+		setContentView(gameview);
+		gameview.requestFocus();
+		
+	}
+	
+	public Game(){
+		
+		initialise();
+		
+	}
+	
+	private void initialise() {
+		
+		
+		
+	}
+
+	public Game(int[][] grid){
+		
+		this.grid = grid;
+	}
+	
+	public Game(int height, int width){
+		
+		this.height = height;
+		this.width = width;
+		initialise();
+		
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public int getWidth() {
+		return width;
+	}
+	
+
+	public int[][] getGrid() {
+		
+		return board;
+	}
+
+	public boolean checkfinished() {
+		
+	}
+
+
+
+}

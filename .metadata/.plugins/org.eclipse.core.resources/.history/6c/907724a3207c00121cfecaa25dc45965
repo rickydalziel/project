@@ -1,0 +1,82 @@
+package com.example.numbersorter;
+
+import java.util.ArrayList;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import junit.framework.TestCase;
+
+public class ModelTests extends TestCase {
+	
+	private Game horizontalTest, verticalTest, initTest;
+	
+	@Before
+	public void setup(){
+		
+		int[][] board = {{2,3,1},{4,5,6},{7,8,9}};
+		initTest = new Game(3,3);
+		horizontalTest = new Game(board);
+		verticalTest = new Game(board);
+		
+	}
+	
+	@Test
+	public void testInit(){
+		
+		int grid[][] = initTest.getGrid();
+		
+		assertNotNull(grid);
+			
+		
+	}
+	
+	@Test
+	public void testPopulatedGrid(){
+		
+		int grid[][] = initTest.getGrid();
+	
+		ArrayList<Integer> oneToNine = new ArrayList<Integer>();
+		
+		for (int i = 1; i <= 9; i++){
+			
+			oneToNine.add(i);
+		}
+		
+		for (int i = 0; i < 3; i++){
+			for(int j = 0; j < 3; j++){
+				
+				int test = grid[i][j];
+				assertTrue(oneToNine.contains(test));
+				oneToNine.remove(oneToNine.indexOf(test));
+			}
+		}
+		
+	}
+	
+	@Test
+	public void testHorizontalSwipe(){
+		
+		int [][] expected =  {{1,2,3},{4,5,6},{7,8,9}};
+		horizontalTest.swipe(Game.HORIZONTAL, 0, 1);
+		assertEquals(expected ,horizontalTest.getGrid());
+	}
+	
+	@Test
+	public void testComplete(){
+		
+		assertTrue(horizontalTest.checkfinished());
+		
+	}
+	
+	@Test
+	public void testVerticalSwipe(){
+		
+		int [][] expected =  {{7,3,1},{2,5,6},{4,8,9}};
+		verticalTest.swipe(Game.VERTICAL, 0, 1);
+		assertEquals(expected, verticalTest.getGrid());
+	}
+
+}
+
+
