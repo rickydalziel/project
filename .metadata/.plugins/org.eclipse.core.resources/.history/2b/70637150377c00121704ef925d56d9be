@@ -167,7 +167,7 @@ public class GameView extends View {
 								game.swipe(
 										game.VERTICAL,
 										column,
-										newRow - row);
+										newColumn - column);
 
 
 						} else {
@@ -176,7 +176,7 @@ public class GameView extends View {
 								game.swipe(
 										game.HORIZONTAL,
 										row,
-										newColumn - column);
+										newRow - row);
 
 						}
 

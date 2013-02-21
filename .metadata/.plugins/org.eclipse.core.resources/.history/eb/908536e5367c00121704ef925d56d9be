@@ -157,8 +157,8 @@ public class GameView extends View {
 					float releaseX = event.getRawX();
 					float releaseY = event.getRawY();
 					
-					int newRow = (int) Math.floor((releaseY - starty) / tileSize);
-					int newColumn = (int) Math.floor((releaseX - startx) / tileSize);
+					int newRow = (int) Math.floor((initialY - starty) / tileSize);
+					int newColumn = (int) Math.floor((initialX - startx) / tileSize);
 
 					if (ingrid && (newColumn != column || newRow != row)) {
 						// swiped up
@@ -167,7 +167,7 @@ public class GameView extends View {
 								game.swipe(
 										game.VERTICAL,
 										column,
-										newRow - row);
+										newColumn - column);
 
 
 						} else {
@@ -176,7 +176,7 @@ public class GameView extends View {
 								game.swipe(
 										game.HORIZONTAL,
 										row,
-										newColumn - column);
+										newRow - row);
 
 						}
 

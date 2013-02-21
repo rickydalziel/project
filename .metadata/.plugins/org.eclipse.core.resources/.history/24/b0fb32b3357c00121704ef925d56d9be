@@ -154,29 +154,31 @@ public class GameView extends View {
 				if (event.getAction() == MotionEvent.ACTION_UP) {
 					deltaX = event.getRawX() - initialX;
 					deltaY = event.getRawY() - initialY;
-					float releaseX = event.getRawX();
-					float releaseY = event.getRawY();
-					
-					int newRow = (int) Math.floor((releaseY - starty) / tileSize);
-					int newColumn = (int) Math.floor((releaseX - startx) / tileSize);
 
-					if (ingrid && (newColumn != column || newRow != row)) {
+					if (ingrid) {
 						// swiped up
 						if (Math.abs(deltaY) > Math.abs(deltaX)) {
-					
+
+							if (Math.abs(deltaY) > tileSize) {
+								
+								int test = (int) Math.min(height - 1, deltaY
+										/ tileSize);
 								game.swipe(
 										game.VERTICAL,
 										column,
-										newRow - row);
-
+										test);
+								
+							}
 
 						} else {
-
+							if (Math.abs(deltaX) > tileSize) {
 
 								game.swipe(
 										game.HORIZONTAL,
 										row,
-										newColumn - column);
+										(int) Math.min(width - 1, deltaX
+												/ tileSize));
+							}
 
 						}
 
