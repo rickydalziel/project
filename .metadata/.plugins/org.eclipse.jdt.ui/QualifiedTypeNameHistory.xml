@@ -20,4 +20,6 @@
 <fullyQualifiedTypeName name="android.graphics.Paint.Align"/>
 <fullyQualifiedTypeName name="android.view.Window"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="com.example.numbersorter.GameView"/>
+<fullyQualifiedTypeName name="com.example.numbersorter.UnsolveDialog"/>
 </qualifiedTypeNameHistroy>

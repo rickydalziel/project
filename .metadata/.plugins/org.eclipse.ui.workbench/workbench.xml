@@ -42,23 +42,46 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GameView.java" partName="GameView.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/GameView.java" title="GameView.java" tooltip="Numbersorter/src/com/example/numbersorter/GameView.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/GameView.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4732" selectionTopPixel="945"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5489" selectionTopPixel="469"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Game.java" partName="Game.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/Game.java" title="Game.java" tooltip="Numbersorter/src/com/example/numbersorter/Game.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/Game.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2251" selectionTopPixel="814"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2645" selectionTopPixel="1309"/>
 </editor>
 <editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_game.xml" partName="activity_game.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/layout/activity_game.xml" title="activity_game.xml" tooltip="Numbersorter/res/layout/activity_game.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/layout/activity_game.xml"/>
 </editor>
 <editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="Numbersorter Manifest" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/AndroidManifest.xml" title="Numbersorter Manifest" tooltip="Numbersorter/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/AndroidManifest.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_unsolve_dialog.xml" partName="activity_unsolve_dialog.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/layout/activity_unsolve_dialog.xml" title="activity_unsolve_dialog.xml" tooltip="Numbersorter/res/layout/activity_unsolve_dialog.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/layout/activity_unsolve_dialog.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" partName="strings.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/values/strings.xml" title="strings.xml" tooltip="Numbersorter/res/values/strings.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/values/strings.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/MainActivity.java" title="MainActivity.java" tooltip="Numbersorter/src/com/example/numbersorter/MainActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/MainActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="206" selectionOffset="1876" selectionTopPixel="720"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UnsolveDialog.java" partName="UnsolveDialog.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/UnsolveDialog.java" title="UnsolveDialog.java" tooltip="Numbersorter/src/com/example/numbersorter/UnsolveDialog.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/UnsolveDialog.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="422" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NewGameDialog.java" partName="NewGameDialog.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/NewGameDialog.java" title="NewGameDialog.java" tooltip="Numbersorter/src/com/example/numbersorter/NewGameDialog.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/NewGameDialog.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -460,157 +483,161 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Numbersorter/AndroidManifest.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/GameView.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/MainActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/UnsolveDialog.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/NewGameDialog.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/Game.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout/activity_game.xml"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=My First App/C:\/Users\/Ricky\/AppData\/Local\/Android\/android-sdk\/platforms\/android-16\/android.jar&lt;android.view(Choreographer.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=My First App/C:\/Users\/Ricky\/AppData\/Local\/Android\/android-sdk\/platforms\/android-16\/android.jar&lt;android.os(MessageQueue.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=My First App/C:\/Users\/Ricky\/AppData\/Local\/Android\/android-sdk\/platforms\/android-16\/android.jar&lt;java.lang.reflect(InvocationTargetException.class"/>
 </editors>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4700" y="0"/>
-</item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="3947" y="19"/>
-</item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="958" y="0"/>
-</item>
-<item historyLabel="Game.java" index="2">
-<position info="not_deleted" x="842" y="0"/>
-</item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="958" y="0"/>
-</item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="3882" y="0"/>
-</item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4747" y="0"/>
-</item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4702" y="10"/>
-</item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="3882" y="0"/>
-</item>
-<item historyLabel="GameView.java" index="1">
+<item historyLabel="GameView.java" index="0">
 <position/>
 </item>
-<item historyLabel="GameView.java" index="1">
+<item historyLabel="Game.java" index="4">
+<position info="not_deleted" x="2303" y="0"/>
+</item>
+<item historyLabel="Game.java" index="4">
+<position info="not_deleted" x="2541" y="0"/>
+</item>
+<item historyLabel="UnsolveDialog.java" index="2">
+<position info="not_deleted" x="415" y="0"/>
+</item>
+<item historyLabel="Game.java" index="4">
+<position info="not_deleted" x="2541" y="0"/>
+</item>
+<item historyLabel="UnsolveDialog.java" index="2">
+<position info="not_deleted" x="407" y="0"/>
+</item>
+<item historyLabel="NewGameDialog.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="GameView.java" index="0">
 <position/>
 </item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4633" y="0"/>
+<item historyLabel="Game.java" index="4">
+<position info="not_deleted" x="2535" y="0"/>
 </item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4631" y="0"/>
+<item historyLabel="NewGameDialog.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4747" y="0"/>
+<item historyLabel="UnsolveDialog.java" index="2">
+<position info="not_deleted" x="411" y="0"/>
 </item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4609" y="0"/>
+<item historyLabel="NewGameDialog.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4747" y="0"/>
+<item historyLabel="UnsolveDialog.java" index="2">
+<position info="not_deleted" x="405" y="0"/>
 </item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4621" y="0"/>
+<item historyLabel="NewGameDialog.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4747" y="0"/>
+<item historyLabel="UnsolveDialog.java" index="2">
+<position info="not_deleted" x="405" y="0"/>
 </item>
-<item historyLabel="GameView.java" index="1">
+<item historyLabel="NewGameDialog.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Game.java" index="4">
+<position info="not_deleted" x="2509" y="0"/>
+</item>
+<item historyLabel="GameView.java" index="0">
 <position/>
 </item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4590" y="0"/>
+<item historyLabel="GameView.java" index="0">
+<position info="not_deleted" x="5611" y="0"/>
 </item>
-<item historyLabel="Choreographer.class" index="4">
+<item historyLabel="GameView.java" index="0">
+<position info="not_deleted" x="4570" y="56"/>
+</item>
+<item historyLabel="GameView.java" index="0">
+<position info="not_deleted" x="4743" y="0"/>
+</item>
+<item historyLabel="GameView.java" index="0">
+<position info="not_deleted" x="4742" y="0"/>
+</item>
+<item historyLabel="GameView.java" index="0">
+<position info="not_deleted" x="4826" y="130"/>
+</item>
+<item historyLabel="GameView.java" index="0">
+<position info="not_deleted" x="4282" y="0"/>
+</item>
+<item historyLabel="GameView.java" index="0">
+<position info="not_deleted" x="5243" y="0"/>
+</item>
+<item historyLabel="Game.java" index="4">
+<position info="not_deleted" x="2645" y="0"/>
+</item>
+<item historyLabel="NewGameDialog.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4590" y="0"/>
+<item historyLabel="UnsolveDialog.java" index="2">
+<position info="not_deleted" x="405" y="0"/>
 </item>
-<item historyLabel="Game.java" index="2">
-<position info="not_deleted" x="842" y="0"/>
+<item historyLabel="MainActivity.java" index="1">
+<position info="not_deleted" x="1876" y="206"/>
 </item>
-<item historyLabel="Numbersorter Manifest" index="0"/>
-<item historyLabel="activity_game.xml" index="3"/>
-<item historyLabel="Game.java" index="2">
-<position info="not_deleted" x="842" y="0"/>
+<item historyLabel="GameView.java" index="0">
+<position info="not_deleted" x="5243" y="0"/>
 </item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4590" y="0"/>
+<item historyLabel="Game.java" index="4">
+<position info="not_deleted" x="2645" y="0"/>
 </item>
-<item historyLabel="MessageQueue.class" index="5">
+<item historyLabel="GameView.java" index="0">
+<position info="not_deleted" x="4021" y="0"/>
+</item>
+<item historyLabel="Game.java" index="4">
+<position info="not_deleted" x="2645" y="0"/>
+</item>
+<item historyLabel="GameView.java" index="0">
+<position info="not_deleted" x="4021" y="0"/>
+</item>
+<item historyLabel="Game.java" index="4">
+<position info="not_deleted" x="2645" y="0"/>
+</item>
+<item historyLabel="UnsolveDialog.java" index="2">
+<position info="not_deleted" x="422" y="0"/>
+</item>
+<item historyLabel="GameView.java" index="0">
+<position info="not_deleted" x="4021" y="0"/>
+</item>
+<item historyLabel="Game.java" index="4">
+<position info="not_deleted" x="2645" y="0"/>
+</item>
+<item historyLabel="NewGameDialog.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4590" y="0"/>
+<item historyLabel="UnsolveDialog.java" index="2">
+<position info="not_deleted" x="422" y="0"/>
 </item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4700" y="0"/>
-</item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4521" y="0"/>
-</item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="3334" y="0"/>
-</item>
-<item historyLabel="Choreographer.class" index="4">
+<item historyLabel="NewGameDialog.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="InvocationTargetException.class" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="UnsolveDialog.java" index="2">
+<position info="not_deleted" x="422" y="0"/>
 </item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4521" y="0"/>
+<item historyLabel="GameView.java" index="0">
+<position info="not_deleted" x="4021" y="0"/>
 </item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4542" y="0"/>
+<item historyLabel="GameView.java" index="0">
+<position/>
 </item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4521" y="0"/>
+<item historyLabel="GameView.java" index="0">
+<position/>
 </item>
-<item historyLabel="Game.java" index="2">
-<position info="not_deleted" x="1886" y="0"/>
+<item historyLabel="GameView.java" index="0">
+<position info="not_deleted" x="4949" y="0"/>
 </item>
-<item historyLabel="Game.java" index="2">
-<position info="not_deleted" x="1920" y="0"/>
+<item historyLabel="GameView.java" index="0">
+<position info="not_deleted" x="4739" y="0"/>
 </item>
-<item historyLabel="Game.java" index="2">
-<position info="not_deleted" x="1961" y="0"/>
+<item historyLabel="GameView.java" index="0">
+<position info="not_deleted" x="4728" y="0"/>
 </item>
-<item historyLabel="Game.java" index="2">
-<position info="not_deleted" x="2002" y="0"/>
+<item historyLabel="GameView.java" index="0">
+<position info="not_deleted" x="4730" y="0"/>
 </item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="3334" y="0"/>
-</item>
-<item historyLabel="Numbersorter Manifest" index="0"/>
-<item historyLabel="Game.java" index="2">
-<position info="not_deleted" x="2251" y="0"/>
-</item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="3334" y="0"/>
-</item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4378" y="0"/>
-</item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4745" y="0"/>
-</item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4382" y="0"/>
-</item>
-<item historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4464" y="0"/>
-</item>
-<item active="true" historyLabel="GameView.java" index="1">
-<position info="not_deleted" x="4637" y="0"/>
+<item active="true" historyLabel="GameView.java" index="0">
+<position info="not_deleted" x="4739" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -633,6 +660,21 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NewGameDialog.java" tooltip="Numbersorter/src/com/example/numbersorter/NewGameDialog.java">
+<persistable path="/Numbersorter/src/com/example/numbersorter/NewGameDialog.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UnsolveDialog.java" tooltip="Numbersorter/src/com/example/numbersorter/UnsolveDialog.java">
+<persistable path="/Numbersorter/src/com/example/numbersorter/UnsolveDialog.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="Numbersorter/src/com/example/numbersorter/MainActivity.java">
+<persistable path="/Numbersorter/src/com/example/numbersorter/MainActivity.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="Numbersorter/res/values/strings.xml">
+<persistable path="/Numbersorter/res/values/strings.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_unsolve_dialog.xml" tooltip="Numbersorter/res/layout/activity_unsolve_dialog.xml">
+<persistable path="/Numbersorter/res/layout/activity_unsolve_dialog.xml"/>
+</file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Choreographer.class" tooltip="android.view.Choreographer">
 <persistable org.eclipse.jdt.ui.ClassFileIdentifier="=My First App/C:\/Users\/Ricky\/AppData\/Local\/Android\/android-sdk\/platforms\/android-16\/android.jar&lt;android.view(Choreographer.class"/>
 </file>
@@ -662,12 +704,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="about.xml" tooltip="Numbersorter/res/layout/about.xml">
 <persistable path="/Numbersorter/res/layout/about.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="Numbersorter/res/layout-land/activity_main.xml">
-<persistable path="/Numbersorter/res/layout-land/activity_main.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NewGameDialog.java" tooltip="Numbersorter/src/com/example/numbersorter/NewGameDialog.java">
-<persistable path="/Numbersorter/src/com/example/numbersorter/NewGameDialog.java"/>
 </file>
 </mruList>
 </workbench>
