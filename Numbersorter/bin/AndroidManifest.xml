@@ -48,6 +48,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.numbersorter.MainActivity" />
         </activity>
+        <activity
+            android:name="com.example.numbersorter.UnsolveDialog"
+            android:label="@string/title_activity_unsolve_dialog"
+            android:parentActivityName="com.example.numbersorter.Game"
+            android:theme="@android:style/Theme.Dialog" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.numbersorter.Game" />
+        </activity>
     </application>
 
 </manifest>

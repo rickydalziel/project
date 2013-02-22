@@ -45,13 +45,15 @@ public final class R {
         public static final int about=0x7f030000;
         public static final int activity_game=0x7f030001;
         public static final int activity_main=0x7f030002;
-        public static final int new_game_dialog=0x7f030003;
+        public static final int activity_unsolve_dialog=0x7f030003;
+        public static final int new_game_dialog=0x7f030004;
     }
     public static final class menu {
         public static final int about=0x7f080000;
         public static final int activity_game=0x7f080001;
         public static final int activity_main=0x7f080002;
-        public static final int new_game_dialog=0x7f080003;
+        public static final int activity_unsolve_dialog=0x7f080003;
+        public static final int new_game_dialog=0x7f080004;
     }
     public static final class string {
         public static final int about=0x7f050006;
@@ -76,6 +78,8 @@ public final class R {
         public static final int title_activity_about=0x7f05000b;
         public static final int title_activity_game=0x7f050010;
         public static final int title_activity_main=0x7f050003;
+        public static final int title_activity_unsolve_dialog=0x7f050011;
+        public static final int unsolveable=0x7f050012;
         public static final int width=0x7f05000e;
     }
     public static final class style {

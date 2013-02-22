@@ -37,5 +37,7 @@
     </string-array>
 
     <string name="title_activity_game">Game</string>
+    <string name="title_activity_unsolve_dialog">Unsolveable?</string>
+    <string name="unsolveable">NAW</string>
 
 </resources>

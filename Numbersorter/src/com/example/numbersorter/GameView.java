@@ -1,14 +1,13 @@
 package com.example.numbersorter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Paint.Align;
 import android.graphics.Rect;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.Window;
-import android.widget.Button;
 
 public class GameView extends View {
 
@@ -18,12 +17,14 @@ public class GameView extends View {
 	private float tileSize;
 	private int height, width;
 	private final Rect selRect = new Rect();
+	private int statusBarHeight;
 
 	private float initialX = 0;
 	private float initialY = 0;
 	private float deltaX = 0;
 	private float deltaY = 0;
 	private float startx, starty;
+	private Rect unsolvebutton, quitbutton;
 
 	public GameView(Context context) {
 		super(context);
@@ -45,6 +46,9 @@ public class GameView extends View {
 	public void onDraw(Canvas canvas) {
 
 		float gridheight = getHeight() - 50;
+		
+		Context context = getContext();
+		statusBarHeight = (int) Math.ceil(25 * context.getResources().getDisplayMetrics().density);
 
 		tileSize = Math.min(gridheight / height, getWidth() / width);
 
@@ -100,9 +104,9 @@ public class GameView extends View {
 		Paint buttons = new Paint();
 		buttons.setColor(getResources().getColor(R.color.black));
 
-		Rect unsolvebutton = new Rect(5, (int) (gridheight + 5),
+		unsolvebutton = new Rect(5, (int) (gridheight + 5),
 				(getWidth() / 2 - 5), getHeight() - 5);
-		Rect quitbutton = new Rect(getWidth() / 2 + 5, (int) (gridheight + 5),
+		quitbutton = new Rect(getWidth() / 2 + 5, (int) (gridheight + 5),
 				getWidth() - 5, getHeight() - 5);
 
 		canvas.drawRect(unsolvebutton, buttons);
@@ -124,10 +128,14 @@ public class GameView extends View {
 		int column = 0;
 		int row = 0;
 		boolean ingrid = false;
+		boolean inUnsolve = false;
+		boolean inQuit = false;
 
 		synchronized (event) {
 			try {
 				event.wait(16);
+				
+
 
 				// when user touches the screen
 				if (event.getAction() == MotionEvent.ACTION_DOWN) {
@@ -136,7 +144,19 @@ public class GameView extends View {
 
 					// get initial positions
 					initialX = event.getRawX();
-					initialY = event.getRawY();
+					initialY = event.getRawY() - statusBarHeight;
+				}
+				
+				if(unsolvebutton.contains((int) initialX, (int) initialY)){
+					
+					inUnsolve = true;
+					
+					
+				}
+				
+				if(quitbutton.contains((int) initialX, (int) initialY)){
+					
+					
 				}
 
 				if (initialX >= startx
@@ -152,10 +172,24 @@ public class GameView extends View {
 
 				// when screen is released
 				if (event.getAction() == MotionEvent.ACTION_UP) {
-					deltaX = event.getRawX() - initialX;
-					deltaY = event.getRawY() - initialY;
 					float releaseX = event.getRawX();
-					float releaseY = event.getRawY();
+					float releaseY = event.getRawY() - statusBarHeight;
+					deltaX = releaseX - initialX;
+					deltaY = releaseY - initialY;
+					int height = getHeight();
+					
+					if(unsolvebutton.contains((int) releaseX, (int) releaseY) && inUnsolve){
+						
+						Context context = getContext();
+						Intent i = new Intent(context, UnsolveDialog.class);
+						context.startActivity(i);
+						return true;
+					}
+					
+					if(quitbutton.contains((int) releaseX, (int) releaseY) && inQuit){
+						
+						
+					}
 					
 					int newRow = (int) Math.floor((releaseY - starty) / tileSize);
 					int newColumn = (int) Math.floor((releaseX - startx) / tileSize);
@@ -165,19 +199,17 @@ public class GameView extends View {
 						if (Math.abs(deltaY) > Math.abs(deltaX)) {
 					
 								game.swipe(
-										game.VERTICAL,
+										Game.VERTICAL,
 										column,
 										newRow - row);
 
-
-						} else {
-
-
-								game.swipe(
-										game.HORIZONTAL,
+						} 
+						else {
+							
+							game.swipe(
+										Game.HORIZONTAL,
 										row,
 										newColumn - column);
-
 						}
 
 						invalidate();
@@ -191,6 +223,9 @@ public class GameView extends View {
 			}
 
 		}
-		return ingrid;
+		return true;
 	}
+	
+
+
 }
