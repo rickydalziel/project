@@ -1,5 +1,6 @@
 package com.example.numbersorter;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Canvas;
@@ -45,7 +46,7 @@ public class GameView extends View {
 	@Override
 	public void onDraw(Canvas canvas) {
 
-		float gridheight = getHeight() - 50;
+		float gridheight = getHeight() - Math.max(getWidth(), getHeight())/8;
 		
 		Context context = getContext();
 		statusBarHeight = (int) Math.ceil(25 * context.getResources().getDisplayMetrics().density);
@@ -115,9 +116,9 @@ public class GameView extends View {
 		Paint buttonText = new Paint(Paint.ANTI_ALIAS_FLAG);
 		buttonText.setColor(getResources().getColor(R.color.white));
 
-		canvas.drawText("Unsolvable?", unsolvebutton.left + 40,
-				unsolvebutton.top + 25, buttonText);
-		canvas.drawText("Quit", quitbutton.left + 60, quitbutton.top + 25,
+		canvas.drawText("Unsolvable?", unsolvebutton.left + unsolvebutton.width()/8,
+				unsolvebutton.top + unsolvebutton.height()/2, buttonText);
+		canvas.drawText("Quit", quitbutton.left + unsolvebutton.width()/7, quitbutton.top + quitbutton.height()/2,
 				buttonText);
 
 	}
@@ -156,6 +157,7 @@ public class GameView extends View {
 				
 				if(quitbutton.contains((int) initialX, (int) initialY)){
 					
+					inQuit = true;
 					
 				}
 
@@ -182,12 +184,15 @@ public class GameView extends View {
 						
 						Context context = getContext();
 						Intent i = new Intent(context, UnsolveDialog.class);
-						context.startActivity(i);
+						i.putExtra("unsolveable", game.isUnsolvable());
+						((Activity)context).startActivityForResult(i, 0);
 						return true;
 					}
 					
 					if(quitbutton.contains((int) releaseX, (int) releaseY) && inQuit){
 						
+						((Game)getContext()).setResult(2);
+						((Game)getContext()).finish();
 						
 					}
 					

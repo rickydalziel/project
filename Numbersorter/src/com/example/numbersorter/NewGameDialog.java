@@ -47,8 +47,15 @@ public class NewGameDialog extends Activity {
 		Intent i = new Intent(this, Game.class);
 		i.putExtra("height", height);
 		i.putExtra("width", width);
-		startActivity(i);
+		startActivityForResult(i, 0);
 
+	}
+	
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+	    if(resultCode==2){
+	        finish();
+	    }
 	}
 	
 	

@@ -17,6 +17,7 @@ public class Game extends Activity {
 	private int height, width, moveCount;
 	private int[][] grid = null;
 	private int[][] solution;
+	private boolean solvable;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -32,9 +33,32 @@ public class Game extends Activity {
 
 		gameview = new GameView(this);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		checkUnsolveable();
 		setContentView(gameview);
 		gameview.requestFocus();
 
+	}
+	
+	private void checkUnsolveable(){
+		
+		int[] flatGrid = flatten();
+		int counter = 0;
+		
+		for (int i = 0; i < flatGrid.length; i++){			
+			for (int j = i+1; j < flatGrid.length; j++){		
+				if(flatGrid[i] > flatGrid[j]){
+					
+					counter++;		
+				}
+			}		
+		}
+		
+		solvable = (Math.pow(-1, counter) > 0);
+	}
+	
+	public boolean isUnsolvable(){
+		
+		return solvable;
 	}
 
 	private int[][] initialise() {
@@ -74,7 +98,7 @@ public class Game extends Activity {
 		for (int i = 0; i < height; i++) {
 			for (int j = 0; j < width; j++) {
 
-				solution[i][j] = (height * i) + j + 1;
+				solution[i][j] = (width * i) + j + 1;
 
 			}
 		}
@@ -136,13 +160,40 @@ public class Game extends Activity {
 		}
 
 	}
-
-	public void showUnsolveDialog() {
-
-		gameview.clearFocus();
-		Intent i = new Intent(this, UnsolveDialog.class); //create the intent based off of the unsolvedialog class
-		startActivity(i); //start it which calls onCreate() in the unsolve dialog class, which in turn will display it.
+	
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+	    if(resultCode==2){
+	    	setResult(2);
+	        finish();
+	    }
+	}
+	
+	@Override
+	public void onBackPressed() {
 		
+		setResult(2);
+		finish();
 	}
 
+	private int[] flatten(){
+		
+		int[] newgrid = new int[height*width];
+		
+		for(int i = 0; i < height; i ++){
+			for(int j = 0; j < width; j++){
+				
+				newgrid[(width * i) + j] = grid[i][j];
+				
+			}
+			
+		}
+		
+		
+		return newgrid;
+	}
+	
 }
+
+
+	

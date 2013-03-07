@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="73" version="2.0">
+<workbench progressCount="80" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="271" y="243">
 <fastViewData fastViewLocation="1024"/>
@@ -20,7 +20,7 @@
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="com.yattasolutions.diagrams.layout.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
@@ -47,11 +47,13 @@
 <part id="6"/>
 <part id="7"/>
 <part id="8"/>
+<part id="9"/>
+<part id="10"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GameView.java" partName="GameView.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/GameView.java" title="GameView.java" tooltip="Numbersorter/src/com/example/numbersorter/GameView.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GameView.java" partName="GameView.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/GameView.java" title="GameView.java" tooltip="Numbersorter/src/com/example/numbersorter/GameView.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/GameView.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5489" selectionTopPixel="469"/>
 </editor>
@@ -62,7 +64,7 @@
 <editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_game.xml" partName="activity_game.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/layout/activity_game.xml" title="activity_game.xml" tooltip="Numbersorter/res/layout/activity_game.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/layout/activity_game.xml"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="Numbersorter Manifest" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/AndroidManifest.xml" title="Numbersorter Manifest" tooltip="Numbersorter/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="Numbersorter Manifest" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/AndroidManifest.xml" title="Numbersorter Manifest" tooltip="Numbersorter/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/AndroidManifest.xml"/>
 </editor>
 <editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_unsolve_dialog.xml" partName="activity_unsolve_dialog.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/layout/activity_unsolve_dialog.xml" title="activity_unsolve_dialog.xml" tooltip="Numbersorter/res/layout/activity_unsolve_dialog.xml" workbook="DefaultEditorWorkbook">
@@ -82,6 +84,12 @@
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NewGameDialog.java" partName="NewGameDialog.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/NewGameDialog.java" title="NewGameDialog.java" tooltip="Numbersorter/src/com/example/numbersorter/NewGameDialog.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/NewGameDialog.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" partName="activity_main.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/layout/activity_main.xml" title="activity_main.xml" tooltip="Numbersorter/res/layout/activity_main.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/layout/activity_main.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="colors.xml" partName="colors.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/values/colors.xml" title="colors.xml" tooltip="Numbersorter/res/values/colors.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/values/colors.xml"/>
 </editor>
 </editors>
 <views>
@@ -251,7 +259,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.16005121" ratioLeft="250" ratioRight="1312" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottomRight" ratio="0.7440945" ratioLeft="567" ratioRight="195" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
@@ -488,19 +496,10 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/UnsolveDialog.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/NewGameDialog.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/Game.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout/activity_main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/values/colors.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Numbersorter/AndroidManifest.xml"/>
 </editors>
-<item historyLabel="GameView.java" index="0">
-<position/>
-</item>
-<item historyLabel="Game.java" index="4">
-<position info="not_deleted" x="2303" y="0"/>
-</item>
-<item historyLabel="Game.java" index="4">
-<position info="not_deleted" x="2541" y="0"/>
-</item>
-<item historyLabel="UnsolveDialog.java" index="2">
-<position info="not_deleted" x="415" y="0"/>
-</item>
 <item historyLabel="Game.java" index="4">
 <position info="not_deleted" x="2541" y="0"/>
 </item>
@@ -636,9 +635,13 @@
 <item historyLabel="GameView.java" index="0">
 <position info="not_deleted" x="4730" y="0"/>
 </item>
-<item active="true" historyLabel="GameView.java" index="0">
+<item historyLabel="GameView.java" index="0">
 <position info="not_deleted" x="4739" y="0"/>
 </item>
+<item historyLabel="activity_main.xml" index="5"/>
+<item historyLabel="colors.xml" index="6"/>
+<item historyLabel="activity_main.xml" index="5"/>
+<item active="true" historyLabel="Numbersorter Manifest" index="7"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -660,6 +663,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="colors.xml" tooltip="Numbersorter/res/values/colors.xml">
+<persistable path="/Numbersorter/res/values/colors.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="Numbersorter/res/layout/activity_main.xml">
+<persistable path="/Numbersorter/res/layout/activity_main.xml"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NewGameDialog.java" tooltip="Numbersorter/src/com/example/numbersorter/NewGameDialog.java">
 <persistable path="/Numbersorter/src/com/example/numbersorter/NewGameDialog.java"/>
 </file>
@@ -698,12 +707,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GameView.java" tooltip="Numbersorter/src/com/example/numbersorter/GameView.java">
 <persistable path="/Numbersorter/src/com/example/numbersorter/GameView.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GameView.java" tooltip="Numbersorter/src/GameView.java">
-<persistable path="/Numbersorter/src/GameView.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="about.xml" tooltip="Numbersorter/res/layout/about.xml">
-<persistable path="/Numbersorter/res/layout/about.xml"/>
 </file>
 </mruList>
 </workbench>

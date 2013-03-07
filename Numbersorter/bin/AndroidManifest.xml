@@ -57,6 +57,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.numbersorter.Game" />
         </activity>
+        <activity
+            android:name="com.example.numbersorter.UnsolveOutcome"
+            android:label="@string/title_activity_unsolve_outcome" >
+        </activity>
+        <activity
+            android:name="com.example.numbersorter.QuitActivity"
+            android:label="@string/title_activity_quit"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
     </application>
 
 </manifest>
