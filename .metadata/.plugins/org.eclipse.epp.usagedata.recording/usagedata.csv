@@ -74,3 +74,28 @@ started,bundle,org.eclipse.wst.command.env,1.0.409.v201004211805,"org.eclipse.ws
 started,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1362740815530
 started,bundle,org.eclipse.search,3.7.0.v20110928-1504,"org.eclipse.search",1362740815583
 deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1362740820542
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1362740832493
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.export",1362740832499
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.export",1362740832499
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1362740834145
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1362740935611
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1362740937977
+error,log,,,"Warning: Ignoring name conflict in resource file for name hello_world",1362740948169
+error,log,,,"Warning: Ignoring name conflict in resource file for name menu_settings",1362740948180
+started,bundle,org.eclipse.wst.dtd.core,1.1.501.v201107252021,"org.eclipse.wst.dtd.core",1362740948196
+started,bundle,org.eclipse.wst.internet.cache,1.0.400.v201004280700,"org.eclipse.wst.internet.cache",1362740948234
+started,bundle,org.eclipse.ant.ui,3.5.101.v20120110-1739,"org.eclipse.ant.ui",1362740948298
+error,log,,,"",1362740948329
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1362740948365
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.newWizard",1362740948372
+opened,editor,com.android.ide.eclipse.adt,21.0.1.v201212060256-543035,"com.android.ide.eclipse.editors.CommonXmlEditor",1362740948471
+activated,editor,com.android.ide.eclipse.adt,21.0.1.v201212060256-543035,"com.android.ide.eclipse.editors.CommonXmlEditor",1362740948544
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1362740953834
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1362740953906
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1362740953941
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1362740956309
+opened,editor,com.android.ide.eclipse.adt,21.0.1.v201212060256-543035,"com.android.ide.eclipse.editors.CommonXmlEditor",1362740956675
+activated,editor,com.android.ide.eclipse.adt,21.0.1.v201212060256-543035,"com.android.ide.eclipse.editors.CommonXmlEditor",1362740957256
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1362740960864
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1362740969208
+activated,editor,com.android.ide.eclipse.adt,21.0.1.v201212060256-543035,"com.android.ide.eclipse.editors.CommonXmlEditor",1362740971165

@@ -66,6 +66,10 @@
             android:label="@string/title_activity_quit"
             android:theme="@android:style/Theme.Dialog" >
         </activity>
+        <activity
+            android:name="com.example.numbersorter.WinActivity"
+            android:label="@string/title_activity_win" >
+        </activity>
     </application>
 
 </manifest>

@@ -285,6 +285,16 @@ public class GameView extends View {
 
 						toDraw = false;
 						invalidate();
+						
+						if (game.checkfinished())
+						{
+							
+							Context context = getContext();
+							Intent i = new Intent(context, WinActivity.class);
+							((Activity) context).startActivityForResult(i, 0);
+							return true;
+							
+						}
 
 					}
 				}

@@ -28,23 +28,25 @@ public final class R {
     public static final class id {
         public static final int about=0x7f090004;
         public static final int about_content=0x7f090000;
-        public static final int cancel_button=0x7f090011;
+        public static final int cancel_button=0x7f090013;
         public static final int continue_game=0x7f090003;
         public static final int exit_game=0x7f090005;
-        public static final int heightspinner=0x7f09000e;
-        public static final int heighttext=0x7f09000c;
-        public static final int menu_settings=0x7f090012;
+        public static final int heightspinner=0x7f090010;
+        public static final int heighttext=0x7f09000e;
+        public static final int menu_settings=0x7f090014;
         public static final int new_game=0x7f090002;
-        public static final int newgametext=0x7f09000b;
+        public static final int newgametext=0x7f09000d;
         public static final int outcometext=0x7f090009;
-        public static final int start_new_game_button=0x7f090010;
+        public static final int start_new_game_button=0x7f090012;
         public static final int test_text=0x7f090001;
         public static final int unsolve_cancel_button=0x7f090008;
         public static final int unsolve_exit_button=0x7f09000a;
         public static final int unsolve_yes_button=0x7f090007;
         public static final int unsolveabletext=0x7f090006;
-        public static final int widthspinner=0x7f09000f;
-        public static final int widthtext=0x7f09000d;
+        public static final int widthspinner=0x7f090011;
+        public static final int widthtext=0x7f09000f;
+        public static final int win_exit_button=0x7f09000c;
+        public static final int wintext=0x7f09000b;
     }
     public static final class layout {
         public static final int about=0x7f030000;
@@ -52,7 +54,8 @@ public final class R {
         public static final int activity_main=0x7f030002;
         public static final int activity_unsolve_dialog=0x7f030003;
         public static final int activity_unsolve_outcome=0x7f030004;
-        public static final int new_game_dialog=0x7f030005;
+        public static final int activity_win=0x7f030005;
+        public static final int new_game_dialog=0x7f030006;
     }
     public static final class menu {
         public static final int about=0x7f080000;
@@ -61,7 +64,8 @@ public final class R {
         public static final int activity_quit=0x7f080003;
         public static final int activity_unsolve_dialog=0x7f080004;
         public static final int activity_unsolve_outcome=0x7f080005;
-        public static final int new_game_dialog=0x7f080006;
+        public static final int activity_win=0x7f080006;
+        public static final int new_game_dialog=0x7f080007;
     }
     public static final class string {
         public static final int about=0x7f050006;
@@ -90,8 +94,10 @@ public final class R {
         public static final int title_activity_quit=0x7f050016;
         public static final int title_activity_unsolve_dialog=0x7f050011;
         public static final int title_activity_unsolve_outcome=0x7f050015;
+        public static final int title_activity_win=0x7f050017;
         public static final int unsolveable=0x7f050012;
         public static final int width=0x7f05000e;
+        public static final int wintext=0x7f050018;
         public static final int yes=0x7f050013;
     }
     public static final class style {

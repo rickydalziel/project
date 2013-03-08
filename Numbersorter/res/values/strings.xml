@@ -43,5 +43,8 @@
     <string name="no">No</string>
     <string name="title_activity_unsolve_outcome">UnsolveOutcome</string>
     <string name="title_activity_quit">QuitActivity</string>
+    <string name="title_activity_win">WinActivity</string>
+    
+    <string name="wintext">Congratulations! You solved the grid! Press exit to go back to the main menu</string>
 
 </resources>
