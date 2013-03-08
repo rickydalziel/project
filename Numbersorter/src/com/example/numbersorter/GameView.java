@@ -19,11 +19,17 @@ public class GameView extends View {
 	private int height, width;
 	private final Rect selRect = new Rect();
 	private int statusBarHeight;
+	private int alphaNumber = 0;
+	private int alphaRow = 0;
+	private int alphaColumn = 0;
+	private boolean toDraw = false;
 
 	private float initialX = 0;
 	private float initialY = 0;
 	private float deltaX = 0;
 	private float deltaY = 0;
+	private float moveX = 0;
+	private float moveY = 0;
 	private float startx, starty;
 	private Rect unsolvebutton, quitbutton;
 
@@ -35,21 +41,19 @@ public class GameView extends View {
 
 		height = game.getHeight();
 		width = game.getWidth();
-		
-		//Remove title bar
-		
 
-
+		// Remove title bar
 
 	}
 
 	@Override
 	public void onDraw(Canvas canvas) {
 
-		float gridheight = getHeight() - Math.max(getWidth(), getHeight())/8;
-		
+		float gridheight = getHeight() - Math.max(getWidth(), getHeight()) / 8;
+
 		Context context = getContext();
-		statusBarHeight = (int) Math.ceil(25 * context.getResources().getDisplayMetrics().density);
+		statusBarHeight = (int) Math.ceil(25 * context.getResources()
+				.getDisplayMetrics().density);
 
 		tileSize = Math.min(gridheight / height, getWidth() / width);
 
@@ -116,10 +120,25 @@ public class GameView extends View {
 		Paint buttonText = new Paint(Paint.ANTI_ALIAS_FLAG);
 		buttonText.setColor(getResources().getColor(R.color.white));
 
-		canvas.drawText("Unsolvable?", unsolvebutton.left + unsolvebutton.width()/8,
-				unsolvebutton.top + unsolvebutton.height()/2, buttonText);
-		canvas.drawText("Quit", quitbutton.left + unsolvebutton.width()/7, quitbutton.top + quitbutton.height()/2,
-				buttonText);
+		canvas.drawText("Unsolvable?",
+				unsolvebutton.left + unsolvebutton.width() / 8,
+				unsolvebutton.top + unsolvebutton.height() / 2, buttonText);
+		canvas.drawText("Quit", quitbutton.left + unsolvebutton.width() / 7,
+				quitbutton.top + quitbutton.height() / 2, buttonText);
+
+		if (toDraw) {
+			Paint alphatext = new Paint(Paint.ANTI_ALIAS_FLAG);
+			alphatext.setColor(getResources().getColor(R.color.black));
+			alphatext.setTextSize((float) (tileSize * 0.5));
+			alphatext.setTextAlign(Align.CENTER);
+			alphatext.setAlpha(150);
+
+			canvas.drawText(
+					Integer.toString(alphaNumber),
+					(int) (startx + (alphaColumn * tileSize) + (TEXTPADDINGH * tileSize)),
+					(int) (starty + (alphaRow * tileSize) + (TEXTPADDINGV * tileSize)),
+					alphatext);
+		}
 
 	}
 
@@ -135,8 +154,6 @@ public class GameView extends View {
 		synchronized (event) {
 			try {
 				event.wait(16);
-				
-
 
 				// when user touches the screen
 				if (event.getAction() == MotionEvent.ACTION_DOWN) {
@@ -147,18 +164,17 @@ public class GameView extends View {
 					initialX = event.getRawX();
 					initialY = event.getRawY() - statusBarHeight;
 				}
-				
-				if(unsolvebutton.contains((int) initialX, (int) initialY)){
-					
+
+				if (unsolvebutton.contains((int) initialX, (int) initialY)) {
+
 					inUnsolve = true;
-					
-					
+
 				}
-				
-				if(quitbutton.contains((int) initialX, (int) initialY)){
-					
+
+				if (quitbutton.contains((int) initialX, (int) initialY)) {
+
 					inQuit = true;
-					
+
 				}
 
 				if (initialX >= startx
@@ -172,6 +188,59 @@ public class GameView extends View {
 
 				}
 
+				if (event.getAction() == MotionEvent.ACTION_MOVE) {
+
+					if (ingrid) {
+
+						moveX = event.getRawX();
+						moveY = event.getRawY() - statusBarHeight;
+
+						int moveRow = (int) Math.floor((moveY - starty)
+								/ tileSize);
+						int moveColumn = (int) Math.floor((moveX - startx)
+								/ tileSize);
+
+						float deltaMoveX = moveX - initialX;
+						float deltaMoveY = moveY - initialY;
+
+						alphaNumber = game.getNumber(row, column);
+
+						if (moveRow != row | moveColumn != column) {
+
+							// Swiped up/down
+							if (Math.abs(deltaMoveY) > Math.abs(deltaMoveX)) {
+
+								if (moveRow < height && moveRow >= 0) {
+									toDraw = true;
+									alphaRow = moveRow;
+									alphaColumn = column;
+								} else {
+
+									toDraw = false;
+								}
+
+							} else { // Swiped left/right
+
+								if (moveColumn < width && moveColumn >= 0) {
+									toDraw = true;
+									alphaRow = row;
+									alphaColumn = moveColumn;
+								} else {
+
+									toDraw = false;
+								}
+							}
+						} else {
+
+							toDraw = false;
+						}
+
+						invalidate();
+						return true;
+					}
+
+				}
+
 				// when screen is released
 				if (event.getAction() == MotionEvent.ACTION_UP) {
 					float releaseX = event.getRawX();
@@ -179,45 +248,44 @@ public class GameView extends View {
 					deltaX = releaseX - initialX;
 					deltaY = releaseY - initialY;
 					int height = getHeight();
-					
-					if(unsolvebutton.contains((int) releaseX, (int) releaseY) && inUnsolve){
-						
+
+					if (unsolvebutton.contains((int) releaseX, (int) releaseY)
+							&& inUnsolve) {
+
 						Context context = getContext();
 						Intent i = new Intent(context, UnsolveDialog.class);
 						i.putExtra("unsolveable", game.isUnsolvable());
-						((Activity)context).startActivityForResult(i, 0);
+						((Activity) context).startActivityForResult(i, 0);
 						return true;
 					}
-					
-					if(quitbutton.contains((int) releaseX, (int) releaseY) && inQuit){
-						
-						((Game)getContext()).setResult(2);
-						((Game)getContext()).finish();
-						
+
+					if (quitbutton.contains((int) releaseX, (int) releaseY)
+							&& inQuit) {
+
+						((Game) getContext()).setResult(2);
+						((Game) getContext()).finish();
+
 					}
-					
-					int newRow = (int) Math.floor((releaseY - starty) / tileSize);
-					int newColumn = (int) Math.floor((releaseX - startx) / tileSize);
+
+					int newRow = (int) Math.floor((releaseY - starty)
+							/ tileSize);
+					int newColumn = (int) Math.floor((releaseX - startx)
+							/ tileSize);
 
 					if (ingrid && (newColumn != column || newRow != row)) {
 						// swiped up
 						if (Math.abs(deltaY) > Math.abs(deltaX)) {
-					
-								game.swipe(
-										Game.VERTICAL,
-										column,
-										newRow - row);
 
-						} 
-						else {
-							
-							game.swipe(
-										Game.HORIZONTAL,
-										row,
-										newColumn - column);
+							game.swipe(Game.VERTICAL, column, newRow - row);
+
+						} else {
+
+							game.swipe(Game.HORIZONTAL, row, newColumn - column);
 						}
 
+						toDraw = false;
 						invalidate();
+
 					}
 				}
 			}
@@ -230,7 +298,5 @@ public class GameView extends View {
 		}
 		return true;
 	}
-	
-
 
 }

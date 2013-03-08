@@ -188,9 +188,13 @@ public class Game extends Activity {
 			}
 			
 		}
-		
-		
+
 		return newgrid;
+	}
+	
+	public int getNumber(int height, int width){
+		
+		return grid[height][width];
 	}
 	
 }
