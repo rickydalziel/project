@@ -11,6 +11,7 @@
     <string name="continue_game">Continue</string>
     <string name="about">About</string>
     <string name="exit_game">Exit</string>
+    <string name="enter">Enter</string>
 
     <!-- About scree strings -->
 
@@ -45,6 +46,7 @@
     <string name="title_activity_quit">QuitActivity</string>
     <string name="title_activity_win">WinActivity</string>
     
-    <string name="wintext">Congratulations! You solved the grid! Press exit to go back to the main menu</string>
+    <string name="wintext">Congratulations! You solved the grid! Please enter your name below:</string>
+    <string name="enter_name">Enter name</string>
 
 </resources>

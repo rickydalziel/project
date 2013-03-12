@@ -13,19 +13,28 @@
 
         <TextView
             android:id="@+id/wintext"
+            android:text="@string/wintext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
             android:layout_gravity="center" />
+        
+        
+        <EditText 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/edit_message"
+        android:layout_gravity="center"
+        android:hint="@string/enter_name"
+        android:singleLine="true"  />
+
 
         <Button
             android:id="@+id/win_exit_button"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:onClick="exitGamePressed"
-            android:text="@string/exit_game" />
+            android:onClick="saveScorePressed"
+            android:text="@string/enter" />
 
     </LinearLayout>
 

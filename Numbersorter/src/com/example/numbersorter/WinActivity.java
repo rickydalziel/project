@@ -3,6 +3,7 @@ package com.example.numbersorter;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.View;
 
 public class WinActivity extends Activity {
 
@@ -12,11 +13,15 @@ public class WinActivity extends Activity {
 		setContentView(R.layout.activity_win);
 	}
 
-	public void exitPressed(){
+	@Override
+	public void onBackPressed() {
+
+	}
+	
+	public void saveScorePressed(View view){
 		
 		setResult(2);
 		finish();
-		
 	}
 
 }

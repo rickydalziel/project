@@ -16,13 +16,15 @@ public class Game extends Activity {
 
 	private int height, width, moveCount;
 	private int[][] grid = null;
-	private int[][] solution;
-	private boolean solvable;
+	private boolean unsolvable;
+	private int[][] test = {{1,2,9},{4,5,3},{7,8,6}};
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		Bundle extras = getIntent().getExtras();
+		
+		moveCount = 0;
 
 		height = extras.getInt("height");
 		width = extras.getInt("width");
@@ -30,16 +32,25 @@ public class Game extends Activity {
 		if (grid == null) {
 			grid = initialise();
 		}
+		
+		grid = test;
 
 		gameview = new GameView(this);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		checkUnsolveable();
 		setContentView(gameview);
 		gameview.requestFocus();
+		
 
 	}
 	
 	private void checkUnsolveable(){
+		
+		
+		unsolvable = (Math.pow(-1, getInversionNumber()) < 0);
+	}
+	
+	private int getInversionNumber(){
 		
 		int[] flatGrid = flatten();
 		int counter = 0;
@@ -52,13 +63,12 @@ public class Game extends Activity {
 				}
 			}		
 		}
-		
-		solvable = (Math.pow(-1, counter) > 0);
+		return counter;
 	}
 	
 	public boolean isUnsolvable(){
 		
-		return solvable;
+		return unsolvable;
 	}
 
 	private int[][] initialise() {
@@ -73,7 +83,6 @@ public class Game extends Activity {
 
 		}
 
-		generateSolution();
 
 		Random r = new Random();
 
@@ -91,19 +100,6 @@ public class Game extends Activity {
 		return output;
 	}
 
-	private void generateSolution() {
-
-		solution = new int[height][width];
-
-		for (int i = 0; i < height; i++) {
-			for (int j = 0; j < width; j++) {
-
-				solution[i][j] = (width * i) + j + 1;
-
-			}
-		}
-
-	}
 
 	public int getHeight() {
 		return height;
@@ -121,7 +117,7 @@ public class Game extends Activity {
 
 	public boolean checkfinished() {
 
-		return (grid == solution);
+		return (getInversionNumber() == 0);
 
 	}
 
@@ -158,6 +154,8 @@ public class Game extends Activity {
 
 			}
 		}
+		
+		moveCount++;
 
 	}
 	
@@ -197,7 +195,14 @@ public class Game extends Activity {
 		return grid[height][width];
 	}
 	
+	public int getMoveCount(){
+		
+		return moveCount;
+	}
+	
 }
+
+
 
 
 	
