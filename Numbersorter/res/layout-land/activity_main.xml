@@ -35,7 +35,7 @@
 			    <Button
 			        android:id="@+id/continue_game"
 			        android:text="@string/continue_game" 
-			        android:onClick="loadPressed"/>
+			        android:onClick="continuePressed"/>
 			    
 	        </TableRow>
 	        

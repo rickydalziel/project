@@ -20,6 +20,7 @@ public class WinActivity extends Activity {
 	
 	public void saveScorePressed(View view){
 		
+		deleteFile(MainActivity.SAVED_GAME);
 		setResult(2);
 		finish();
 	}

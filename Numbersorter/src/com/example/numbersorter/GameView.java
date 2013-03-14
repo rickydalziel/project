@@ -17,7 +17,6 @@ public class GameView extends View {
 	private final double TEXTPADDINGV = 0.65;
 	private float tileSize;
 	private int height, width;
-	private final Rect selRect = new Rect();
 	private int statusBarHeight;
 	private int alphaNumber = 0;
 	private int alphaRow = 0;
@@ -42,7 +41,7 @@ public class GameView extends View {
 		height = game.getHeight();
 		width = game.getWidth();
 
-		// Remove title bar
+
 
 	}
 
@@ -262,6 +261,7 @@ public class GameView extends View {
 					if (quitbutton.contains((int) releaseX, (int) releaseY)
 							&& inQuit) {
 
+						game.saveGame();
 						((Game) getContext()).setResult(2);
 						((Game) getContext()).finish();
 

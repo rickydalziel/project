@@ -1,0 +1,25 @@
+package com.example.numbersorter;
+
+public class SavedGame {
+	
+	private int[][] grid;
+	private int moveCount;
+	
+	public SavedGame(int[][] grid, int movecount){
+		
+		this.grid = grid;
+		this.moveCount = movecount;
+		
+	}
+	
+	public int[][] getGrid(){
+		
+		return grid;
+	}
+	
+	public int getMoveCount(){
+		
+		return moveCount;
+	}
+
+}

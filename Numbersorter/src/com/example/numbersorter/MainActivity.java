@@ -1,9 +1,12 @@
 package com.example.numbersorter;
 
+import java.io.FileNotFoundException;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
@@ -20,11 +23,14 @@ import android.widget.Button;
  *
  */
 public class MainActivity extends Activity {
+	
+	public static final String SAVED_GAME = "game";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main); //set our main menu layout as the current view
+        
         
         Button loadbutton = (Button)findViewById(R.id.continue_game); //get the continue button
         if(!hasSavedGame()){ //check if there are any saved games
@@ -46,7 +52,12 @@ public class MainActivity extends Activity {
      */
     private boolean hasSavedGame() {
     	
-		return false;
+		try {
+			openFileInput(SAVED_GAME);
+		} catch (FileNotFoundException e) {
+			return false;
+		}
+		return true;
 		
 	}
 
@@ -94,7 +105,31 @@ public class MainActivity extends Activity {
      * @param v
      */
     public void continuePressed(View v){
-    	
+    	 
+    	Intent i = new Intent(this, Game.class); //create the intent based off of the Game class
+    	i.putExtra("continue", true);
+    	startActivity(i); //start it which calls onCreate() in the Game class, which in turn will display it.
     	
     }
+    
+    @Override
+    public void onResume() {
+     super.onResume();
+     
+     
+     Button loadbutton = (Button)findViewById(R.id.continue_game); //get the continue button
+     if(!hasSavedGame()){ //check if there are any saved games
+     	
+     	
+     	loadbutton.setVisibility(View.INVISIBLE);  //if there are no saved games, the user should not be able to continue
+     }
+     else{
+     	
+     	loadbutton.setVisibility(View.VISIBLE); //user can continue
+     	
+     }
+
+    }
+
+
 }

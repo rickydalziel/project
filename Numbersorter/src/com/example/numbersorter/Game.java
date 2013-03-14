@@ -1,11 +1,20 @@
 package com.example.numbersorter;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.StreamCorruptedException;
 import java.util.ArrayList;
 import java.util.Random;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Window;
 
 public class Game extends Activity {
@@ -17,57 +26,98 @@ public class Game extends Activity {
 	private int height, width, moveCount;
 	private int[][] grid = null;
 	private boolean unsolvable;
-	private int[][] test = {{1,2,9},{4,5,3},{7,8,6}};
+	private int[][] test = { { 1, 2, 9 }, { 4, 5, 3 }, { 7, 8, 6 } };
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		Bundle extras = getIntent().getExtras();
-		
+
 		moveCount = 0;
 
-		height = extras.getInt("height");
-		width = extras.getInt("width");
+		boolean continueGame = extras.getBoolean("continue");
 
-		if (grid == null) {
+		if (continueGame) {
+			
+			FileInputStream gameFile;
+			ObjectInputStream ois;
+			
+			try {
+				
+				gameFile = openFileInput(MainActivity.SAVED_GAME);
+				ois = new ObjectInputStream(gameFile);
+				SavedGame game = (SavedGame) ois.readObject();
+				loadGame(game);
+				ois.close();
+				
+			} catch (FileNotFoundException e) {
+				grid = initialise();
+			} catch (StreamCorruptedException e) {
+				grid = initialise();
+			} catch (IOException e) {
+				grid = initialise();
+			} catch (ClassNotFoundException e) {
+				grid = initialise();
+			}
+			
+			
+			
+
+			
+			
+		} 
+		else {
+			
+			height = extras.getInt("height");
+			width = extras.getInt("width");
+
+
 			grid = initialise();
+
+
 		}
-		
-		grid = test;
+
 
 		gameview = new GameView(this);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		checkUnsolveable();
 		setContentView(gameview);
 		gameview.requestFocus();
-		
 
 	}
-	
-	private void checkUnsolveable(){
-		
-		
+
+	private void checkUnsolveable() {
+
 		unsolvable = (Math.pow(-1, getInversionNumber()) < 0);
 	}
-	
-	private int getInversionNumber(){
-		
+
+	public void loadGame(SavedGame game) {
+
+		grid = game.getGrid();
+		moveCount = game.getMoveCount();
+		height = game.getHeight();
+		width = game.getWidth();
+
+	}
+
+	private int getInversionNumber() {
+
 		int[] flatGrid = flatten();
 		int counter = 0;
-		
-		for (int i = 0; i < flatGrid.length; i++){			
-			for (int j = i+1; j < flatGrid.length; j++){		
-				if(flatGrid[i] > flatGrid[j]){
-					
-					counter++;		
+
+		for (int i = 0; i < flatGrid.length; i++) {
+			for (int j = i + 1; j < flatGrid.length; j++) {
+				if (flatGrid[i] > flatGrid[j]) {
+
+					counter++;
 				}
-			}		
+			}
 		}
 		return counter;
 	}
-	
-	public boolean isUnsolvable(){
-		
+
+	public boolean isUnsolvable() {
+
 		return unsolvable;
 	}
 
@@ -82,7 +132,6 @@ public class Game extends Activity {
 			numbers.add(i);
 
 		}
-
 
 		Random r = new Random();
 
@@ -99,7 +148,6 @@ public class Game extends Activity {
 
 		return output;
 	}
-
 
 	public int getHeight() {
 		return height;
@@ -154,55 +202,72 @@ public class Game extends Activity {
 
 			}
 		}
-		
+
 		moveCount++;
 
 	}
-	
+
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-	    if(resultCode==2){
-	    	setResult(2);
-	        finish();
-	    }
+		if (resultCode == 2) {
+			setResult(2);
+			finish();
+		}
 	}
-	
+
 	@Override
 	public void onBackPressed() {
-		
+
 		setResult(2);
 		finish();
 	}
 
-	private int[] flatten(){
-		
-		int[] newgrid = new int[height*width];
-		
-		for(int i = 0; i < height; i ++){
-			for(int j = 0; j < width; j++){
-				
+	private int[] flatten() {
+
+		int[] newgrid = new int[height * width];
+
+		for (int i = 0; i < height; i++) {
+			for (int j = 0; j < width; j++) {
+
 				newgrid[(width * i) + j] = grid[i][j];
-				
+
 			}
-			
+
 		}
 
 		return newgrid;
 	}
-	
-	public int getNumber(int height, int width){
-		
+
+	public int getNumber(int height, int width) {
+
 		return grid[height][width];
 	}
-	
-	public int getMoveCount(){
-		
+
+	public int getMoveCount() {
+
 		return moveCount;
 	}
-	
+
+	public void saveGame() {
+		
+		
+		FileOutputStream fos;
+		ObjectOutputStream oos;
+		try {
+			
+			fos = openFileOutput(MainActivity.SAVED_GAME, Context.MODE_PRIVATE);
+			oos = new ObjectOutputStream(fos);
+			oos.writeObject(new SavedGame(grid,moveCount, height, width));
+			oos.close();
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			Log.d("SaveIOerror", e.toString(), e);
+		}
+		
+		
+	}
+
 }
-
-
-
-
-	

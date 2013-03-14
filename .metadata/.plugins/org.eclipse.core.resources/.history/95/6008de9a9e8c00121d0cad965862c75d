@@ -1,0 +1,112 @@
+package com.example.numbersorter;
+
+import java.io.FileNotFoundException;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
+import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
+
+
+/**
+ * The class for the main menu, functions with main_activity
+ * it's main responsibilities are handling button presses, 
+ * starting new games, loading them and showing the about info.
+ * 
+ * Is also the opening screen on app startup.
+ * 
+ * @author Ricky Dalziel
+ *
+ */
+public class MainActivity extends Activity {
+	
+	public static final String SAVED_GAME = "game";
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main); //set our main menu layout as the current view
+        
+        Button loadbutton = (Button)findViewById(R.id.continue_game); //get the continue button
+//        if(!hasSavedGame()){ //check if there are any saved games
+//        	
+//        	
+//        	loadbutton.setVisibility(View.INVISIBLE);  //if there are no saved games, the user should not be able to continue
+//        }
+//        else{
+//        	
+//        	loadbutton.setVisibility(View.VISIBLE); //user can continue
+//        	
+//        }
+    }
+
+    /**
+     * Checks if there is a saved game, used to determine the
+     * visibility of the continue button
+     * @return
+     */
+    private boolean hasSavedGame() {
+    	
+		try {
+			openFileInput(SAVED_GAME);
+		} catch (FileNotFoundException e) {
+			return false;
+		}
+		return true;
+		
+	}
+
+	@Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_main, menu);
+        return true;
+    }
+    
+	/**
+	 * Exits the app.
+	 * @param v
+	 */
+    public void exitPressed(View v){
+    	
+    	finish();
+    	System.exit(0);
+    }
+    
+    /**
+     * Starts the about activity which displays information about
+     * the app.
+     * @param v
+     */
+    public void aboutPressed(View v){
+    	
+    	Intent i = new Intent(this, AboutActivity.class); //create the intent based off of the about class
+    	startActivity(i); //start it which calls onCreate() in the about class, which in turn will display it.
+    	
+    }
+    
+    /**
+     * Starts a new game with a random board
+     */
+    public void newGamePressed(View v){
+    	
+    	Intent i = new Intent(this, NewGameDialog.class); //create the intent based off of the NewGameDialog class
+    	startActivity(i); //start it which calls onCreate() in the NewGameDialog class, which in turn will display it.
+    		
+    }
+    
+    /**
+     * If there is a game saved, this will continue
+     * that game.
+     * @param v
+     */
+    public void continuePressed(View v){
+    	 
+    	Intent i = new Intent(this, Game.class); //create the intent based off of the Game class
+    	i.putExtra("continue", true);
+    	startActivity(i); //start it which calls onCreate() in the Game class, which in turn will display it.
+    	
+    }
+}

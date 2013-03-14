@@ -35,6 +35,7 @@ public class UnsolveOutcome extends Activity {
 	
 	public void exitGamePressed(View view){
 		
+		deleteFile(MainActivity.SAVED_GAME);
 		setResult(2);
 		finish();
 	}
