@@ -70,6 +70,15 @@
             android:name="com.example.numbersorter.WinActivity"
             android:label="@string/title_activity_win" >
         </activity>
+        <activity
+            android:name="com.example.numbersorter.LeaderboardActivity"
+            android:label="@string/title_activity_leaderboard" >
+        </activity>
+        <activity
+            android:name="com.example.numbersorter.ClearMemoryActivity"
+            android:label="@string/title_activity_clear_memory"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
     </application>
 
 </manifest>

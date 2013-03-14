@@ -22,7 +22,7 @@
         <EditText 
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
-        android:id="@+id/edit_message"
+        android:id="@+id/enter_name"
         android:layout_gravity="center"
         android:hint="@string/enter_name"
         android:singleLine="true"  />

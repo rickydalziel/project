@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    android:padding="30dip">
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center" >
+    
+	
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/main_menu"
+	        tools:context=".MainActivity"
+	        android:layout_gravity="center"
+	        android:textSize="24.5sp"
+	        android:layout_marginBottom="25dip" />
+	    <Button
+	        android:id="@+id/new_game"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/new_game"
+	        android:layout_gravity="center"
+	        android:onClick="newGamePressed" />
+	    <Button
+	        android:id="@+id/continue_game"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/continue_game" 
+	        android:layout_gravity="center"
+	        android:onClick="continuePressed"/>
+	    <Button
+	        android:id="@+id/about"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/about"
+	        android:layout_gravity="center"
+	        android:onClick="aboutPressed" />
+	    <Button
+	        android:id="@+id/exit_game"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/exit_game"
+	        android:layout_gravity="center"
+	        android:onClick="exitPressed" />
+	    
+	    <Button
+	        android:id="@+id/exit_game"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/exit_game"
+	        android:layout_gravity="bottom"
+	        android:layout_gravity="right"
+	        android:onClick="exitPressed" />
+	    
+   </LinearLayout>
+	
+</LinearLayout>

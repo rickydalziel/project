@@ -291,6 +291,7 @@ public class GameView extends View {
 							
 							Context context = getContext();
 							Intent i = new Intent(context, WinActivity.class);
+							i.putExtra("moveCount", game.getMoveCount());
 							((Activity) context).startActivityForResult(i, 0);
 							return true;
 							

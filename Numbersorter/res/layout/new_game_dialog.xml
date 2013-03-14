@@ -75,14 +75,7 @@
 		    
 		  
 		    <TableRow>
-		        
-		        <Button
-		            android:id="@+id/start_new_game_button"
-		            android:layout_width="fill_parent"
-		            android:layout_height="fill_parent"
-		            android:text="@string/new_game" 
-		            android:onClick="newGamePressed"/>
-		        
+
 		         <Button
 		            android:id="@+id/cancel_button"
 		            android:layout_width="fill_parent"
@@ -90,6 +83,13 @@
 		            android:text="@string/cancel"
 		            android:onClick="cancelPressed"  />
 		        
+		         		        
+		        <Button
+		            android:id="@+id/start_new_game_button"
+		            android:layout_width="fill_parent"
+		            android:layout_height="fill_parent"
+		            android:text="@string/new_game" 
+		            android:onClick="newGamePressed"/>
 		        
 		        
 		    </TableRow>

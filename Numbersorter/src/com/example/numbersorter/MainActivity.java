@@ -25,6 +25,7 @@ import android.widget.Button;
 public class MainActivity extends Activity {
 	
 	public static final String SAVED_GAME = "game";
+	public static final String LEADERBOARD_SAVE = "leaderboard";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -129,6 +130,13 @@ public class MainActivity extends Activity {
      	
      }
 
+    }
+    
+    public void clearMemory(View view){
+    	
+    	Intent i = new Intent(this, ClearMemoryActivity.class);
+    	startActivity(i);
+    	
     }
 
 

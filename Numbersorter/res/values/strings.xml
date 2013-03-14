@@ -45,8 +45,14 @@
     <string name="title_activity_unsolve_outcome">UnsolveOutcome</string>
     <string name="title_activity_quit">QuitActivity</string>
     <string name="title_activity_win">WinActivity</string>
-    
     <string name="wintext">Congratulations! You solved the grid! Please enter your name below:</string>
     <string name="enter_name">Enter name</string>
+    <string name="title_activity_leaderboard">Leaderboard</string>
+    <string name="name">Name</string>
+    <string name="moves">Moves</string>
+    <string name="clear_memory">Clear Memory</string>
+    <string name="title_activity_clear_memory">ClearMemoryActivity</string>
+    
+    <string name="cleartext">Are you sure you want to delete the saved games and leaderboards?</string>
 
 </resources>

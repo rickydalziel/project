@@ -1,0 +1,95 @@
+package com.example.numbersorter;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.StreamCorruptedException;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.widget.TableLayout;
+
+public class LeaderboardActivity extends Activity {
+
+	private Leaderboard board;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_leaderboard);
+		
+		board = loadLeaderboard();
+		
+		// Get the TableLayout
+        TableLayout tl = (TableLayout) findViewById(R.id.);
+
+        // Go through each item in the array
+        for (int current = 0; current < 5; current++)
+        {
+            // Create a TableRow and give it an ID
+            TableRow tr = new TableRow(this);
+            tr.setId(100+current);
+            tr.setLayoutParams(new LayoutParams(
+                    LayoutParams.FILL_PARENT,
+                    LayoutParams.WRAP_CONTENT));   
+
+            // Create a TextView to house the name of the province
+            TextView labelTV = new TextView(this);
+            labelTV.setId(200+current);
+            labelTV.setText(provinces[current]);
+            labelTV.setTextColor(Color.BLACK);
+            labelTV.setLayoutParams(new LayoutParams(
+                    LayoutParams.FILL_PARENT,
+                    LayoutParams.WRAP_CONTENT));
+            tr.addView(labelTV);
+
+            // Create a TextView to house the value of the after-tax income
+            TextView valueTV = new TextView(this);
+            valueTV.setId(current);
+            valueTV.setText("$0");
+            valueTV.setTextColor(Color.BLACK);
+            valueTV.setLayoutParams(new LayoutParams(
+                    LayoutParams.FILL_PARENT,
+                    LayoutParams.WRAP_CONTENT));
+            tr.addView(valueTV);
+
+            // Add the TableRow to the TableLayout
+            tl.addView(tr, new TableLayout.LayoutParams(
+                    LayoutParams.FILL_PARENT,
+                    LayoutParams.WRAP_CONTENT));
+		
+		
+	}
+
+	private Leaderboard loadLeaderboard() {
+		
+		FileInputStream gameFile;
+		ObjectInputStream ois;
+		Leaderboard board;
+		
+		try {
+			
+			gameFile = openFileInput(MainActivity.LEADERBOARD_SAVE);
+			ois = new ObjectInputStream(gameFile);
+			board = (Leaderboard) ois.readObject();
+			ois.close();
+			
+		} catch (FileNotFoundException e) {
+			board = new Leaderboard();
+		} catch (StreamCorruptedException e) {
+			board = new Leaderboard();
+		} catch (IOException e) {
+			board = new Leaderboard();
+		} catch (ClassNotFoundException e) {
+			board = new Leaderboard();
+		}
+		
+		return board;
+	}
+	
+
+	
+
+}

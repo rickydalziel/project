@@ -1,0 +1,36 @@
+package com.example.numbersorter;
+
+public class LeaderboardEntry implements Comparable {
+	
+	private int moveCount;
+	private String name;
+	
+	private LeaderboardEntry(int moveCount, String name){
+		
+		this.moveCount = moveCount;
+		this.name = name;
+	}
+	
+	public int getMoveCount() {
+		return moveCount;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int compareTo(Object another) {
+
+		if(!(another instanceof LeaderboardEntry)){
+			
+			throw new ClassCastException("A Leaderboard entry expected");
+		}
+		
+		return moveCount - ((LeaderboardEntry)another).getMoveCount();
+	}
+	
+	
+	
+	
+
+}

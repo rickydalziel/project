@@ -2,56 +2,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="horizontal" 
-    android:padding="30dip">
-    
+    android:orientation="horizontal"
+    android:padding="30dip" >
+
     <LinearLayout
-        android:orientation="vertical"
-        android:layout_height="wrap_content"
         android:layout_width="fill_parent"
-        android:layout_gravity="center" >
-    
-	    <TextView
-	        android:layout_width="wrap_content"
-	        android:layout_height="wrap_content"
-	        android:text="@string/main_menu"
-	        tools:context=".MainActivity"
-	        android:layout_gravity="center"
-	        android:textSize="24.5sp"
-	        android:layout_marginBottom="25dip" />
-	    
-	    <TableLayout
-	        android:layout_height="wrap_content"
-	        android:layout_width="wrap_content"
-	        android:layout_gravity="center"
-	        android:stretchColumns="*">
-	        
-	        <TableRow>
-		            
-		         <Button
-			        android:id="@+id/new_game"
-			        android:text="@string/new_game"
-			        android:onClick="newGamePressed" />
-			    <Button
-			        android:id="@+id/continue_game"
-			        android:text="@string/continue_game" 
-			        android:onClick="continuePressed"/>
-			    
-	        </TableRow>
-	        
-		    <TableRow>
-		        
-		        <Button
-			        android:id="@+id/about"
-			        android:text="@string/about"
-			        android:onClick="aboutPressed" />
-		    	<Button
-			        android:id="@+id/exit_game"
-			        android:text="@string/exit_game"
-			        android:onClick="exitPressed" />
-	    		        
-		    </TableRow>
-		</TableLayout>
-	</LinearLayout>
-	
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dip"
+            android:text="@string/main_menu"
+            android:textSize="24.5sp"
+            tools:context=".MainActivity" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:stretchColumns="*" >
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/new_game"
+                    android:onClick="newGamePressed"
+                    android:text="@string/new_game" />
+
+                <Button
+                    android:id="@+id/continue_game"
+                    android:onClick="continuePressed"
+                    android:text="@string/continue_game" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/about"
+                    android:onClick="aboutPressed"
+                    android:text="@string/about" />
+
+                <Button
+                    android:id="@+id/delete_memory"
+                    android:onClick="clearMemory"
+                    android:text="@string/clear_memory" />
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/exit_game"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:onClick="exitPressed"
+            android:text="@string/exit_game" />
+    </LinearLayout>
+
 </LinearLayout>

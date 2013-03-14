@@ -1,0 +1,102 @@
+package com.example.numbersorter;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.StreamCorruptedException;
+import java.util.ArrayList;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.graphics.Color;
+import android.view.Menu;
+import android.view.ViewGroup.LayoutParams;
+import android.widget.TableLayout;
+import android.widget.TableRow;
+import android.widget.TextView;
+
+public class LeaderboardActivity extends Activity {
+
+	private Leaderboard board;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_leaderboard);
+		
+		board = loadLeaderboard();
+		ArrayList<LeaderboardEntry> entries = board.getEntries();
+		
+		// Get the TableLayout
+        TableLayout tl = (TableLayout) findViewById(R.id.leaderboard);
+
+        // Go through each item in the array
+        for (int current = 0; current < entries.size(); current++)
+        {
+            // Create a TableRow and give it an ID
+            TableRow tr = new TableRow(this);
+            tr.setId(100+current);
+            tr.setLayoutParams(new LayoutParams(
+                    LayoutParams.MATCH_PARENT,
+                    LayoutParams.WRAP_CONTENT));   
+
+            // Create a TextView to house the name of player
+            TextView labelTV = new TextView(this);
+            labelTV.setId(200+current);
+            labelTV.setText(entries.get(current).getName());
+            labelTV.setTextColor(Color.BLACK);
+            labelTV.setLayoutParams(new LayoutParams(
+                    LayoutParams.MATCH_PARENT,
+                    LayoutParams.WRAP_CONTENT));
+            tr.addView(labelTV);
+
+            // Create a TextView to house the moveCount
+            TextView valueTV = new TextView(this);
+            valueTV.setId(current);
+            valueTV.setText(Integer.toString(entries.get(current).getMoveCount()));
+            valueTV.setTextColor(Color.BLACK);
+            valueTV.setLayoutParams(new LayoutParams(
+                    LayoutParams.MATCH_PARENT,
+                    LayoutParams.WRAP_CONTENT));
+            tr.addView(valueTV);
+
+            // Add the TableRow to the TableLayout
+            tl.addView(tr, new TableLayout.LayoutParams(
+            		LayoutParams.MATCH_PARENT,
+                    LayoutParams.WRAP_CONTENT));
+        }
+		
+		
+	}
+
+	private Leaderboard loadLeaderboard() {
+		
+		FileInputStream gameFile;
+		ObjectInputStream ois;
+		Leaderboard board;
+		
+		try {
+			
+			gameFile = openFileInput(MainActivity.LEADERBOARD_SAVE);
+			ois = new ObjectInputStream(gameFile);
+			board = (Leaderboard) ois.readObject();
+			ois.close();
+			
+		} catch (FileNotFoundException e) {
+			board = new Leaderboard();
+		} catch (StreamCorruptedException e) {
+			board = new Leaderboard();
+		} catch (IOException e) {
+			board = new Leaderboard();
+		} catch (ClassNotFoundException e) {
+			board = new Leaderboard();
+		}
+		
+		return board;
+	}
+	
+
+	
+
+}

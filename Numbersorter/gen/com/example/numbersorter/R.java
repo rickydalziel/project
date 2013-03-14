@@ -26,47 +26,59 @@ public final class R {
         public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-        public static final int about=0x7f090004;
+        public static final int about=0x7f09000b;
         public static final int about_content=0x7f090000;
-        public static final int cancel_button=0x7f090014;
-        public static final int continue_game=0x7f090003;
-        public static final int edit_message=0x7f09000c;
-        public static final int exit_game=0x7f090005;
-        public static final int heightspinner=0x7f090011;
-        public static final int heighttext=0x7f09000f;
-        public static final int menu_settings=0x7f090015;
-        public static final int new_game=0x7f090002;
-        public static final int newgametext=0x7f09000e;
-        public static final int outcometext=0x7f090009;
-        public static final int start_new_game_button=0x7f090013;
-        public static final int test_text=0x7f090001;
-        public static final int unsolve_cancel_button=0x7f090008;
-        public static final int unsolve_exit_button=0x7f09000a;
-        public static final int unsolve_yes_button=0x7f090007;
-        public static final int unsolveabletext=0x7f090006;
-        public static final int widthspinner=0x7f090012;
-        public static final int widthtext=0x7f090010;
-        public static final int win_exit_button=0x7f09000d;
-        public static final int wintext=0x7f09000b;
+        public static final int cancel_button=0x7f09001b;
+        public static final int clear_cancel_button=0x7f090002;
+        public static final int clear_yes_button=0x7f090003;
+        public static final int cleartext=0x7f090001;
+        public static final int continue_game=0x7f09000a;
+        public static final int delete_memory=0x7f09000c;
+        public static final int enter_name=0x7f090014;
+        public static final int exit_game=0x7f09000d;
+        public static final int heightspinner=0x7f090019;
+        public static final int heighttext=0x7f090017;
+        public static final int leaderboard=0x7f090005;
+        public static final int leaderboard_exit_button=0x7f090008;
+        public static final int menu_settings=0x7f09001d;
+        public static final int name_header=0x7f090006;
+        public static final int new_game=0x7f090009;
+        public static final int newgametext=0x7f090016;
+        public static final int outcometext=0x7f090011;
+        public static final int score_header=0x7f090007;
+        public static final int start_new_game_button=0x7f09001c;
+        public static final int test_text=0x7f090004;
+        public static final int unsolve_cancel_button=0x7f09000f;
+        public static final int unsolve_exit_button=0x7f090012;
+        public static final int unsolve_yes_button=0x7f090010;
+        public static final int unsolveabletext=0x7f09000e;
+        public static final int widthspinner=0x7f09001a;
+        public static final int widthtext=0x7f090018;
+        public static final int win_exit_button=0x7f090015;
+        public static final int wintext=0x7f090013;
     }
     public static final class layout {
         public static final int about=0x7f030000;
-        public static final int activity_game=0x7f030001;
-        public static final int activity_main=0x7f030002;
-        public static final int activity_unsolve_dialog=0x7f030003;
-        public static final int activity_unsolve_outcome=0x7f030004;
-        public static final int activity_win=0x7f030005;
-        public static final int new_game_dialog=0x7f030006;
+        public static final int activity_clear_memory=0x7f030001;
+        public static final int activity_game=0x7f030002;
+        public static final int activity_leaderboard=0x7f030003;
+        public static final int activity_main=0x7f030004;
+        public static final int activity_unsolve_dialog=0x7f030005;
+        public static final int activity_unsolve_outcome=0x7f030006;
+        public static final int activity_win=0x7f030007;
+        public static final int new_game_dialog=0x7f030008;
     }
     public static final class menu {
         public static final int about=0x7f080000;
-        public static final int activity_game=0x7f080001;
-        public static final int activity_main=0x7f080002;
-        public static final int activity_quit=0x7f080003;
-        public static final int activity_unsolve_dialog=0x7f080004;
-        public static final int activity_unsolve_outcome=0x7f080005;
-        public static final int activity_win=0x7f080006;
-        public static final int new_game_dialog=0x7f080007;
+        public static final int activity_clear_memory=0x7f080001;
+        public static final int activity_game=0x7f080002;
+        public static final int activity_leaderboard=0x7f080003;
+        public static final int activity_main=0x7f080004;
+        public static final int activity_quit=0x7f080005;
+        public static final int activity_unsolve_dialog=0x7f080006;
+        public static final int activity_unsolve_outcome=0x7f080007;
+        public static final int activity_win=0x7f080008;
+        public static final int new_game_dialog=0x7f080009;
     }
     public static final class string {
         public static final int about=0x7f050006;
@@ -78,6 +90,8 @@ public final class R {
          */
         public static final int app_name=0x7f050000;
         public static final int cancel=0x7f050010;
+        public static final int clear_memory=0x7f05001e;
+        public static final int cleartext=0x7f050020;
         public static final int continue_game=0x7f050005;
         public static final int enter=0x7f050008;
         public static final int enter_name=0x7f05001a;
@@ -86,13 +100,17 @@ public final class R {
         public static final int hello_world=0x7f05000b;
         public static final int main_menu=0x7f050001;
         public static final int menu_settings=0x7f050002;
+        public static final int moves=0x7f05001d;
+        public static final int name=0x7f05001c;
         public static final int new_game=0x7f050004;
         /**  New game dialog strings 
          */
         public static final int newgametext=0x7f05000d;
         public static final int no=0x7f050015;
         public static final int title_activity_about=0x7f05000c;
+        public static final int title_activity_clear_memory=0x7f05001f;
         public static final int title_activity_game=0x7f050011;
+        public static final int title_activity_leaderboard=0x7f05001b;
         public static final int title_activity_main=0x7f050003;
         public static final int title_activity_quit=0x7f050017;
         public static final int title_activity_unsolve_dialog=0x7f050012;

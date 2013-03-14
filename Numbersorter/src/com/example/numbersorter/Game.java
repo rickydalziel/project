@@ -77,6 +77,7 @@ public class Game extends Activity {
 
 		}
 
+		grid = test;
 
 		gameview = new GameView(this);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);

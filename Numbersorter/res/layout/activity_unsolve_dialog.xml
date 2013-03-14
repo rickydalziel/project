@@ -21,12 +21,6 @@
 
         <TableRow>
 
-            <Button
-                android:id="@+id/unsolve_yes_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:onClick="yesPressed"
-                android:text="@string/yes" />
 
             <Button
                 android:id="@+id/unsolve_cancel_button"
@@ -34,6 +28,15 @@
                 android:layout_height="wrap_content"
                 android:onClick="cancelPressed"
                 android:text="@string/cancel" />
+            
+            
+            <Button
+                android:id="@+id/unsolve_yes_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="yesPressed"
+                android:text="@string/yes" />
+            
         </TableRow>
     </TableLayout>
 
