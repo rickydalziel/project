@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="73" version="2.0">
+<workbench progressCount="69" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="271" y="243">
+<window height="768" maximized="true" width="1024" x="436" y="205">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="343"/>
@@ -14,6 +14,7 @@
 <coolItem id="adt.actionSet.lint" itemType="typeToolBarContribution" x="53" y="22"/>
 <coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
 <coolItem id="org.eclipse.jst.j2ee.J2eeMainActionSet" itemType="typeToolBarContribution" x="91" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="130" y="22"/>
@@ -32,7 +33,7 @@
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1360849597696" focus="true" label="Workspace - Java EE">
+<page aggregateWorkingSetId="Aggregate for window 1360849597696" focus="true" label="Workspace - Java">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
@@ -50,48 +51,12 @@
 <part id="9"/>
 <part id="10"/>
 <part id="11"/>
-<part id="12"/>
-<part id="13"/>
-<part id="14"/>
-<part id="15"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GameView.java" partName="GameView.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/GameView.java" title="GameView.java" tooltip="Numbersorter/src/com/example/numbersorter/GameView.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/GameView.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7963" selectionTopPixel="4009"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Game.java" partName="Game.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/Game.java" title="Game.java" tooltip="Numbersorter/src/com/example/numbersorter/Game.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/Game.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="334" selectionTopPixel="45"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_game.xml" partName="activity_game.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/layout/activity_game.xml" title="activity_game.xml" tooltip="Numbersorter/res/layout/activity_game.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/layout/activity_game.xml"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="Numbersorter Manifest" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/AndroidManifest.xml" title="Numbersorter Manifest" tooltip="Numbersorter/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/AndroidManifest.xml"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_unsolve_dialog.xml" partName="activity_unsolve_dialog.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/layout/activity_unsolve_dialog.xml" title="activity_unsolve_dialog.xml" tooltip="Numbersorter/res/layout/activity_unsolve_dialog.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/layout/activity_unsolve_dialog.xml"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" partName="strings.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/values/strings.xml" title="strings.xml" tooltip="Numbersorter/res/values/strings.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/values/strings.xml"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/MainActivity.java" title="MainActivity.java" tooltip="Numbersorter/src/com/example/numbersorter/MainActivity.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/MainActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="1651" selectionTopPixel="904"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UnsolveDialog.java" partName="UnsolveDialog.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/UnsolveDialog.java" title="UnsolveDialog.java" tooltip="Numbersorter/src/com/example/numbersorter/UnsolveDialog.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/UnsolveDialog.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1139" selectionTopPixel="229"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_unsolve_outcome.xml" partName="activity_unsolve_outcome.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/layout/activity_unsolve_outcome.xml" title="activity_unsolve_outcome.xml" tooltip="Numbersorter/res/layout/activity_unsolve_outcome.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/layout/activity_unsolve_outcome.xml"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UnsolveOutcome.java" partName="UnsolveOutcome.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/UnsolveOutcome.java" title="UnsolveOutcome.java" tooltip="Numbersorter/src/com/example/numbersorter/UnsolveOutcome.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/UnsolveOutcome.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="163" selectionOffset="718" selectionTopPixel="109"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_win.xml" partName="activity_win.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/layout/activity_win.xml" title="activity_win.xml" tooltip="Numbersorter/res/layout/activity_win.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/layout/activity_win.xml"/>
 </editor>
 <editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="new_game_dialog.xml" partName="new_game_dialog.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/layout/new_game_dialog.xml" title="new_game_dialog.xml" tooltip="Numbersorter/res/layout/new_game_dialog.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/layout/new_game_dialog.xml"/>
@@ -99,19 +64,36 @@
 <editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" partName="activity_main.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/layout/activity_main.xml" title="activity_main.xml" tooltip="Numbersorter/res/layout/activity_main.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/layout/activity_main.xml"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NewGameDialog.java" partName="NewGameDialog.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/NewGameDialog.java" title="NewGameDialog.java" tooltip="Numbersorter/src/com/example/numbersorter/NewGameDialog.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/NewGameDialog.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="149" selectionOffset="1865" selectionTopPixel="409"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" partName="strings.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/values/strings.xml" title="strings.xml" tooltip="Numbersorter/res/values/strings.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/values/strings.xml"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_win.xml" partName="activity_win.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/layout/activity_win.xml" title="activity_win.xml" tooltip="Numbersorter/res/layout/activity_win.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/layout/activity_win.xml"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" partName="land\activity_main.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/layout-land/activity_main.xml" title="land\activity_main.xml" tooltip="Numbersorter/res/layout-land/activity_main.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/layout-land/activity_main.xml"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WinActivity.java" partName="WinActivity.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/WinActivity.java" title="WinActivity.java" tooltip="Numbersorter/src/com/example/numbersorter/WinActivity.java" workbook="DefaultEditorWorkbook">
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_clear_memory.xml" partName="activity_clear_memory.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/layout/activity_clear_memory.xml" title="activity_clear_memory.xml" tooltip="Numbersorter/res/layout/activity_clear_memory.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/layout/activity_clear_memory.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UnsolveDialog.java" partName="UnsolveDialog.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/UnsolveDialog.java" title="UnsolveDialog.java" tooltip="Numbersorter/src/com/example/numbersorter/UnsolveDialog.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/UnsolveDialog.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="169" selectionOffset="998" selectionTopPixel="166"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_unsolve_dialog.xml" partName="activity_unsolve_dialog.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/res/layout/activity_unsolve_dialog.xml" title="activity_unsolve_dialog.xml" tooltip="Numbersorter/res/layout/activity_unsolve_dialog.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/res/layout/activity_unsolve_dialog.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/MainActivity.java" title="MainActivity.java" tooltip="Numbersorter/src/com/example/numbersorter/MainActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/MainActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3650" selectionTopPixel="1501"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClearMemoryActivity.java" partName="ClearMemoryActivity.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/ClearMemoryActivity.java" title="ClearMemoryActivity.java" tooltip="Numbersorter/src/com/example/numbersorter/ClearMemoryActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/ClearMemoryActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="465" selectionTopPixel="0"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="Numbersorter Manifest" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/AndroidManifest.xml" title="Numbersorter Manifest" tooltip="Numbersorter/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/AndroidManifest.xml"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WinActivity.java" partName="WinActivity.java" path="C:/Users/Ricky/Documents/ProjectWorkspace/Numbersorter/src/com/example/numbersorter/WinActivity.java" title="WinActivity.java" tooltip="Numbersorter/src/com/example/numbersorter/WinActivity.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Numbersorter/src/com/example/numbersorter/WinActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="433" selectionTopPixel="0"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" partName="activity_main.xml" path="C:/Users/Ricky/Documents/ProjectWorkspace/My First App/res/layout/activity_main.xml" title="activity_main.xml" tooltip="My First App/res/layout/activity_main.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/My First App/res/layout/activity_main.xml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2503" selectionTopPixel="766"/>
 </editor>
 </editors>
 <views>
@@ -122,6 +104,9 @@
 </view>
 <view id="org.eclipse.cdt.debug.ui.executablesView" partName="Executables"/>
 <view id="org.eclipse.egit.ui.StagingView" partName="Git Staging"/>
+<view id="com.yattasolutions.umllab.views.treeview" partName="UML Lab Tree">
+<viewState CommonNavigator.LINKING_ENABLED="1"/>
+</view>
 <view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
 <viewState/>
 </view>
@@ -155,7 +140,10 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>&#x0A;<category IMemento.internal.id="Warnings (25 items)"/>
+<expanded>
+<category IMemento.internal.id="Warnings (15 items)"/>
+<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -168,13 +156,63 @@
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" showCategories="true"/>
 </view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsConnections" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsTempFiles" isEnabled="true"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+<child filterId="org.eclipse.mylyn.java.ui.MembersFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
-<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
+<viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
+<sorter groupBy="CATEGORY_QUERY">
+<sorter>
+<sort0 sortDirection="1" sortKey="PRIORITY"/>
+<sort1 sortDirection="1" sortKey="RANK"/>
+<sort2 sortDirection="1" sortKey="DATE_CREATED"/>
+<sort3 sortDirection="1" sortKey="NONE"/>
+<sort4 sortDirection="1" sortKey="NONE"/>
+<sort5 sortDirection="1" sortKey="NONE"/>
+<sort6 sortDirection="1" sortKey="NONE"/>
+<sort7 sortDirection="1" sortKey="NONE"/>
+</sorter>
+</sorter>
+<filteredTreeFindHistory/>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 <view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jst.j2ee.internal.perspective.J2EEPerspective" id="org.eclipse.jst.j2ee.J2EEPerspective" label="Java EE"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -279,7 +317,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.16005121" ratioLeft="250" ratioRight="1312" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottomRight" ratio="0.7440945" ratioLeft="567" ratioRight="195" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
@@ -445,24 +483,34 @@
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
 <fastViewBars/>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@201e1a71" ratio="0.7495208" ratioLeft="1173" ratioRight="392" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.internal.introview" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@201e1a71" ratio="0.7495208" ratioLeft="1173" ratioRight="392" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.ui.internal.introview" appearance="2" expanded="2">
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7490196" ratioLeft="573" ratioRight="192" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.5551181" ratioLeft="423" ratioRight="339" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.cdt.debug.ui.executablesView" label="Executables"/>
@@ -472,34 +520,44 @@
 <page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
 <page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
 <page content="org.eclipse.wst.xsl.jaxp.debug.ui.view1" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@36e0dc38" ratio="0.49968052" ratioLeft="782" ratioRight="783" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">&#x0A;<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@36e0dc38" ratio="0.49968052" ratioLeft="782" ratioRight="783" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">
+<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">
+<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.6455026" ratioLeft="366" ratioRight="201" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7495208" ratioLeft="1173" ratioRight="392" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info part="org.eclipse.ui.editorss" ratio="0.35734072" ratioLeft="129" ratioRight="232" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7495208" ratioLeft="1173" ratioRight="392" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.dsf.gdb.ui.tracecontrol.view" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.49968052" ratioLeft="782" ratioRight="783" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.49968052" ratioLeft="782" ratioRight="783" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.debug.ui.SignalsView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.ModuleView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
@@ -507,113 +565,289 @@
 </mainWindow>
 </layout>
 </perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.yattasolutions.umllab.reporting.actionSet1"/>
+<alwaysOnActionSet id="com.yattasolutions.umllab.registrationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.mylyn.tasks.ui.navigation"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="adt.actionSet.wizards"/>
+<alwaysOnActionSet id="adt.actionSet.avdManager"/>
+<alwaysOnActionSet id="adt.actionSet.lint"/>
+<alwaysOnActionSet id="adt.actionSet.refactorings"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="com.android.ide.eclipse.adt.project.NewProjectWizard"/>
+<new_wizard_action id="com.android.ide.eclipse.editors.wizards.NewXmlFileWizard"/>
+<new_wizard_action id="com.yattasolutions.diagrams.classdiagram.newUmlLabProject"/>
+<new_wizard_action id="com.yattasolutions.umllab.roundtrip.reversedModelWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<new_wizard_action id="org.eclipse.mylyn.tasks.ui.wizards.new.repository.task"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="com.android.ide.eclipse.ddms.Perspective"/>
+<perspective_action id="com.android.ide.eclipse.hierarchyviewer.PixelPerfectPespective"/>
+<perspective_action id="com.android.ide.eclipse.hierarchyviewer.TreeViewPerspective"/>
+<perspective_action id="org.eclipse.wst.jsdt.ui.JavaPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@4e3a69c6" orientation="256" selectedTabId="org.eclipse.mylyn.tasks.ui.views.tasks" style="0">
+<fastViews>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@5a793f89" orientation="256" selectedTabId="com.yattasolutions.umllab.views.treeview" style="0">
+<fastViews>
+<view id="com.yattasolutions.umllab.views.treeview" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="right" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1194" ratioRight="398" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.20716612" ratioLeft="318" ratioRight="1217" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.7490196" ratioLeft="573" ratioRight="192" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@4e3a69c6" ratio="0.7495812" ratioLeft="895" ratioRight="299" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.4991274" ratioLeft="286" ratioRight="287" relationship="4" relative="org.eclipse.ui.internal.ViewStack@4e3a69c6">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@5a793f89" ratio="0.6993464" ratioLeft="535" ratioRight="230" relationship="4" relative="left">
+<folder appearance="2" expanded="0">
+<page content="com.yattasolutions.umllab.views.treeview" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.egit.ui.RepositoriesView" ratio="0.6" ratioLeft="321" ratioRight="214" relationship="4" relative="left"/>
+</mainWindow>
+</layout>
+</perspective>
 </perspectives>
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/WinActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/Game.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout/activity_leaderboard.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/Numbersorter/res/layout/activity_leaderboard.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout/activity_win.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/NewGameDialog.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout/new_game_dialog.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout/activity_main.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout/new_game_dialog.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/UnsolveOutcome.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/GameView.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/My First App/res/layout/activity_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout/activity_game.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout-land/activity_main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout/activity_clear_memory.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/UnsolveDialog.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Numbersorter/res/layout/activity_unsolve_dialog.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/MainActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/ClearMemoryActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/Numbersorter/res/layout/new_game_dialog.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/Numbersorter/res/layout/activity_unsolve_dialog.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/Numbersorter/res/layout/activity_clear_memory.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Numbersorter/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Numbersorter/src/com/example/numbersorter/WinActivity.java"/>
 </editors>
-<item historyLabel="activity_main.xml" index="4"/>
-<item historyLabel="activity_win.xml" index="2"/>
-<item historyLabel="NewGameDialog.java" index="3">
-<position info="not_deleted" x="1865" y="149"/>
+<item historyLabel="activity_leaderboard.xml" index="1">
+<position info="not_deleted" x="732" y="0"/>
 </item>
-<item historyLabel="activity_main.xml" index="4"/>
-<item historyLabel="new_game_dialog.xml" index="6"/>
-<item historyLabel="UnsolveOutcome.java" index="7">
-<position info="not_deleted" x="718" y="80"/>
+<item historyLabel="activity_leaderboard.xml" index="1">
+<position info="not_deleted" x="1092" y="0"/>
 </item>
-<item historyLabel="Game.java" index="1">
-<position info="not_deleted" x="670" y="0"/>
+<item historyLabel="activity_leaderboard.xml" index="1">
+<position info="not_deleted" x="1706" y="0"/>
 </item>
-<item historyLabel="WinActivity.java" index="0">
+<item historyLabel="activity_leaderboard.xml" index="1">
+<position info="not_deleted" x="574" y="0"/>
+</item>
+<item historyLabel="activity_leaderboard.xml" index="1">
 <position/>
 </item>
 <item historyLabel="activity_win.xml" index="2"/>
-<item historyLabel="WinActivity.java" index="0">
-<position info="not_deleted" x="352" y="0"/>
+<item historyLabel="new_game_dialog.xml" index="3"/>
+<item historyLabel="activity_win.xml" index="2"/>
+<item historyLabel="activity_leaderboard.xml" index="0"/>
+<item historyLabel="activity_win.xml" index="2"/>
+<item historyLabel="activity_main.xml" index="4"/>
+<item historyLabel="strings.xml" index="5"/>
+<item historyLabel="activity_main.xml" index="4"/>
+<item historyLabel="land\activity_main.xml" index="6"/>
+<item historyLabel="activity_main.xml" index="4"/>
+<item historyLabel="activity_clear_memory.xml" index="7"/>
+<item historyLabel="UnsolveDialog.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="activity_unsolve_dialog.xml" index="9"/>
+<item historyLabel="UnsolveDialog.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="activity_clear_memory.xml" index="7"/>
+<item historyLabel="strings.xml" index="5"/>
+<item historyLabel="activity_main.xml" index="4"/>
+<item historyLabel="land\activity_main.xml" index="6"/>
+<item historyLabel="MainActivity.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MainActivity.java" index="10">
+<position info="not_deleted" x="3764" y="0"/>
+</item>
+<item historyLabel="MainActivity.java" index="10">
+<position info="not_deleted" x="3752" y="0"/>
+</item>
+<item historyLabel="activity_clear_memory.xml" index="7"/>
+<item historyLabel="ClearMemoryActivity.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ClearMemoryActivity.java" index="11">
+<position info="not_deleted" x="404" y="0"/>
+</item>
+<item historyLabel="ClearMemoryActivity.java" index="11">
+<position info="not_deleted" x="421" y="0"/>
+</item>
+<item historyLabel="ClearMemoryActivity.java" index="11">
+<position info="not_deleted" x="465" y="0"/>
+</item>
+<item historyLabel="ClearMemoryActivity.java" index="11">
+<position info="not_deleted" x="570" y="0"/>
+</item>
+<item historyLabel="MainActivity.java" index="10">
+<position info="not_deleted" x="3752" y="0"/>
 </item>
 <item historyLabel="activity_win.xml" index="2"/>
-<item historyLabel="NewGameDialog.java" index="3">
-<position info="not_deleted" x="1865" y="149"/>
+<item historyLabel="new_game_dialog.xml" index="3">
+<position info="not_deleted" x="2099" y="0"/>
+</item>
+<item historyLabel="new_game_dialog.xml" index="12">
+<position info="not_deleted" x="2087" y="0"/>
+</item>
+<item historyLabel="activity_unsolve_dialog.xml" index="9">
+<position info="not_deleted" x="755" y="0"/>
+</item>
+<item historyLabel="activity_unsolve_dialog.xml" index="13">
+<position info="not_deleted" x="743" y="0"/>
+</item>
+<item historyLabel="activity_clear_memory.xml" index="7">
+<position info="not_deleted" x="747" y="0"/>
+</item>
+<item historyLabel="activity_clear_memory.xml" index="14">
+<position info="not_deleted" x="735" y="0"/>
+</item>
+<item historyLabel="ClearMemoryActivity.java" index="11">
+<position info="not_deleted" x="465" y="0"/>
+</item>
+<item historyLabel="MainActivity.java" index="10">
+<position info="not_deleted" x="3650" y="0"/>
+</item>
+<item historyLabel="ClearMemoryActivity.java" index="11">
+<position info="not_deleted" x="465" y="0"/>
 </item>
 <item historyLabel="activity_main.xml" index="4"/>
-<item historyLabel="new_game_dialog.xml" index="6"/>
-<item historyLabel="UnsolveOutcome.java" index="7">
-<position info="not_deleted" x="718" y="80"/>
-</item>
-<item historyLabel="strings.xml" index="5"/>
-<item historyLabel="new_game_dialog.xml" index="6"/>
+<item historyLabel="Numbersorter Manifest" index="15"/>
+<item historyLabel="new_game_dialog.xml" index="3"/>
 <item historyLabel="activity_main.xml" index="4"/>
-<item historyLabel="GameView.java" index="8">
-<position info="not_deleted" x="7963" y="0"/>
+<item historyLabel="activity_clear_memory.xml" index="7"/>
+<item historyLabel="UnsolveDialog.java" index="8">
+<position info="not_deleted" x="998" y="169"/>
 </item>
-<item historyLabel="WinActivity.java" index="0">
-<position info="not_deleted" x="490" y="0"/>
-</item>
-<item historyLabel="activity_win.xml" index="2"/>
-<item historyLabel="NewGameDialog.java" index="3">
-<position info="not_deleted" x="1865" y="149"/>
-</item>
-<item historyLabel="activity_main.xml" index="4"/>
-<item historyLabel="activity_win.xml" index="2"/>
-<item historyLabel="NewGameDialog.java" index="3">
-<position info="not_deleted" x="1865" y="149"/>
-</item>
-<item historyLabel="activity_main.xml" index="4"/>
-<item historyLabel="WinActivity.java" index="0">
-<position/>
-</item>
-<item historyLabel="UnsolveOutcome.java" index="7">
-<position info="not_deleted" x="718" y="163"/>
-</item>
-<item historyLabel="WinActivity.java" index="0">
-<position info="not_deleted" x="484" y="0"/>
-</item>
-<item historyLabel="activity_main.xml" index="9"/>
-<item historyLabel="activity_win.xml" index="2"/>
-<item historyLabel="strings.xml" index="5"/>
-<item historyLabel="activity_win.xml" index="2"/>
-<item historyLabel="strings.xml" index="5"/>
-<item historyLabel="activity_win.xml" index="2"/>
-<item historyLabel="strings.xml" index="5"/>
-<item historyLabel="NewGameDialog.java" index="3">
-<position info="not_deleted" x="1865" y="149"/>
-</item>
-<item historyLabel="activity_main.xml" index="4"/>
-<item historyLabel="NewGameDialog.java" index="3">
-<position info="not_deleted" x="1865" y="149"/>
-</item>
-<item historyLabel="activity_main.xml" index="9"/>
-<item historyLabel="WinActivity.java" index="0">
-<position info="not_deleted" x="417" y="1"/>
-</item>
-<item historyLabel="activity_win.xml" index="2"/>
-<item historyLabel="WinActivity.java" index="0">
-<position info="not_deleted" x="433" y="0"/>
-</item>
-<item historyLabel="activity_win.xml" index="2"/>
-<item historyLabel="strings.xml" index="5"/>
-<item historyLabel="GameView.java" index="8">
-<position info="not_deleted" x="7963" y="0"/>
-</item>
-<item historyLabel="strings.xml" index="5"/>
-<item historyLabel="UnsolveOutcome.java" index="7">
-<position info="not_deleted" x="718" y="163"/>
-</item>
-<item historyLabel="activity_game.xml" index="10"/>
-<item active="true" historyLabel="Game.java" index="1">
-<position info="not_deleted" x="670" y="0"/>
+<item active="true" historyLabel="WinActivity.java" index="16">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -621,8 +855,13 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@5a793f89"/>
+</trimArea>
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="topRight"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@4e3a69c6"/>
+<trimItem IMemento.internal.id="right"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -636,29 +875,32 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="My First App/res/layout/activity_main.xml">
-<persistable path="/My First App/res/layout/activity_main.xml"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WinActivity.java" tooltip="Numbersorter/src/com/example/numbersorter/WinActivity.java">
 <persistable path="/Numbersorter/src/com/example/numbersorter/WinActivity.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_win.xml" tooltip="Numbersorter/res/layout/activity_win.xml">
-<persistable path="/Numbersorter/res/layout/activity_win.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Numbersorter/AndroidManifest.xml">
+<persistable path="/Numbersorter/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClearMemoryActivity.java" tooltip="Numbersorter/src/com/example/numbersorter/ClearMemoryActivity.java">
+<persistable path="/Numbersorter/src/com/example/numbersorter/ClearMemoryActivity.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="Numbersorter/src/com/example/numbersorter/MainActivity.java">
+<persistable path="/Numbersorter/src/com/example/numbersorter/MainActivity.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_unsolve_dialog.xml" tooltip="Numbersorter/res/layout/activity_unsolve_dialog.xml">
+<persistable path="/Numbersorter/res/layout/activity_unsolve_dialog.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UnsolveDialog.java" tooltip="Numbersorter/src/com/example/numbersorter/UnsolveDialog.java">
+<persistable path="/Numbersorter/src/com/example/numbersorter/UnsolveDialog.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_clear_memory.xml" tooltip="Numbersorter/res/layout/activity_clear_memory.xml">
+<persistable path="/Numbersorter/res/layout/activity_clear_memory.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="Numbersorter/res/layout-land/activity_main.xml">
 <persistable path="/Numbersorter/res/layout-land/activity_main.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NewGameDialog.java" tooltip="Numbersorter/src/com/example/numbersorter/NewGameDialog.java">
-<persistable path="/Numbersorter/src/com/example/numbersorter/NewGameDialog.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QuitActivity.java" tooltip="Numbersorter/src/com/example/numbersorter/QuitActivity.java">
-<persistable path="/Numbersorter/src/com/example/numbersorter/QuitActivity.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_quit.xml" tooltip="Numbersorter/res/layout/activity_quit.xml">
-<persistable path="/Numbersorter/res/layout/activity_quit.xml"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Activity.class" tooltip="android.app.Activity">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Numbersorter/C:\/Users\/Ricky\/AppData\/Local\/Android\/android-sdk\/platforms\/android-16\/android.jar&lt;android.app(Activity.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="Numbersorter/res/values/strings.xml">
+<persistable path="/Numbersorter/res/values/strings.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="Numbersorter/res/layout/activity_main.xml">
 <persistable path="/Numbersorter/res/layout/activity_main.xml"/>
@@ -666,20 +908,17 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="new_game_dialog.xml" tooltip="Numbersorter/res/layout/new_game_dialog.xml">
 <persistable path="/Numbersorter/res/layout/new_game_dialog.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UnsolveOutcome.java" tooltip="Numbersorter/src/com/example/numbersorter/UnsolveOutcome.java">
-<persistable path="/Numbersorter/src/com/example/numbersorter/UnsolveOutcome.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_win.xml" tooltip="Numbersorter/res/layout/activity_win.xml">
+<persistable path="/Numbersorter/res/layout/activity_win.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_game.xml" tooltip="Numbersorter/res/layout/activity_game.xml">
+<persistable path="/Numbersorter/res/layout/activity_game.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_unsolve_outcome.xml" tooltip="Numbersorter/res/layout/activity_unsolve_outcome.xml">
 <persistable path="/Numbersorter/res/layout/activity_unsolve_outcome.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="colors.xml" tooltip="Numbersorter/res/values/colors.xml">
-<persistable path="/Numbersorter/res/values/colors.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UnsolveDialog.java" tooltip="Numbersorter/src/com/example/numbersorter/UnsolveDialog.java">
-<persistable path="/Numbersorter/src/com/example/numbersorter/UnsolveDialog.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="Numbersorter/src/com/example/numbersorter/MainActivity.java">
-<persistable path="/Numbersorter/src/com/example/numbersorter/MainActivity.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Method.class" tooltip="java.lang.reflect.Method">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=My First App/C:\/Users\/Ricky\/AppData\/Local\/Android\/android-sdk\/platforms\/android-16\/android.jar&lt;java.lang.reflect(Method.class"/>
 </file>
 </mruList>
 </workbench>
