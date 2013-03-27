@@ -60,19 +60,23 @@ public class Game extends Activity {
 			}
 			
 			
-			
-
-			
-			
 		} 
 		else {
 			
 			height = extras.getInt("height");
 			width = extras.getInt("width");
+			boolean solvableOnly = extras.getBoolean("solvableOnly");
 
 
 			grid = initialise();
-
+			
+			if(solvableOnly){
+				while(Math.pow(-1, getInversionNumber()) <= 0){
+					
+					grid = initialise();
+				}
+				
+			}
 
 		}
 
@@ -167,9 +171,19 @@ public class Game extends Activity {
 		return (getInversionNumber() == 0);
 
 	}
+	
+	public void swipe(int direction, int index, int distance){
+		
+		grid = getMovedGrid(direction, index, distance);
+		moveCount++;
+	}
 
-	public void swipe(int direction, int index, int distance) {
+	public int[][] getMovedGrid(int direction, int index, int distance) {
+		
 
+
+		int[][] newGrid = copyGrid();
+		
 		if (direction == VERTICAL) {
 
 			int[] newColumn = new int[height];
@@ -182,7 +196,7 @@ public class Game extends Activity {
 
 			for (int i = 0; i < height; i++) {
 
-				grid[i][index] = newColumn[i];
+				newGrid[i][index] = newColumn[i];
 
 			}
 
@@ -197,13 +211,12 @@ public class Game extends Activity {
 
 			for (int i = 0; i < width; i++) {
 
-				grid[index][i] = newRow[i];
+				newGrid[index][i] = newRow[i];
 
 			}
 		}
 
-		moveCount++;
-
+		return newGrid;
 	}
 
 	@Override
@@ -269,4 +282,17 @@ public class Game extends Activity {
 		
 	}
 
+	private int[][] copyGrid(){
+		
+		int[][] copyGrid = new int[height][width];
+		for (int i = 0; i < height; i++){
+			for (int j = 0; j < width; j++){
+				
+				copyGrid[i][j] = grid[i][j];
+				
+			}
+		}
+		
+		return copyGrid;
+	}
 }

@@ -18,10 +18,8 @@ public class GameView extends View {
 	private float tileSize;
 	private int height, width;
 	private int statusBarHeight;
-	private int alphaNumber = 0;
-	private int alphaRow = 0;
-	private int alphaColumn = 0;
 	private boolean toDraw = false;
+	private int[][] drawGrid;
 
 	private float initialX = 0;
 	private float initialY = 0;
@@ -40,8 +38,6 @@ public class GameView extends View {
 
 		height = game.getHeight();
 		width = game.getWidth();
-
-
 
 	}
 
@@ -75,7 +71,16 @@ public class GameView extends View {
 		starty = (gridheight - tileSize * height) / 2;
 		startx = (getWidth() - tileSize * width) / 2;
 
-		int[][] gameGrid = game.getGrid();
+		int[][] gameGrid;
+		
+		if(toDraw){
+			
+			gameGrid = drawGrid;
+		}
+		else{
+			
+			gameGrid = game.getGrid();
+		}
 
 		for (int i = 0; i < height; i++) {
 			for (int j = 0; j < width; j++) {
@@ -125,19 +130,6 @@ public class GameView extends View {
 		canvas.drawText("Quit", quitbutton.left + unsolvebutton.width() / 7,
 				quitbutton.top + quitbutton.height() / 2, buttonText);
 
-		if (toDraw) {
-			Paint alphatext = new Paint(Paint.ANTI_ALIAS_FLAG);
-			alphatext.setColor(getResources().getColor(R.color.black));
-			alphatext.setTextSize((float) (tileSize * 0.5));
-			alphatext.setTextAlign(Align.CENTER);
-			alphatext.setAlpha(150);
-
-			canvas.drawText(
-					Integer.toString(alphaNumber),
-					(int) (startx + (alphaColumn * tileSize) + (TEXTPADDINGH * tileSize)),
-					(int) (starty + (alphaRow * tileSize) + (TEXTPADDINGV * tileSize)),
-					alphatext);
-		}
 
 	}
 
@@ -202,7 +194,7 @@ public class GameView extends View {
 						float deltaMoveX = moveX - initialX;
 						float deltaMoveY = moveY - initialY;
 
-						alphaNumber = game.getNumber(row, column);
+//						alphaNumber = game.getNumber(row, column);
 
 						if (moveRow != row | moveColumn != column) {
 
@@ -211,9 +203,9 @@ public class GameView extends View {
 
 								if (moveRow < height && moveRow >= 0) {
 									toDraw = true;
-									alphaRow = moveRow;
-									alphaColumn = column;
-								} else {
+									drawGrid = game.getMovedGrid(Game.VERTICAL, column, moveRow - row);
+								} 
+								else {
 
 									toDraw = false;
 								}
@@ -222,14 +214,15 @@ public class GameView extends View {
 
 								if (moveColumn < width && moveColumn >= 0) {
 									toDraw = true;
-									alphaRow = row;
-									alphaColumn = moveColumn;
-								} else {
+									drawGrid = game.getMovedGrid(Game.HORIZONTAL, row, moveColumn - column);
+								} 
+								else {
 
 									toDraw = false;
 								}
 							}
-						} else {
+						} 
+						else {
 
 							toDraw = false;
 						}
@@ -246,7 +239,7 @@ public class GameView extends View {
 					float releaseY = event.getRawY() - statusBarHeight;
 					deltaX = releaseX - initialX;
 					deltaY = releaseY - initialY;
-					int height = getHeight();
+
 
 					if (unsolvebutton.contains((int) releaseX, (int) releaseY)
 							&& inUnsolve) {
@@ -285,16 +278,15 @@ public class GameView extends View {
 
 						toDraw = false;
 						invalidate();
-						
-						if (game.checkfinished())
-						{
-							
+
+						if (game.checkfinished()) {
+
 							Context context = getContext();
 							Intent i = new Intent(context, WinActivity.class);
 							i.putExtra("moveCount", game.getMoveCount());
 							((Activity) context).startActivityForResult(i, 0);
 							return true;
-							
+
 						}
 
 					}

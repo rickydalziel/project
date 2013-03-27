@@ -1,0 +1,86 @@
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class GameTest {
+
+	private Game testGrid, movesGrid1, movesGrid2;
+	private int[][] layout1 = { { 1, 2, 4 }, { 3, 5, 6 }, { 7, 8, 9 } };
+	private int[][] layout2 = { { 1, 2, 4 }, { 3, 5, 6 }, { 7, 8, 9 },
+			{ 10, 11, 12 }, { 13, 14, 15 } };
+
+	@Before
+	public void setUp() throws Exception {
+
+		testGrid = new Game(3, 4);
+		movesGrid1 = new Game(3, 3);
+		movesGrid2 = new Game(5, 3);
+		movesGrid1.setGrid(layout1);
+		movesGrid2.setGrid(layout2);
+
+	}
+
+	@Test
+	public void testInitialisation() {
+
+		assertNotNull(testGrid.getGrid());
+		assertEquals(3, testGrid.getHeight());
+		assertEquals(4, testGrid.getWidth());
+
+		int grid[][] = testGrid.getGrid();
+		assertEquals(3, grid.length);
+		assertEquals(4, grid[0].length);
+	}
+
+	@Test
+	public void testHorizontalForwardMovesOnGridOne() {
+
+		movesGrid1.swipe(Game.HORIZONTAL, 0, 1);
+
+		int[][] newGrid = { { 4, 1, 2 }, { 3, 5, 6 }, { 7, 8, 9 } };
+		assertArrayEquals(newGrid, movesGrid1.getGrid());
+
+	}
+
+	@Test
+	public void testHorizontalForwardMovesOnGridTwo() {
+
+		movesGrid2.swipe(Game.HORIZONTAL, 4, 1);
+
+		int[][] newGrid = { { 1, 2, 4 }, { 3, 5, 6 }, { 7, 8, 9 },
+				{ 10, 11, 12 }, { 15, 13, 14 } };
+		assertArrayEquals(newGrid, movesGrid2.getGrid());
+
+	}
+
+	@Test
+	public void testHorinzontalBackwardMovesOnGridOne() {
+
+		movesGrid1.swipe(Game.HORIZONTAL, 0, -1);
+
+		int[][] newGrid = { { 2, 4, 1 }, { 3, 5, 6 }, { 7, 8, 9 } };
+		assertArrayEquals(newGrid, movesGrid1.getGrid());
+
+	}
+
+	@Test
+	public void testHorinzontalBackwardMovesOnGridTwo() {
+
+		movesGrid2.swipe(Game.HORIZONTAL, 4, -1);
+
+		int[][] newGrid = { { 1, 2, 4 }, { 3, 5, 6 }, { 7, 8, 9 },
+				{ 10, 11, 12 }, { 14, 15, 13 } };
+		assertArrayEquals(newGrid, movesGrid2.getGrid());
+
+	}
+
+	public void testVerticalMovesOnGridOne() {
+
+		movesGrid1.swipe(Game.VERTICAL, 2, 1);
+		
+		int[][] newGrid = { {1,2,9},{3,5,4},{7,8,6}};
+		assertArrayEquals(newGrid, movesGrid1.getGrid());
+		
+	}
+}

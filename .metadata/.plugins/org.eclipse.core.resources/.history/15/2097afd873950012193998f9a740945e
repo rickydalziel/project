@@ -1,0 +1,41 @@
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+
+public class GameTest {
+
+	private Game testGrid, movesGrid1, movesGrid2;
+	private int[][] layout = {{1,2,4},{3,5,6},{7,8,9}};
+	
+	@Before
+	public void setUp() throws Exception {
+		
+		testGrid = new Game(3,4);
+		movesGrid1 = new Game(3,3);
+		movesGrid1.setGrid(layout);
+		
+	}
+
+	@Test
+	public void testInitialisation() {
+		
+		assertNotNull(testGrid.getGrid());
+		assertEquals(3, testGrid.getHeight());
+		assertEquals(4, testGrid.getWidth());
+		
+		int grid[][] = testGrid.getGrid();
+		assertEquals(3, grid.length);
+		assertEquals(4, grid[0].length);
+	}
+	
+	@Test
+	public void testMoves(){
+		
+		movesGrid1.swipe(Game.HORIZONTAL, 0, 1);
+		
+		assertEquals(newGrid, movesGrid1.getGrid());
+	}
+
+}

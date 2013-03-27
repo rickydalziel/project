@@ -28,7 +28,8 @@ public final class R {
     public static final class id {
         public static final int about=0x7f09000b;
         public static final int about_content=0x7f090000;
-        public static final int cancel_button=0x7f09001b;
+        public static final int cancel_button=0x7f09001c;
+        public static final int checkbox_solve=0x7f09001b;
         public static final int clear_cancel_button=0x7f090002;
         public static final int clear_yes_button=0x7f090003;
         public static final int cleartext=0x7f090001;
@@ -40,13 +41,13 @@ public final class R {
         public static final int heighttext=0x7f090017;
         public static final int leaderboard=0x7f090005;
         public static final int leaderboard_exit_button=0x7f090008;
-        public static final int menu_settings=0x7f09001d;
+        public static final int menu_settings=0x7f09001e;
         public static final int name_header=0x7f090006;
         public static final int new_game=0x7f090009;
         public static final int newgametext=0x7f090016;
         public static final int outcometext=0x7f090011;
         public static final int score_header=0x7f090007;
-        public static final int start_new_game_button=0x7f09001c;
+        public static final int start_new_game_button=0x7f09001d;
         public static final int test_text=0x7f090004;
         public static final int unsolve_cancel_button=0x7f09000f;
         public static final int unsolve_exit_button=0x7f090012;
@@ -91,7 +92,7 @@ public final class R {
         public static final int app_name=0x7f050000;
         public static final int cancel=0x7f050010;
         public static final int clear_memory=0x7f05001e;
-        public static final int cleartext=0x7f050020;
+        public static final int cleartext=0x7f050021;
         public static final int continue_game=0x7f050005;
         public static final int enter=0x7f050008;
         public static final int enter_name=0x7f05001a;
@@ -107,6 +108,7 @@ public final class R {
          */
         public static final int newgametext=0x7f05000d;
         public static final int no=0x7f050015;
+        public static final int solvable_only=0x7f050020;
         public static final int title_activity_about=0x7f05000c;
         public static final int title_activity_clear_memory=0x7f05001f;
         public static final int title_activity_game=0x7f050011;

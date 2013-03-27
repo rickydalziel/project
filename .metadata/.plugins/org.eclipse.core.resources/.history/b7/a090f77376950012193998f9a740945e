@@ -1,0 +1,175 @@
+
+import java.util.ArrayList;
+import java.util.Random;
+
+public class Game{
+
+	public static final int VERTICAL = 1;
+	public static final int HORIZONTAL = 0;
+
+
+	private int height, width, moveCount;
+	private int[][] grid = null;
+	private boolean unsolvable;
+
+
+	protected Game(int height, int width) {
+
+		moveCount = 0;
+		this.height = height;
+		this.width = width;
+		grid = initialise();
+
+		checkUnsolveable();
+
+	}
+
+	private void checkUnsolveable() {
+
+		unsolvable = (Math.pow(-1, getInversionNumber()) < 0);
+	}
+
+
+
+	private int getInversionNumber() {
+
+		int[] flatGrid = flatten();
+		int counter = 0;
+
+		for (int i = 0; i < flatGrid.length; i++) {
+			for (int j = i + 1; j < flatGrid.length; j++) {
+				if (flatGrid[i] > flatGrid[j]) {
+
+					counter++;
+				}
+			}
+		}
+		return counter;
+	}
+
+	public boolean isUnsolvable() {
+
+		return unsolvable;
+	}
+
+	private int[][] initialise() {
+
+		int[][] output = new int[height][width];
+
+		ArrayList<Integer> numbers = new ArrayList<Integer>();
+
+		for (int i = 1; i <= height * width; i++) {
+
+			numbers.add(i);
+
+		}
+
+		Random r = new Random();
+
+		for (int i = 0; i < height; i++) {
+			for (int j = 0; j < width; j++) {
+
+				int number = numbers.get(r.nextInt(numbers.size()));
+				output[i][j] = number;
+				numbers.remove(numbers.indexOf(number));
+
+			}
+
+		}
+
+		return output;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public int getWidth() {
+		return width;
+	}
+
+	public int[][] getGrid() {
+
+		return grid;
+
+	}
+
+	public boolean checkfinished() {
+
+		return (getInversionNumber() == 0);
+
+	}
+
+	public void swipe(int direction, int index, int distance) {
+
+		if (direction == VERTICAL) {
+
+			int[] newColumn = new int[height];
+
+			for (int i = 0; i < height; i++) {
+
+				newColumn[(i + distance + height) % height] = grid[i][index];
+
+			}
+
+			for (int i = 0; i < height; i++) {
+
+				grid[i][index] = newColumn[i];
+
+			}
+
+		} else {
+
+			int[] newRow = new int[width];
+			for (int i = 0; i < width; i++) {
+
+				newRow[(i + distance + width) % width] = grid[index][i];
+
+			}
+
+			for (int i = 0; i < width; i++) {
+
+				grid[index][i] = newRow[i];
+
+			}
+		}
+
+		moveCount++;
+
+	}
+
+	private int[] flatten() {
+
+		int[] newgrid = new int[height * width];
+
+		for (int i = 0; i < height; i++) {
+			for (int j = 0; j < width; j++) {
+
+				newgrid[(width * i) + j] = grid[i][j];
+
+			}
+
+		}
+
+		return newgrid;
+	}
+
+	public int getNumber(int height, int width) {
+
+		return grid[height][width];
+	}
+
+	public int getMoveCount() {
+
+		return moveCount;
+	}
+	
+	public void setGrid(int[][] grid){
+		
+		this.grid = grid;
+		height = grid.length;
+		width = grid[0].length;
+		
+	}
+
+}

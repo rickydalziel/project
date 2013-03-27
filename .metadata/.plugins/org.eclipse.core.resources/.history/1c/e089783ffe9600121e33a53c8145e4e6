@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/newgametext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/newgametext" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:id="@+id/heighttext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/height" />
+
+            <TextView
+                android:id="@+id/widthtext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/width" />
+        </TableRow>
+
+        <TableRow
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp" >
+
+            <Spinner
+                android:id="@+id/heightspinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawSelectorOnTop="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <Spinner
+                android:id="@+id/widthspinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawSelectorOnTop="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <CheckBox
+                android:id="@+id/checkbox_solve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:layout_span="2"
+                android:text="@string/solvable_only" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="cancelPressed"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@+id/start_new_game_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:onClick="newGamePressed"
+                android:text="@string/new_game" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

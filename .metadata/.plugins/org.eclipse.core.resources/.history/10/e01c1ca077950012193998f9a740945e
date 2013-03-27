@@ -1,0 +1,141 @@
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class GameTest {
+
+	private Game testGrid, movesGrid1, movesGrid2, inversionGrid1, inversionGrid2;
+	private int[][] layout1 = { { 1, 2, 4 }, { 3, 5, 6 }, { 7, 8, 9 } };
+	private int[][] layout2 = { { 1, 2, 4 }, { 3, 5, 6 }, { 7, 8, 9 },
+			{ 10, 11, 12 }, { 13, 14, 15 } };
+	private int[][] layout3 = {{1,3,2},{4,5,6},{7,8,9}};
+	private int[][] layout4 = {{1,2,6},{4,5,9},{7,8,3}};
+
+	@Before
+	public void setUp() throws Exception {
+
+		testGrid = new Game(3, 4);
+		movesGrid1 = new Game(3, 3);
+		movesGrid2 = new Game(5, 3);
+		inversionGrid1 = new Game(3,3);
+		inversionGrid2 = new Game(3,3);
+		
+		movesGrid1.setGrid(layout1);
+		movesGrid2.setGrid(layout2);
+		inversionGrid1.setGrid(layout3);
+		inversionGrid2.setGrid(layout4);
+		
+
+	}
+
+	@Test
+	public void testInitialisation() {
+
+		assertNotNull(testGrid.getGrid());
+		assertEquals(3, testGrid.getHeight());
+		assertEquals(4, testGrid.getWidth());
+
+		int grid[][] = testGrid.getGrid();
+		assertEquals(3, grid.length);
+		assertEquals(4, grid[0].length);
+	}
+
+	@Test
+	public void testHorizontalForwardMovesOnGridOne() {
+
+		movesGrid1.swipe(Game.HORIZONTAL, 0, 1);
+
+		int[][] newGrid = { { 4, 1, 2 }, { 3, 5, 6 }, { 7, 8, 9 } };
+		assertArrayEquals(newGrid, movesGrid1.getGrid());
+
+	}
+
+	@Test
+	public void testHorizontalForwardMovesOnGridTwo() {
+
+		movesGrid2.swipe(Game.HORIZONTAL, 4, 1);
+
+		int[][] newGrid = { { 1, 2, 4 }, { 3, 5, 6 }, { 7, 8, 9 },
+				{ 10, 11, 12 }, { 15, 13, 14 } };
+		assertArrayEquals(newGrid, movesGrid2.getGrid());
+
+	}
+
+	@Test
+	public void testHorinzontalBackwardMovesOnGridOne() {
+
+		movesGrid1.swipe(Game.HORIZONTAL, 0, -1);
+
+		int[][] newGrid = { { 2, 4, 1 }, { 3, 5, 6 }, { 7, 8, 9 } };
+		assertArrayEquals(newGrid, movesGrid1.getGrid());
+
+	}
+
+	@Test
+	public void testHorinzontalBackwardMovesOnGridTwo() {
+
+		movesGrid2.swipe(Game.HORIZONTAL, 4, -1);
+
+		int[][] newGrid = { { 1, 2, 4 }, { 3, 5, 6 }, { 7, 8, 9 },
+				{ 10, 11, 12 }, { 14, 15, 13 } };
+		assertArrayEquals(newGrid, movesGrid2.getGrid());
+
+	}
+
+	@Test
+	public void testVerticalMovesOnGridOne() {
+
+		movesGrid1.swipe(Game.VERTICAL, 2, 1);
+		
+		int[][] newGrid = { {1,2,9},{3,5,4},{7,8,6}};
+		assertArrayEquals(newGrid, movesGrid1.getGrid());
+		
+	}
+	
+	@Test
+	public void testVerticalMovesOnGridTwo() {
+
+		movesGrid2.swipe(Game.VERTICAL, 2, 1);
+		
+		int[][] newGrid = { { 1, 2, 15 }, { 3, 5, 4 }, { 7, 8, 6 },
+				{ 10, 11, 9 }, { 13, 14, 12 } };
+
+		assertArrayEquals(newGrid, movesGrid2.getGrid());
+		
+	}
+	
+	@Test
+	public void testBackwardVerticalMovesOnGridOne() {
+		
+
+		movesGrid1.swipe(Game.VERTICAL, 2, -1);
+		
+		int[][] newGrid = { {1,2,6},{3,5,9},{7,8,4}};
+		assertArrayEquals(newGrid, movesGrid1.getGrid());
+		
+	}
+	
+	@Test
+	public void testBackwardVerticalMovesOnGridTwo() {
+		
+
+		movesGrid2.swipe(Game.VERTICAL, 2, -1);
+		
+		int[][] newGrid = { { 1, 2, 6 }, { 3, 5, 9 }, { 7, 8, 12 },
+				{ 10, 11, 15 }, { 13, 14, 4 } };
+		assertArrayEquals(newGrid, movesGrid2.getGrid());
+	}
+	
+	@Test 
+	public void testInversionNumbers(){
+		
+		assertEquals(1, inversionGrid1.getInversionNumber());
+		assertTrue(inversionGrid1.isUnsolvable());
+		
+		assertEquals(10, inversionGrid2.getInversionNumber());
+		assertFalse(inversionGrid2.isUnsolvable());
+		
+	}
+		
+}

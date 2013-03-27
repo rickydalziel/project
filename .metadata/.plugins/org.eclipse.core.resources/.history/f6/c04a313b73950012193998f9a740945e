@@ -1,0 +1,30 @@
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+
+public class GameTest {
+
+	private Game testGrid, movesGrid;
+	
+	@Before
+	public void setUp() throws Exception {
+		
+		testGrid = new Game(3,4);
+		
+	}
+
+	@Test
+	public void testInitialisation() {
+		
+		assertNotNull(testGrid.getGrid());
+		assertEquals(3, testGrid.getHeight());
+		assertEquals(4, testGrid.getWidth());
+		
+		int grid[][] = testGrid.getGrid();
+		assertEquals(3, grid.length);
+		assertEquals(4, grid[0].length);
+	}
+
+}

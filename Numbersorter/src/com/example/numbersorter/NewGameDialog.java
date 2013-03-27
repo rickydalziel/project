@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.CheckBox;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -44,9 +45,12 @@ public class NewGameDialog extends Activity {
 		
 		int height = Integer.parseInt(heightspinner.getSelectedItem().toString());
 		int width = Integer.parseInt(widthspinner.getSelectedItem().toString());
+		CheckBox checkbox = (CheckBox) findViewById(R.id.checkbox_solve);
+		boolean solvableOnly = checkbox.isChecked();
 		Intent i = new Intent(this, Game.class);
 		i.putExtra("height", height);
 		i.putExtra("width", width);
+		i.putExtra("solvableOnly", solvableOnly);
 		startActivityForResult(i, 0);
 
 	}
