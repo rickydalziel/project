@@ -21,6 +21,7 @@ import android.widget.TextView;
 public class LeaderboardActivity extends Activity {
 
 	private Leaderboard board;
+	private int currentSize = 0;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +37,36 @@ public class LeaderboardActivity extends Activity {
         // Go through each item in the array
         for (int current = 0; current < entries.size(); current++)
         {
+        	
+        	LeaderboardEntry entry = entries.get(current);
+        	
+        	if(entry.getBoardSize() != currentSize){
+        		
+        		TableRow tr = new TableRow(this);
+                tr.setId(100+current);
+                TableRow.LayoutParams params = new LayoutParams(
+                        LayoutParams.WRAP_CONTENT,
+                        LayoutParams.WRAP_CONTENT);
+                params.span = 2;
+                tr.setLayoutParams(params);   
+
+                // Create a TextView to house the name of player
+                TextView labelTV = new TextView(this);
+                labelTV.setId(300+current);
+                labelTV.setText("" + entry.getBoardSize() + " Elements");
+                labelTV.setTextColor(Color.BLACK);
+                labelTV.setGravity(Gravity.CENTER);
+                labelTV.setLayoutParams(new LayoutParams(
+                        LayoutParams.WRAP_CONTENT,
+                        LayoutParams.WRAP_CONTENT));
+                tr.addView(labelTV);
+                
+                tl.addView(tr, new TableLayout.LayoutParams(
+                		LayoutParams.MATCH_PARENT,
+                        LayoutParams.WRAP_CONTENT));
+        		
+        		
+        	}
         	
         	int colour = 0;
         	
@@ -119,4 +150,10 @@ public class LeaderboardActivity extends Activity {
 		finish();
 	}
 
+	@Override
+	public void onBackPressed(){
+		
+		setResult(2);
+		finish();
+	}
 }

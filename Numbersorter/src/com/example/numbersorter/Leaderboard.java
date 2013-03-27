@@ -14,6 +14,7 @@ public class Leaderboard implements Serializable{
 	private static final long serialVersionUID = 1L;
 	private ArrayList<LeaderboardEntry> entries;
 	private LeaderboardEntry lastAdded;
+
 	
 	public Leaderboard(){
 		
@@ -39,6 +40,6 @@ public class Leaderboard implements Serializable{
 		return lastAdded;
 	}
 	
-
+	
 
 }
