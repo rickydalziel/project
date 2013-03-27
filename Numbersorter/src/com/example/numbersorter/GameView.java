@@ -10,6 +10,12 @@ import android.graphics.Rect;
 import android.view.MotionEvent;
 import android.view.View;
 
+/**
+ * The class which draws the game model on screen
+ * 
+ * @author Ricky
+ *
+ */
 public class GameView extends View {
 
 	private final Game game;
@@ -30,6 +36,7 @@ public class GameView extends View {
 	private float startx, starty;
 	private Rect unsolvebutton, quitbutton;
 
+
 	public GameView(Context context) {
 		super(context);
 		game = (Game) context;
@@ -44,7 +51,8 @@ public class GameView extends View {
 	@Override
 	public void onDraw(Canvas canvas) {
 
-		float gridheight = getHeight() - Math.max(getWidth(), getHeight()) / 8;
+		//calculate the space that the grid occupies, leaving space for buttons.
+		float gridheight = getHeight() - Math.max(getWidth(), getHeight()) / 8; 
 
 		Context context = getContext();
 		statusBarHeight = (int) Math.ceil(25 * context.getResources()
@@ -68,7 +76,7 @@ public class GameView extends View {
 		text.setTextSize((float) (tileSize * 0.5));
 		text.setTextAlign(Align.CENTER);
 
-		starty = (gridheight - tileSize * height) / 2;
+		starty = (gridheight - tileSize * height) / 2; 
 		startx = (getWidth() - tileSize * width) / 2;
 
 		int[][] gameGrid;
@@ -284,6 +292,7 @@ public class GameView extends View {
 							Context context = getContext();
 							Intent i = new Intent(context, WinActivity.class);
 							i.putExtra("moveCount", game.getMoveCount());
+							i.putExtra("boardSize", height*width);
 							((Activity) context).startActivityForResult(i, 0);
 							return true;
 

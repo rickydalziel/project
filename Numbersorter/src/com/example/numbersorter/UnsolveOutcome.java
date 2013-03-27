@@ -5,6 +5,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+/**
+ * Activity which tells the user if they made the right decision 
+ * when they decided the board was unsolavable.
+ * @author Ricky
+ *
+ */
 public class UnsolveOutcome extends Activity {
 
 	@Override
@@ -16,7 +22,7 @@ public class UnsolveOutcome extends Activity {
 		
 		TextView outcome = (TextView) findViewById(R.id.outcometext);
 		
-		if(unsolveable){
+		if(unsolveable){ //produce the appropriate response
 			
 			outcome.setText("Correct! Click exit to finish game");
 		}
@@ -33,6 +39,10 @@ public class UnsolveOutcome extends Activity {
 		finish();
 	}
 	
+	/**
+	 * called when the exit game button is pressed. Closes the activity.
+	 * @param view
+	 */
 	public void exitGamePressed(View view){
 		
 		deleteFile(MainActivity.SAVED_GAME);

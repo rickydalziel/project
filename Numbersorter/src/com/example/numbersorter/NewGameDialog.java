@@ -9,6 +9,14 @@ import android.widget.CheckBox;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+/**
+ * Represents the activity which is started when the new game button is pressed
+ * on the main menu. Lets the user specify a grid size and whether they want only 
+ * solvable grids before they start the game.
+ * 
+ * @author Ricky
+ *
+ */
 public class NewGameDialog extends Activity {
 
 	TextView selection;
@@ -41,6 +49,11 @@ public class NewGameDialog extends Activity {
 		
 	}
 	
+	/**
+	 * called when teh new game button is pressed, gets the information from the spinners
+	 * and checkbox and starts game with that information.
+	 * @param view
+	 */
 	public void newGamePressed(View view){
 		
 		int height = Integer.parseInt(heightspinner.getSelectedItem().toString());

@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import android.os.Bundle;
 import android.app.Activity;
 import android.graphics.Color;
+import android.graphics.Typeface;
 
 import android.view.Gravity;
 import android.view.View;
@@ -18,6 +19,12 @@ import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
+/**
+ * Displays the leaderboard on the screen
+ * 
+ * @author Ricky
+ *
+ */
 public class LeaderboardActivity extends Activity {
 
 	private Leaderboard board;
@@ -40,7 +47,10 @@ public class LeaderboardActivity extends Activity {
         	
         	LeaderboardEntry entry = entries.get(current);
         	
+        	
         	if(entry.getBoardSize() != currentSize){
+        		
+        		//if it is a new grid size, we need a new header to show this
         		
         		TableRow tr = new TableRow(this);
                 tr.setId(100+current);
@@ -56,6 +66,8 @@ public class LeaderboardActivity extends Activity {
                 labelTV.setText("" + entry.getBoardSize() + " Elements");
                 labelTV.setTextColor(Color.BLACK);
                 labelTV.setGravity(Gravity.CENTER);
+                labelTV.setTextSize(15);
+                labelTV.setTypeface(null, Typeface.BOLD);
                 labelTV.setLayoutParams(new LayoutParams(
                         LayoutParams.WRAP_CONTENT,
                         LayoutParams.WRAP_CONTENT));
@@ -64,6 +76,8 @@ public class LeaderboardActivity extends Activity {
                 tl.addView(tr, new TableLayout.LayoutParams(
                 		LayoutParams.MATCH_PARENT,
                         LayoutParams.WRAP_CONTENT));
+                
+                currentSize = entry.getBoardSize(); //update the new boardsize
         		
         		
         	}
@@ -72,7 +86,7 @@ public class LeaderboardActivity extends Activity {
         	
         	if(board.getEntries().get(current) == board.getLastAdded()){
         		
-        		colour = Color.RED;
+        		colour = Color.RED; //make the last added entry use red text
         		
         	}
         	else
@@ -117,6 +131,10 @@ public class LeaderboardActivity extends Activity {
 		
 	}
 
+	/**
+	 * loads the leaderboard from file
+	 * @return the Leaderboard object containing the leaderboard
+	 */
 	private Leaderboard loadLeaderboard() {
 		
 		FileInputStream gameFile;
@@ -144,6 +162,11 @@ public class LeaderboardActivity extends Activity {
 	}
 	
 
+	/**
+	 * called when the user presses the exit button. Returns them to the main menu
+	 * 
+	 * @param view
+	 */
 	public void exitGamePressed(View view){
 		
 		setResult(2);

@@ -16,9 +16,15 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
+/**
+ * Activity which appears when the user solves the grid, allows them to enter their name
+ * for the leaderboard.
+ * @author Ricky
+ *
+ */
 public class WinActivity extends Activity {
 	
-	private int moveCount;
+	private int moveCount, boardSize;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +33,7 @@ public class WinActivity extends Activity {
 		
 		Bundle extras = getIntent().getExtras();
 		moveCount = extras.getInt("moveCount");
+		boardSize = extras.getInt("boardSize");
 	}
 
 	@Override
@@ -34,6 +41,11 @@ public class WinActivity extends Activity {
 
 	}
 	
+	/**
+	 * Pressed when the user has entered their name and wants to see the leaderboard.
+	 * Gets the text entered from the text box and makes a new entry with it.
+	 * @param view
+	 */
 	public void saveScorePressed(View view){
 		
 		EditText textEntry = (EditText) findViewById(R.id.enter_name);
@@ -45,6 +57,10 @@ public class WinActivity extends Activity {
 		
 	}
 	
+	/**
+	 * loads the leaderboard and creates a new entry before saving it again.
+	 * @param name The name to be used with the new entry
+	 */
 	private void saveNewBoard(String name){
 		
 		FileInputStream gameFile;
@@ -69,7 +85,7 @@ public class WinActivity extends Activity {
 			board = new Leaderboard();
 		}
 		
-		board.addEntry(new LeaderboardEntry(name, moveCount));
+		board.addEntry(new LeaderboardEntry(name, moveCount, boardSize));
 		
 		FileOutputStream fos;
 		ObjectOutputStream oos;
